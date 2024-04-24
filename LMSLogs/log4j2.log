@@ -1,0 +1,123 @@
+[INFO ] 2024-04-24 12:46:53.450 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 12:49:15.458 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 12:51:18.429 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 12:53:23.278 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 12:54:14.749 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 12:54:16.275 [TestNG-tests-1] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 12:54:16.275 [TestNG-tests-2] WebDriverManager - Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ] 2024-04-24 12:54:16.374 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 12:54:16.375 [TestNG-tests-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\subas\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ] 2024-04-24 12:54:20.996 [TestNG-tests-1] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 12:54:21.562 [TestNG-tests-1] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 12:54:22.693 [TestNG-tests-2] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 12:54:23.148 [TestNG-tests-2] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 12:55:33.079 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 12:55:34.048 [TestNG-tests-2] WebDriverManager - Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ] 2024-04-24 12:55:34.130 [TestNG-tests-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\subas\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ] 2024-04-24 12:55:34.462 [TestNG-tests-1] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 12:55:34.512 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 12:55:38.596 [TestNG-tests-1] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 12:55:39.028 [TestNG-tests-1] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 12:55:40.116 [TestNG-tests-2] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 12:55:40.630 [TestNG-tests-2] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:04:21.186 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 14:04:25.567 [TestNG-tests-2] WebDriverManager - Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ] 2024-04-24 14:04:25.574 [TestNG-tests-1] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 14:04:25.980 [TestNG-tests-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\subas\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ] 2024-04-24 14:04:25.980 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 14:04:36.561 [TestNG-tests-1] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:04:37.361 [TestNG-tests-2] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:04:38.131 [TestNG-tests-1] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:04:38.832 [TestNG-tests-2] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:54:35.826 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 14:54:38.370 [TestNG-tests-1] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 14:54:38.641 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 14:54:39.467 [TestNG-tests-2] WebDriverManager - Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ] 2024-04-24 14:54:39.622 [TestNG-tests-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\subas\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ] 2024-04-24 14:54:46.557 [TestNG-tests-1] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:54:47.535 [TestNG-tests-1] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:54:48.142 [TestNG-tests-2] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:54:49.400 [TestNG-tests-2] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:56:52.398 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 14:56:54.644 [TestNG-tests-1] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 14:56:54.644 [TestNG-tests-2] WebDriverManager - Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ] 2024-04-24 14:56:54.866 [TestNG-tests-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\subas\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ] 2024-04-24 14:56:54.867 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 14:57:04.001 [TestNG-tests-1] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:57:05.028 [TestNG-tests-1] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:57:05.530 [TestNG-tests-2] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:57:06.630 [TestNG-tests-2] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:59:40.824 [main] Utils - [TestNG] Running:
+  C:\Users\subas\EclipseLMSPractice\TDDLMSApplicationTest.com\testngCb.xml
+
+[INFO ] 2024-04-24 14:59:43.418 [TestNG-tests-1] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 14:59:43.418 [TestNG-tests-2] WebDriverManager - Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ] 2024-04-24 14:59:43.624 [TestNG-tests-1] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 14:59:43.644 [TestNG-tests-2] WebDriverManager - Exporting webdriver.edge.driver as C:\Users\subas\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ] 2024-04-24 14:59:51.543 [TestNG-tests-1] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:59:52.422 [TestNG-tests-1] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 14:59:53.027 [TestNG-tests-2] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 14:59:54.154 [TestNG-tests-2] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 15:30:10.341 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.350 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-04-24 15:30:10.353 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.354 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.356 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.357 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.361 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.363 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.372 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.403 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 25 ms.
+[INFO ] 2024-04-24 15:30:10.407 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.407 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.410 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.412 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.414 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.415 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.425 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.426 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.428 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.429 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.430 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.431 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.431 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.431 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.441 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+[INFO ] 2024-04-24 15:30:10.442 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.446 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.446 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.447 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.447 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-24 15:30:10.462 [main] Utils - [TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse-431686135\testng-customsuite.xml
+
+[INFO ] 2024-04-24 15:30:10.526 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+[INFO ] 2024-04-24 15:30:12.538 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 15:30:12.625 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 15:30:16.959 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 15:30:17.307 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 15:30:19.698 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@29b5533: 0 ms
+[INFO ] 2024-04-24 15:30:19.774 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@46ab4efc: 75 ms
+[INFO ] 2024-04-24 15:30:19.875 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1930a804: 100 ms
+[INFO ] 2024-04-24 15:30:19.894 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@701d2b59: 18 ms
+[INFO ] 2024-04-24 15:30:19.907 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@69ba3f4e: 13 ms
+[INFO ] 2024-04-24 15:30:19.922 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@368424db: 14 ms
+[INFO ] 2024-04-24 15:30:19.939 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4243341e: 17 ms
