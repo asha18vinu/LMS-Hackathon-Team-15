@@ -48,9 +48,12 @@ public class Hooks {
 			scenario.log("Scenario Status: " + scenarioStatus);
 			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() + new Date() + ".jpeg"));
-		    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
-			
+		    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));			
 		}	
+		String scenarioName = scenario.getName();
+		//driver = testContext.getWebDriverManager().getDriver();	
+		System.out.println("Im closing the driver from hooks : " +scenarioName);
+		testContext.getWebDriverManager().closeBrowser();;
 		
 
 	}
