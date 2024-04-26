@@ -47,6 +47,24 @@ public class ResourceBundleDataReader {
 			throw new RuntimeException("Url not specified in the file.");
 	}
 	
+	public String getBatchUrl() 
+	{
+		String batchpageUrl = dataRead.getString("batchpageUrl");
+		if (batchpageUrl != null)
+			return batchpageUrl;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+	
+	public String getBatchPopboxHeader() 
+	{
+		String batchPopUpBoxHeader = dataRead.getString("batchPopUpBoxHeader");
+		if (batchPopUpBoxHeader != null)
+			return batchPopUpBoxHeader;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+	
 	public String getScreenshotPath() {
 		String screenshotPath=dataRead.getString("screenshotPath");
 		if(screenshotPath!=null)

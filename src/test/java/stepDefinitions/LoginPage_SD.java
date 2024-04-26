@@ -27,7 +27,7 @@ public class LoginPage_SD  {
 	public LoginPage_SD(TestContext testcontext)
 	{
 		this.testcontext = testcontext;		
-		driver=testcontext.getWebDriverManager().getDriver(); 		
+		//driver=testcontext.getWebDriverManager().getDriver(); 		
 	}
 	
 	

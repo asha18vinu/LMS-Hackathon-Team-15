@@ -19,7 +19,7 @@ import managers.DriverManager;
 	
 
 
-	@CucumberOptions(features="src/test/resources/Features/A_LoginModule/", glue={"hooks","stepDefinitions"},monochrome=true
+	@CucumberOptions(features="src\\test\\resources\\Features\\B_BatchModule\\AddNewBatch.feature", glue={"hooks","stepDefinitions"},monochrome=true,tags = "@smoke"
 //			plugin = {"pretty",
 //				
 //					"timeline:test-output-thread/"
