@@ -13,7 +13,7 @@ Background:
   
  
 
-  @smoke
+ 
   Scenario Outline: Admin verifies the fields exist in Batch details page popup        
     Then Admin Verifies the "<Fields>" existance and its "<FieldType>"  
     
@@ -26,35 +26,34 @@ Background:
       | ActiveField           |radioButton|
       | InactiveField         |radioButton|
 
-
+ 
 Scenario Outline: Check if description is optional field
  When Admin fill in all the fields except description with valid values "<Sheetname>" and <Rowno>
- Then admin clicks save button
+ Then Admin clicks the save button
  Then The newly added batch should be present in the data table in Manage Batch page
  
  Examples:
  |Sheetname|Rowno|
- |||
+ |AddBatch |   0 |
  
 
-@validbatch
+@validbatch 
 Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
     Given Admin is on the BatchDetails page
-    When Admin fills out the mandatory fields   
+    When Admin fills out the mandatory fields "<sheetname>" and <RowNo> 
     Then Admin clicks the save button
     Then Admin should see the Successfull message
 
    Examples:
-   | sheetname         | RowNo            |
-   | Name  	       |0 		  |	
-    
+   | sheetname         | RowNo  |
+   | AddBatch  	           |0 		  |	
+
+
 Scenario Outline: Check if the batch details are added in data table
 Given Admin added the batch 
 Then The newly added batch should be present in the data table in Manage Batch page
 
-Examples:
-|Sheetname|Rowno|
-|||
+
 
 Scenario Outline: Check for error messages for inval
 id fields
@@ -68,25 +67,23 @@ Examples:
       | Description       |!            |This field should start with an alphabet and min 2 character.|
       | Program Name      |							|Program Name is required.|
       | Status            |							|Status is required.|
-
+      
+@smoke
 Scenario Outline: Check for error messages for mandatory fields
-When Any of the mandatory fields are blank
+When Any of the mandatory fields are blank "<sheetname>"
 Then Admin should get error message
-Examples: 
-      | Fields            |InvalidValues|ErrorMessage                                                |      
-      | Name       			  |							|Batch Name is required. This field should start with an alphabet and min 2 character.|
-      | number of classes |             |Number of classes is required.|
-      | Description       |             |Batch Description is required.This field should start with an alphabet and min 2 character.|
-      | Program Name      |							|Program Name is required.|
-      | Status            |							|Status is required.|
 
-
-
-   
-
-
-
-
-
-
-
+ Examples:
+   | sheetname         | 
+   | AddBatch  	       |
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      

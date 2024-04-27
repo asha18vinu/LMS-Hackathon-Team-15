@@ -54,6 +54,10 @@ public class ExcelFileSetup {
 				}
 				excelRows.add(columnMapdata);
 			}
+//			for(Map<String, String> excelrow:excelRows)
+//			{
+//			System.out.println("from excelsheet   "+excelrow);
+//			}
 		}
 		return excelRows;
 	}
