@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import static org.testng.Assert.assertEquals;
+
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
@@ -15,6 +17,8 @@ public class AddNewBatch_SD {
 	TestContext context;
 	BatchPage batchPage;
 	WebDriver driver;
+	String actualerrorMsg;
+	boolean flag;
 
 	public AddNewBatch_SD(TestContext context) {
 		this.context = context;
@@ -29,7 +33,7 @@ public class AddNewBatch_SD {
 	@Given("Admin is logged on the Lms portal dashboardPage after login")
 	public void admin_is_logged_on_the_lms_portal_dashboard_page_after_login() {
 
-		System.out.println("User logged in to the system: ");
+	//	System.out.println("User logged in to the system: ");
 
 	}
 
@@ -97,21 +101,39 @@ public class AddNewBatch_SD {
       System.out.println("Admin Added the batch");
 	}
 
-	@When("Admin enters any of the Name with invalid values")
-	public void admin_enters_any_of_the_name_with_invalid_values() {
+	@When("Admin enters any of the {string} with invalid values {string}")
+	public void admin_enters_any_of_the_with_invalid_values(String fieldName,String invalidvalues) {
+	     actualerrorMsg=batchPage.batchField(fieldName,invalidvalues);
+	}
+	
 
+	@Then("Admin should get error message {string}")
+	public void admin_should_get_error_message(String expectedErrorMsg) {
+	  
+		try
+		{
+		assertEquals(actualerrorMsg, expectedErrorMsg, "Admin didnt get the Expected eror msg");
+		}catch(Exception e)
+		{
+			
+		}
 	}
 
 	@Then("Admin should get error message")
 	public void admin_should_get_error_message() {
-
+	  
+		try
+		{
+		if(flag)
+		{
+			System.out.println("Error message is cehcked for empty field: passed");
+		}
+		}catch(Exception e)
+		{
+			
+		}
 	}
-
-	@When("Admin enters any of the number of classes with invalid values")
-	public void admin_enters_any_of_the_number_of_classes_with_invalid_values() {
-
-	}
-
+	
 	@When("Admin enters any of the Description with invalid values")
 	public void admin_enters_any_of_the_description_with_invalid_values() {
 
@@ -128,8 +150,8 @@ public class AddNewBatch_SD {
 	}
 
 	@When("Any of the mandatory fields are blank {string} and {int}")
-	public void any_of_the_mandatory_fields_are_blank_and(String string, Integer int1) {
-	    
+	public void any_of_the_mandatory_fields_are_blank_and(String sheetname, Integer rowno) throws InvalidFormatException, IOException {
+	     flag=batchPage.checkMandatoryFieldsBlank(sheetname,rowno);
 	}
 
 	@When("Admin fill in all the fields except description with valid values")

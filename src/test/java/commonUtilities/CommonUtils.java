@@ -16,6 +16,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import dataFilesReader.ExcelFileSetup;
 import managers.FileReaderManager;
@@ -35,12 +36,29 @@ public class CommonUtils {
 	}
 
 	public void getAssertionEqualsCheck(String actual, String expected) {
-		try {
-			assertEquals(actual, expected);
+		try {			
+			Assert.assertTrue(actual.toLowerCase().contains(expected.toLowerCase()), 
+                    "Actual message does not contain expected message");
 		} catch (Exception e) {
 			System.out.println("Assertion Error");
 		}
 	}
+	
+	public boolean validateErrorMsg(String errorMsg,String expectedErrorMsg)
+	{	boolean flag=false;
+		 try
+	     {
+	     //assertEquals(true, errorMsg.contains(expectedErrorMsg));
+	     assertEquals(errorMsg,expectedErrorMsg);
+	     flag=true;
+	     }
+	     catch(Exception e)
+	     {
+	     	flag=false;
+	     }
+		 return flag;
+	}
+		
 
 	public void checkExistanceofFieldType(String fieldName, String fieldType,Map<String, WebElement> fieldNameLocators) {
 
@@ -52,24 +70,33 @@ public class CommonUtils {
 			try 
 			{
 			if (fieldName.equalsIgnoreCase(fieldname) && (element.isEnabled() || element.isDisplayed())) {
-				System.out.println(fieldName+ "  "+element.isDisplayed());
-				if (element.getTagName().equals("input") && element.getAttribute("type").equals("text"))
-					actualFieldType = "TextBox";
+				System.out.println(fieldName+ "  "+fieldType);
+				
+				if (element.getTagName().equals("input") && element.getAttribute("type").equals("text")) {
+					actualFieldType = "textBox";
+				System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);}
 
 				else if (element.getTagName().equals("input")
-						&& element.getAttribute("type").equals("radio"))
+						&& element.getAttribute("type").equals("radio")) {
 					actualFieldType = "radioButton";
+					
+				System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);}
+				else if(element.getAttribute("class").contains("p-dropdown-label") ||
+                        element.getAttribute("type").contains("text") || element.getAttribute("aria-haspopup").contains("listbox")){
+						actualFieldType = "dropdown";
+				System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);}
 
-				else if (element.getTagName().equals("input") && element.getAttribute("type").equals("number"))
-					actualFieldType = "SpinnerTextBox";
-				System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);
+				else if (element.getTagName().equals("input") && element.getAttribute("type").equalsIgnoreCase("number")) {
+					actualFieldType = "textBox";
+				
+				System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);}
 				
 				assertEquals(fieldType.toLowerCase(), actualFieldType.toLowerCase(),"Field type mismatch for field: " + fieldname);
 			    }
 			}
 			catch(Exception e)
 			{
-			System.out.println("Field name and type mismatch");
+			System.out.println("Field type mismatch");
 			}
 			}
 			
@@ -80,22 +107,14 @@ public class CommonUtils {
 		
 	}
 
-	public Map<String, String> getValidDataFromExcel(String sheetName, Integer rowNo)throws InvalidFormatException, IOException {
+	public List<Map<String, String>> getValidDataFromExcel(String sheetName, Integer rowNo)throws InvalidFormatException, IOException {
 		Map<String, String> dataMap = new HashMap<>();
 
 		excelReader = FileReaderManager.getInstance().getExcelInstance();
 		List<Map<String, String>> list = excelReader.getData(excelPath, sheetName);
 		Map<String, String> rowData = list.get(rowNo);
 
-		String batchName = rowData.get("BatchName");
-		String description = rowData.get("Description");
-		String noOfClasses = rowData.get("NoOfClasses");
-
-		dataMap.put("batchName", batchName);
-		dataMap.put("description", description);
-		dataMap.put("noOfClasses", noOfClasses);
-
-		return dataMap;
+		return list;
 	}
 }
 

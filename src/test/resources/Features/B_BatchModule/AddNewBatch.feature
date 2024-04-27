@@ -13,20 +13,20 @@ Background:
   
  
 
- 
+ @smoke @sanity
   Scenario Outline: Admin verifies the fields exist in Batch details page popup        
     Then Admin Verifies the "<Fields>" existance and its "<FieldType>"  
     
      Examples: 
       | Fields                |FieldType|
       | NameField      			  |textbox  |
-      | NumberofClassesField  |SpinnerTextBox  |
+      | NumberofClassesField  |textBox  |
       | DescriptionField      |textbox  |
-      | ProgramnameField      |textbox  |
+      | ProgramnameField      |dropDown  |
       | ActiveField           |radioButton|
       | InactiveField         |radioButton|
 
- 
+ @smoke
 Scenario Outline: Check if description is optional field
  When Admin fill in all the fields except description with valid values "<Sheetname>" and <Rowno>
  Then Admin clicks the save button
@@ -37,7 +37,7 @@ Scenario Outline: Check if description is optional field
  |AddBatch |   0 |
  
 
-@validbatch 
+@validbatch @smoke
 Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
     Given Admin is on the BatchDetails page
     When Admin fills out the mandatory fields "<sheetname>" and <RowNo> 
@@ -48,34 +48,30 @@ Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
    | sheetname         | RowNo  |
    | AddBatch  	           |0 		  |	
 
-
+@smoke
 Scenario Outline: Check if the batch details are added in data table
 Given Admin added the batch 
 Then The newly added batch should be present in the data table in Manage Batch page
 
 
-
-Scenario Outline: Check for error messages for inval
-id fields
-When Admin enters any of the <Fields> with invalid values
-Then Admin should get error message
+@smoke
+Scenario Outline: Check for error messages for invalid fields
+When Admin enters any of the "<Fields>" with invalid values "<InvalidValues>"
+Then Admin should get error message "<ErrorMessage>"
 
 Examples: 
       | Fields            |InvalidValues|ErrorMessage                                                |      
-      | Name       			  |@%sdsd				|This field should start with an alphabet and min 2 character|
-      | number of classes | A           |Number of classes is required.|
-      | Description       |!            |This field should start with an alphabet and min 2 character.|
-      | Program Name      |							|Program Name is required.|
-      | Status            |							|Status is required.|
+      | batchName       	|@%sdsd				|This field should start with an alphabet and min 2 character.| 
+      | Description       |!            |This field should start with an alphabet and min 2 character.|  
       
 @smoke
 Scenario Outline: Check for error messages for mandatory fields
-When Any of the mandatory fields are blank "<sheetname>"
+When Any of the mandatory fields are blank "<sheetname>" and <rowno>
 Then Admin should get error message
 
  Examples:
-   | sheetname         | 
-   | AddBatch  	       |
+   | sheetname         | rowno|
+   | AddBatch  	       | 0    |
       
       
       

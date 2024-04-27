@@ -13,13 +13,13 @@ import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
 @CucumberOptions(features = "src\\test\\resources\\Features\\B_BatchModule\\AddNewBatch.feature", glue = { "hooks",
-		"stepDefinitions" }, monochrome = true, tags = "@smoke"
+		"stepDefinitions" }, monochrome = true, tags = "@sanity"
 //			plugin = {"pretty",
 //				
 //					"timeline:test-output-thread/"
 )
 
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner extends AbstractTestNGCucumberTests { 
 //		TestContext context;
 //		WebDriver driver;
 //		public TestRunner(TestContext context) {
