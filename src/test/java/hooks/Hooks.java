@@ -47,7 +47,7 @@ public class Hooks {
 			scenario.log("Scenario Name: " + scenarioName);
 			scenario.log("Scenario Status: " + scenarioStatus);
 			String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-			String screenshotFileName = "Screenshot_" + timestamp + ".png";
+			String screenshotFileName =scenarioName+"_"+ timestamp + ".png";
 			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() +screenshotFileName));
 		    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
