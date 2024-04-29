@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.ManageProgramPage;
 
 
 
@@ -11,6 +12,7 @@ public class PageObjectManager {
 	WebDriver driver;
 	private LoginPage loginPage;
 	private HomePage homePage;
+	private ManageProgramPage mp;
 	
 	public PageObjectManager(WebDriver driver) 
 	{
@@ -26,6 +28,12 @@ public class PageObjectManager {
 	public LoginPage getLoginPage()
 	{ 
 		return (loginPage == null) ? loginPage = new LoginPage(driver) : loginPage; 
+	}
+	
+	public ManageProgramPage getMp()
+	{
+		return (mp == null) ? mp = new ManageProgramPage(driver) : mp;
+		
 	}
 }
 

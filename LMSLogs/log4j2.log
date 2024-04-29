@@ -121,3 +121,1144 @@
 [INFO ] 2024-04-24 15:30:19.907 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@69ba3f4e: 13 ms
 [INFO ] 2024-04-24 15:30:19.922 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@368424db: 14 ms
 [INFO ] 2024-04-24 15:30:19.939 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4243341e: 17 ms
+[INFO ] 2024-04-24 20:02:36.262 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:02:36.312 [main] Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.78/win64/chromedriver-win64.zip
+[INFO ] 2024-04-24 20:02:37.258 [main] Downloader - Extracting driver from compressed file chromedriver-win64.zip
+[INFO ] 2024-04-24 20:02:37.376 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:05:29.049 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:05:29.070 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:11:51.972 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:11:51.992 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:34:18.733 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:34:18.755 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:39:23.837 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:39:23.859 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:39:27.664 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 20:43:56.933 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:43:56.953 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:43:59.634 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 20:52:39.965 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 20:52:39.982 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 20:52:42.873 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:09:56.838 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 21:09:56.854 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 21:10:00.302 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:11:50.892 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 21:11:50.912 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 21:11:53.784 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:30:33.514 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 21:30:33.532 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 21:30:36.875 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:30:37.044 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 21:31:48.210 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 21:31:48.228 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 21:31:51.617 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:31:51.781 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 21:34:57.804 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 21:34:57.824 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 21:35:03.485 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:35:03.652 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 21:35:03.903 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 21:48:48.923 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 21:48:48.940 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 21:48:54.519 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 21:48:54.683 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 21:48:54.944 [main] LoginPage_SD - pageSrc =
+[INFO ] 2024-04-24 21:48:54.944 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 22:22:13.463 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 22:22:13.478 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 22:22:16.211 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:22:16.403 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:22:16.664 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 22:22:17.059 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:22:17.198 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:28:26.094 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 22:28:26.116 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 22:28:47.834 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:28:47.971 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:29:27.963 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 22:29:27.981 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 22:29:31.797 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:29:31.961 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:29:32.207 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 22:29:32.587 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:29:32.731 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:40:17.516 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 22:40:17.537 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 22:40:20.986 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:40:21.150 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:40:21.395 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 22:40:21.788 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:40:21.919 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 22:40:22.506 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 22:40:22.637 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:17:03.655 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 23:17:03.682 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 23:17:08.193 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:17:08.368 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:17:08.621 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 23:17:09.024 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:17:09.163 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:17:09.744 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:17:09.888 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:17:10.526 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:17:10.673 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:30:41.136 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 23:30:41.152 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 23:30:43.960 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:30:44.136 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:30:44.392 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 23:30:44.789 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:30:44.928 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:30:45.504 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:30:45.652 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:30:46.231 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:30:46.371 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:34:29.671 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 23:34:29.692 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 23:34:32.740 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:34:32.911 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:34:33.160 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 23:34:33.544 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:34:33.678 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:34:34.233 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:34:34.371 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:34:34.946 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:34:35.086 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:46:30.269 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-24 23:46:30.287 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-24 23:46:33.044 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:46:33.209 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:46:33.460 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-24 23:46:33.839 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:46:33.976 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:46:34.542 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:46:34.670 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-24 23:46:35.228 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-24 23:46:35.366 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:11:37.658 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 00:11:37.675 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 00:11:40.430 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:11:40.595 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:11:40.846 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 00:11:41.241 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:11:41.381 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:11:41.947 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:11:42.098 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:11:42.672 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:11:42.808 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:11:43.532 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:11:43.676 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:18:46.683 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 00:18:46.702 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 00:18:51.202 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:18:51.363 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:18:51.612 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 00:18:51.989 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:18:52.131 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:18:52.713 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:18:52.849 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:18:53.412 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:18:53.556 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 00:18:54.323 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 00:18:54.456 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:37:10.102 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 11:37:10.122 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 11:37:15.684 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:37:15.848 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:37:16.094 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 11:37:16.473 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:37:16.610 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:37:17.185 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:37:17.320 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:37:17.902 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:37:18.041 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:37:18.765 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:37:18.901 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:37:19.481 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:37:19.620 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:58:44.358 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 11:58:44.379 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 11:58:47.187 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:58:47.356 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:58:47.615 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 11:58:48.004 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:58:48.141 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:58:48.708 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:58:48.838 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:58:49.395 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:58:49.529 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:58:50.259 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:58:50.407 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 11:58:50.965 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 11:58:51.111 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:02:53.756 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 12:02:53.773 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 12:02:58.922 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:02:59.089 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:02:59.361 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 12:02:59.751 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:02:59.888 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:03:00.482 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:03:00.626 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:03:01.194 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:03:01.331 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:03:02.063 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:03:02.193 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:03:02.761 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:03:02.900 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:15.421 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 12:08:15.441 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 12:08:18.311 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:18.478 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:18.731 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 12:08:19.119 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:19.259 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:19.825 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:19.970 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:20.540 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:20.677 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:21.374 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:21.506 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:22.072 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:22.208 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:08:22.856 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:08:22.988 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:25.932 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 12:36:25.952 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 12:36:31.157 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:31.322 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:31.574 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 12:36:31.979 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:32.118 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:32.680 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:32.823 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:33.397 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:33.544 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:34.295 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:34.444 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:35.011 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:35.149 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:36:35.795 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:36:35.928 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:47.249 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 12:37:47.265 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 12:37:49.826 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:49.995 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:50.247 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 12:37:50.622 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:50.766 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:51.332 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:51.467 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:52.033 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:52.178 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:52.891 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:53.021 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:53.590 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:53.728 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 12:37:54.461 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 12:37:54.591 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:35.638 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 13:09:35.659 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 13:09:39.748 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:39.910 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:40.169 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 13:09:40.551 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:40.689 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:41.281 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:41.418 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:41.995 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:42.140 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:42.856 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:42.990 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:43.554 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:43.687 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:44.333 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:44.468 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:09:45.088 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:09:45.223 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:33.277 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 13:25:33.294 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 13:25:36.119 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:36.281 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:36.528 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 13:25:36.916 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:37.045 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:37.610 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:37.741 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:38.296 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:38.427 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:39.151 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:39.296 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:39.858 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:39.988 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:40.604 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:40.751 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:25:41.341 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:25:41.483 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:36.504 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 13:31:36.524 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 13:31:39.531 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:39.702 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:39.961 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 13:31:40.345 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:40.490 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:41.061 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:41.192 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:41.747 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:41.884 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:42.636 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:42.784 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:43.350 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:43.486 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:44.105 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:44.246 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 13:31:44.867 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 13:31:45.014 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:20.724 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 14:09:20.744 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 14:09:23.580 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:23.767 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:24.024 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 14:09:24.428 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:24.586 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:25.171 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:25.328 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:25.905 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:26.049 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:26.798 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:26.943 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:27.572 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:27.706 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:28.341 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:28.473 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:29.075 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:29.222 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 14:09:29.974 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 14:09:30.127 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:12.298 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 16:24:12.314 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 16:24:15.237 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:15.404 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:15.658 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 16:24:16.058 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:16.196 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:16.755 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:16.892 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:17.455 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:17.593 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:18.345 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:18.479 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:19.033 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:19.177 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:19.847 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:19.977 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:20.579 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:20.730 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:21.445 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:21.576 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:24:37.396 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:24:37.512 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:33.882 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 16:25:33.900 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 16:25:36.604 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:36.770 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:37.019 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 16:25:37.409 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:37.551 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:38.105 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:38.239 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:38.804 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:38.938 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:39.640 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:39.772 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:40.322 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:40.452 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:41.059 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:41.193 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:41.766 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:41.906 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:42.620 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:42.763 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:25:58.527 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:25:58.669 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:36:55.712 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 16:36:55.732 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 16:36:58.863 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:36:59.030 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:36:59.280 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 16:36:59.664 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:36:59.803 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:00.373 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:00.504 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:01.082 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:01.212 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:01.934 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:02.068 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:02.646 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:02.776 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:03.509 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:03.657 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:04.256 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:04.396 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:05.108 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:05.258 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:37:21.119 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:37:21.237 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:02.848 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 16:50:02.869 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 16:50:05.951 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:06.117 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:06.371 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 16:50:06.754 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:06.894 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:07.450 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:07.586 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:08.138 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:08.273 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:09.030 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:09.160 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:09.727 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:09.870 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:10.509 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:10.642 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:11.239 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:11.377 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:12.104 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:12.240 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:50:28.004 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:50:28.139 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:06.966 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 16:51:06.985 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 16:51:09.705 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:09.879 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:10.142 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 16:51:10.532 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:10.672 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:11.228 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:11.359 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:11.915 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:12.047 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:12.795 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:12.923 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:13.502 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:13.633 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:14.259 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:14.389 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:14.981 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:15.113 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:15.831 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:15.964 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 16:51:31.778 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 16:51:31.898 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:14.025 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 17:03:14.043 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 17:03:16.937 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:17.103 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:17.349 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 17:03:17.740 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:17.872 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:18.437 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:18.566 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:19.126 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:19.272 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:20.011 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:20.160 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:20.734 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:20.864 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:21.498 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:21.635 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:22.234 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:22.378 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:23.082 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:23.221 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:03:23.933 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:03:24.066 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:51.901 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 17:13:51.920 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 17:13:55.096 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:55.258 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:55.506 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 17:13:55.886 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:56.023 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:56.588 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:56.736 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:57.294 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:57.428 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:58.139 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:58.270 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:58.827 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:58.961 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:13:59.593 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:13:59.742 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:14:00.341 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:14:00.472 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:14:01.209 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:14:01.342 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:14:02.127 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:14:02.259 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:20.143 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 17:17:20.162 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 17:17:23.692 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:23.863 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:24.115 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 17:17:24.508 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:24.645 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:25.202 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:25.330 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:25.893 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:26.024 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:26.775 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:26.919 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:27.474 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:27.622 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:28.258 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:28.391 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:28.991 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:29.129 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:29.808 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:29.974 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:17:45.754 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:17:45.898 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:00.569 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 17:21:00.586 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 17:21:03.372 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:03.534 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:03.783 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 17:21:04.162 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:04.299 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:04.862 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:05.005 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:05.555 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:05.690 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:06.428 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:06.557 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:07.122 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:07.255 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:07.892 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:08.046 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:08.622 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:08.760 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:09.457 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:09.607 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:21:10.205 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:21:10.339 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:01.757 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 17:28:01.771 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 17:28:04.844 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:05.008 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:05.261 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 17:28:05.647 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:05.780 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:06.343 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:06.478 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:07.042 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:07.170 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:07.884 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:08.018 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:08.585 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:08.719 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:09.349 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:09.468 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:10.081 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:10.219 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:10.958 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:11.088 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:11.684 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:11.819 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 17:28:12.501 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 17:28:12.637 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:18.139 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 18:04:18.156 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 18:04:22.001 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:22.165 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:22.420 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 18:04:22.816 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:22.946 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:23.508 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:23.653 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:24.208 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:24.345 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:25.084 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:25.218 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:25.788 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:25.922 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:26.534 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:26.670 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:27.269 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:27.400 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:28.102 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:28.237 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:28.824 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:28.967 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 18:04:29.602 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 18:04:29.743 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:52:56.938 [main] WebDriverManager - Using chromedriver 124.0.6367.78 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 19:52:56.955 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+[INFO ] 2024-04-25 19:53:00.307 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:00.466 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:00.735 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-25 19:53:01.170 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:01.291 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:01.971 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:02.102 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:02.705 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:02.823 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:03.814 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:03.936 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:04.508 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:04.655 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:05.274 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:05.408 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:06.009 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:06.143 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:07.290 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:07.436 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:08.046 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:08.168 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 19:53:08.857 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-25 19:53:08.985 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-25 23:46:41.484 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 23:46:41.527 [main] Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.91/win64/chromedriver-win64.zip
+[INFO ] 2024-04-25 23:46:42.211 [main] Downloader - Extracting driver from compressed file chromedriver-win64.zip
+[INFO ] 2024-04-25 23:46:42.328 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-25 23:58:25.458 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-25 23:58:25.478 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:00:35.907 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:00:35.930 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:32:02.373 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:32:02.393 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:39:19.428 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:39:19.451 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:40:49.066 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:40:49.082 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:48:41.204 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:48:41.218 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:51:57.915 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:51:57.935 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 00:57:22.419 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 00:57:22.439 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 01:00:24.652 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 01:00:24.672 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 01:02:50.330 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 01:02:50.348 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 01:07:11.584 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 01:07:11.605 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 01:10:37.348 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 01:10:37.365 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 10:31:27.771 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 10:31:27.792 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 11:57:11.410 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 11:57:11.426 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 11:57:54.163 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 11:57:54.181 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 14:18:09.280 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 14:18:09.296 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 16:33:33.362 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 16:33:33.378 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 16:34:16.841 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 16:34:16.860 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 17:08:59.040 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 17:08:59.059 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 17:12:10.448 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 17:12:10.469 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 17:31:49.312 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 17:31:49.330 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 17:44:54.155 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 17:44:54.170 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 18:10:23.827 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 18:10:23.852 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 18:11:05.984 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 18:11:06.002 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 18:11:52.820 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 18:11:52.842 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 18:17:27.327 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 18:17:27.348 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 23:19:31.770 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 23:19:31.788 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 23:19:35.475 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:35.655 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:35.904 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-26 23:19:36.301 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:36.456 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:37.074 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:37.208 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:37.795 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:37.949 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:38.541 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:38.660 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:39.266 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:39.394 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:40.145 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:40.300 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:40.878 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:40.993 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:41.746 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:41.881 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:42.481 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:42.614 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:19:43.389 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:19:43.514 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:06.960 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-26 23:30:06.979 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-26 23:30:12.077 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:12.237 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:12.480 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-26 23:30:12.867 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:13.000 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:13.570 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:13.711 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:14.352 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:14.480 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:15.068 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:15.215 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:15.785 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:15.922 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:16.603 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:16.735 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:17.335 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:17.467 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:18.218 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:18.339 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:18.953 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:19.091 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-26 23:30:19.853 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-26 23:30:19.992 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-27 00:06:18.435 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 00:06:18.454 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 01:42:40.110 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 01:42:40.126 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 01:52:57.899 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 01:52:57.918 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 01:55:52.561 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 01:55:52.582 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 01:57:51.689 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 01:57:51.707 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 02:11:17.697 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 02:11:17.716 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 02:22:35.328 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 02:22:35.348 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 02:31:09.806 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 02:31:09.825 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 02:37:21.985 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 02:37:22.005 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 02:45:35.231 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 02:45:35.247 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 02:54:48.739 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 02:54:48.762 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 10:52:18.973 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 10:52:18.991 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 10:54:53.499 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 10:54:53.517 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 10:56:30.780 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 10:56:30.799 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 11:29:06.990 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 11:29:07.007 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 11:31:43.535 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 11:31:43.554 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 12:19:59.260 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 12:19:59.276 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 12:20:45.375 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 12:20:45.393 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 12:26:47.676 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 12:26:47.696 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 12:38:17.142 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 12:38:17.161 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 12:47:46.190 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 12:47:46.209 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:13:31.827 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:13:31.843 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:24:46.495 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:24:46.513 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:37:30.753 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:37:30.771 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:40:06.614 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:40:06.632 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:45:00.061 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:45:00.079 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:46:47.510 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:46:47.529 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:49:52.587 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:49:52.605 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:52:41.735 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:52:41.755 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:55:02.106 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:55:02.125 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 15:59:49.861 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 15:59:49.878 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 16:04:56.063 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 16:04:56.084 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 16:17:01.025 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 16:17:01.042 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 16:18:49.374 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 16:18:49.391 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 16:26:10.710 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 16:26:10.728 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:03:57.744 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:03:57.761 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:05:30.191 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:05:30.209 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:13:45.498 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:13:45.517 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:20:49.058 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:20:49.075 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:21:41.813 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:21:41.829 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:33:51.322 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:33:51.340 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:34:51.450 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:34:51.466 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:39:22.419 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:39:22.436 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:41:12.264 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:41:12.284 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:43:23.041 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:43:23.064 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:46:38.163 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:46:38.180 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:52:12.546 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:52:12.566 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:56:30.529 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:56:30.548 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 18:58:38.435 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 18:58:38.455 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:02:48.539 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:02:48.560 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:08:57.926 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:08:57.944 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:10:28.951 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:10:28.969 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:11:16.845 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:11:16.862 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:14:37.804 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:14:37.823 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:27:02.890 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:27:02.908 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:35:27.270 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:35:27.297 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:38:05.230 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:38:05.256 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:44:46.305 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:44:46.327 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:46:27.584 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:46:27.604 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:50:10.678 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:50:10.700 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 19:54:45.279 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 19:54:45.306 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:02:30.012 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:02:30.033 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:04:42.843 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:04:42.863 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:05:12.938 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:05:12.955 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:07:05.223 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:07:05.242 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:31:17.740 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:31:17.755 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:32:36.896 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:32:36.913 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:44:26.784 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:44:26.803 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:51:56.603 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:51:56.620 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:55:32.121 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:55:32.143 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 20:57:18.307 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 20:57:18.327 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 22:49:52.251 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 22:49:52.268 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 23:12:45.180 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 23:12:45.199 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 23:17:28.594 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 23:17:28.613 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 23:43:57.150 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 23:43:57.173 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 23:56:37.451 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 23:56:37.466 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-27 23:59:15.208 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-27 23:59:15.226 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 00:03:41.658 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 00:03:41.676 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 00:06:00.887 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 00:06:00.907 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 00:12:01.518 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 00:12:01.538 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 00:14:09.536 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 00:14:09.554 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 00:42:36.556 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 00:42:36.574 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 00:54:47.611 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 00:54:47.630 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 01:06:02.237 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 01:06:02.253 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 01:17:56.392 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 01:17:56.413 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 01:22:26.623 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 01:22:26.641 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 08:31:17.860 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 08:31:17.883 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 08:59:57.770 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 08:59:57.790 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 09:06:04.192 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 09:06:04.214 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 09:06:06.967 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:07.131 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:07.387 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-28 09:06:07.786 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:07.916 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:08.490 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:08.635 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:09.190 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:09.319 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:09.895 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:10.026 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:10.608 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:10.740 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:11.447 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:11.565 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:12.150 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:12.281 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:13.047 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:13.166 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:13.804 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:13.947 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:06:14.735 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:06:14.865 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:25.026 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 09:08:25.044 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 09:08:28.059 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:28.222 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:28.467 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-28 09:08:28.864 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:28.990 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:29.564 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:29.690 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:30.251 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:30.379 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:30.937 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:31.074 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:31.636 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:31.763 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:32.472 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:32.597 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:33.180 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:33.295 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:36.116 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:36.246 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:37.255 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:37.379 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:08:38.531 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:08:38.663 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:16.396 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 09:25:16.416 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 09:25:22.269 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:22.430 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:22.675 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-28 09:25:23.064 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:23.202 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:23.784 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:23.921 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:24.503 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:24.630 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:25.235 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:25.384 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:25.981 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:26.113 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:26.832 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:26.965 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:27.564 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:27.695 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:30.448 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:30.573 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:31.164 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:31.321 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:25:32.254 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:25:32.449 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:26:59.705 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 09:26:59.724 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 09:27:02.251 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:02.394 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:02.647 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-28 09:27:03.051 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:03.162 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:03.724 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:03.830 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:04.398 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:04.509 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:05.070 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:05.181 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:05.749 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:05.847 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:06.567 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:06.678 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:07.277 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:07.381 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:09.947 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:10.064 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:10.666 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:10.761 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:27:11.529 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 09:27:11.632 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 09:52:49.699 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 09:52:49.715 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:01:14.326 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:01:14.344 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:03:21.587 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:03:21.608 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:16:18.912 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:16:18.931 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:17:31.452 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:17:31.475 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:19:48.547 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:19:48.568 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:22:18.909 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:22:18.931 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:42:24.787 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:42:24.804 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:44:32.369 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:44:32.387 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:48:27.636 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:48:27.655 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:51:17.270 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:51:17.289 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 10:52:41.536 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 10:52:41.553 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 12:02:50.119 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 12:02:50.135 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 12:05:01.638 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 12:05:01.655 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 12:32:49.859 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 12:32:49.876 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 12:38:24.161 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 12:38:24.178 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 12:42:40.766 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 12:42:40.786 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 12:57:47.829 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 12:57:47.848 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 13:03:22.130 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 13:03:22.152 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 14:11:55.719 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 14:11:55.737 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 14:14:22.941 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 14:14:22.960 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 14:17:50.558 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 14:17:50.578 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 14:19:00.242 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 14:19:00.261 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 15:35:36.577 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 15:35:36.593 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 16:36:30.881 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 16:36:30.896 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 16:37:40.268 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 16:37:40.287 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 16:41:11.246 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 16:41:11.264 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 16:44:53.927 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 16:44:53.950 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 16:47:51.459 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 16:47:51.477 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 17:30:12.196 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 17:30:12.212 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 17:31:07.981 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 17:31:08.002 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 18:08:25.962 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 18:08:25.978 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 18:15:00.240 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 18:15:00.258 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 18:15:47.017 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 18:15:47.036 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 18:20:29.996 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 18:20:30.018 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 18:23:27.230 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 18:23:27.253 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 18:28:22.403 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 18:28:22.430 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 20:35:40.584 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.589 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-04-28 20:35:40.590 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.590 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.591 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.591 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.591 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.591 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.592 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.599 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+[INFO ] 2024-04-28 20:35:40.600 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.600 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.601 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.601 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.601 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.601 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.603 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.603 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.603 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.604 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.604 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.605 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.605 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.605 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.607 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2024-04-28 20:35:40.607 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.609 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.609 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.609 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.609 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-28 20:35:40.617 [main] Utils - [TestNG] Running:
+  C:\Users\kundu\AppData\Local\Temp\testng-eclipse--912091846\testng-customsuite.xml
+
+[INFO ] 2024-04-28 20:35:40.634 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ] 2024-04-28 20:35:41.897 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 20:35:41.913 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 20:35:44.872 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:45.049 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:45.846 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:45.980 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:46.230 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-28 20:35:46.591 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:46.721 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:47.441 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:47.584 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:48.410 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:48.529 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:49.469 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:49.593 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:50.146 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:50.285 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:51.025 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:51.160 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:51.744 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:51.877 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:54.446 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:54.576 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:55.192 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:55.327 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:35:56.197 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-28 20:35:56.333 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-28 20:37:24.509 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3f29e67e: 0 ms
+[INFO ] 2024-04-28 20:37:24.541 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@a700311: 32 ms
+[INFO ] 2024-04-28 20:37:24.588 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@feb0f52: 47 ms
+[INFO ] 2024-04-28 20:37:24.588 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@615d74e9: 0 ms
+[INFO ] 2024-04-28 20:37:24.613 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@27f7db5a: 25 ms
+[INFO ] 2024-04-28 20:37:24.621 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@598b15ba: 8 ms
+[INFO ] 2024-04-28 20:37:24.621 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7c4a7770: 0 ms
+[INFO ] 2024-04-28 20:39:53.843 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 20:39:53.869 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 20:45:29.686 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 20:45:29.706 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 21:05:32.446 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 21:05:32.466 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 21:28:02.890 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 21:28:02.910 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 21:29:41.851 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 21:29:41.875 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 22:08:28.806 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 22:08:28.822 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 22:10:28.302 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 22:10:28.323 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 22:14:20.226 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 22:14:20.247 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 22:53:11.246 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 22:53:11.264 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 22:56:28.687 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 22:56:28.706 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
