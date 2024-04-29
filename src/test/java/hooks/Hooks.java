@@ -3,6 +3,7 @@ package hooks;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
@@ -29,14 +30,13 @@ public class Hooks {
 
 	public Hooks(TestContext context) {
 		testContext = context;
-		
-		}
+			}
 
 	@Before
 	public void setUp() {	
-		    driver = testContext.getWebDriverManager().getDriver();	
-			driver.get(FileReaderManager.getInstance().getResourcebundleInstance().getUrl());		
-			System.out.println("Driver object : "+driver);
+		   driver = testContext.getWebDriverManager().getDriver();	
+		   driver.get(FileReaderManager.getInstance().getResourcebundleInstance().getUrl());	
+		   System.out.println("Driver object : "+driver);
 	}
 
 	@After
@@ -46,8 +46,10 @@ public class Hooks {
 			Status scenarioStatus = scenario.getStatus();
 			scenario.log("Scenario Name: " + scenarioName);
 			scenario.log("Scenario Status: " + scenarioStatus);
+			String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+			String screenshotFileName = "Screenshot_" + timestamp + ".png";
 			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() + new Date() + ".jpeg"));
+			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() +screenshotFileName));
 		    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
 			
 		}	

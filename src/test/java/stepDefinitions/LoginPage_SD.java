@@ -4,70 +4,186 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.Reporter;
-
-import com.aventstack.extentreports.model.Log;
-import com.aventstack.extentreports.model.Report;
-
+import commonUtilities.CommonUtils;
+import commonUtilities.LoggerLoad;
 import context.TestContext;
+import dataFilesReader.ExcelFileData;
+import dataFilesReader.ExcelFileSetup;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import managers.DriverManager;
+import pageObjects.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+public class LoginPage_SD {
 
-public class LoginPage_SD  {
-	WebDriver driver;
-	TestContext testcontext;
-	private static final Logger logger = LogManager.getLogger(LoginPage_SD.class); 
-	
-	
-	public LoginPage_SD(TestContext testcontext)
-	{
-		this.testcontext = testcontext;		
-		driver=testcontext.getWebDriverManager().getDriver(); 		
+	private TestContext testContext;
+	private LoginPage loginPage;
+	private HomePage homePage;
+	private CommonUtils commonUtils;
+	private String title;
+	private static final Logger logger = LogManager.getLogger(HomePage_SD.class);
+
+	public LoginPage_SD(TestContext testcontext) {
+		this.testContext = testcontext;
+		this.homePage = testContext.getPageObjectManager().getHomePage();
+		this.loginPage = testContext.getPageObjectManager().getLoginPage();
+		this.commonUtils = testContext.getCommonUtils();
 	}
-	
-	
 
-	@Given("Admin is on the Login page")
-	public void admin_is_on_the_Login_page() {
+	@Given("Admin is on Home Page")
+	public void admin_is_on_home_page() {
+
+		title = commonUtils.getTitle();
+		System.out.println("Home Page: " + title);
+
+	}
+
+	@When("Admin enter invalid credentials from sheet {string} and {string} and clicks login button")
+	public void admin_enter_invalid_credentials_from_sheet_and_and_clicks_login_button(String option, String sheetName)
+			throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.clickLoginButton();
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter value only in password from sheet {string} and {string} and clicks login button")
+	public void admin_enter_value_only_in_password_from_sheet_and_and_clicks_login_button(String option,
+			String sheetName) throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.clickLoginButton();
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter no value in username and password from sheet {string} and {string} and clicks login button")
+	public void admin_enter_no_value_in_username_and_password_from_sheet_and_and_clicks_login_button(String option,
+			String sheetName) throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.clickLoginButton();
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter value only only numeric value in password from sheet {string} and {string} and clicks login button")
+	public void admin_enter_value_only_only_numeric_value_in_password_from_sheet_and_and_clicks_login_button(
+			String option, String sheetName) throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.clickLoginButton();
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter value only in username from sheet {string} and {string} and clicks login button")
+	public void admin_enter_value_only_in_username_from_sheet_and_and_clicks_login_button(String option,
+			String sheetName) throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.clickLoginButton();
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter valid credentials from sheet {string} and {string} and clicks login button")
+	public void admin_enter_valid_credentials_from_sheet_and_and_clicks_login_button(String option, String sheetName)
+			throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.enterLoginDetails(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.clickLoginButton();
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter valid credentials  from sheet {string} and {string} and clicks login button through keyboard")
+	public void admin_enter_valid_credentials_from_sheet_and_and_clicks_login_button_through_keyboard(String option,
+			String sheetName) throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		loginPage.loginThroughKeyBoard(ExcelFileData.userName, ExcelFileData.password);
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+
+	}
+
+	@When("Admin enter valid credentials from sheet {string} and {string} and clicks login button through mouse")
+	public void admin_enter_valid_credentials_from_sheet_and_and_clicks_login_button_through_mouse(String option,
+			String sheetName) throws Exception {
+
+		ExcelFileData.loginPageExcelData(option, sheetName);
+		//loginPage.enterLoginDetails(ExcelFileData.userName, ExcelFileData.password);
+		loginPage.loginThroughMouse(ExcelFileData.userName, ExcelFileData.password);
+		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	}
+
+	@Then("Admin should land on dashboard page")
+	public void admin_should_land_on_dashboard_page() {
+
+		String title = commonUtils.getTitle();
+		Assert.assertEquals(title, "LMS");
+	}
+
+	@Then("Error message please check username\\/password")
+	public void error_message_please_check_username_password() {
+
+		String errorMessage = loginPage.LoginErrorDisplayMsg();
+		System.out.println("Message::" + errorMessage);
+		Assert.assertEquals(errorMessage, "Invalid username and password Please try again");
+
+	}
+	@Then("Error message please enter username and password")
+	public void error_message_please_enter_username_and_password() {
 		
-		logger.info("Login Page: Admin is on the login page");
+		String errorMessage = loginPage.UserPasswordErrorDisplayMsg();
+		System.out.println("Message::" + errorMessage);
+	//	Assert.assertEquals(errorMessage, "Invalid username and password Please try again");
+		
 	}
-
-	@When("Admin enters the valid username and password")
-	public void admin_enters_the_valid_username_and_password() {
-		driver.findElement(By.xpath("//input[@*='userLoginEmailId']")).sendKeys("sdetorganizers@gmail.com");
-		driver.findElement(By.xpath("//input[@*='Password']")).sendKeys("UIHackathon@02");
-		driver.findElement(By.xpath("//button[@*='submit']")).click();
-	}
-
-	@Then("I validate the outcomes")
-	public void i_validate_the_outcomes() {
-		logger.info("Admin is in the Dashboard page");
-	}
-
-	@Given("Admin Logout of the application")
-	public void admin_Logout_of_the_application() {
-	
-	}
-
-	@Then("Message displayed successfull")
-	public void message_displayed_successfull() {
+	@Then("Error message please check username")
+	public void error_message_please_check_username() {
 	   
+		String actualMessage=loginPage.UserErrorDisplayMsg(); 
+		Assert.assertEquals(actualMessage,"Please enter your user name");
 	}
 
-	@Given("Launch the browser")
-	public void launch_the_browser() {
-		Reporter.log("First step");
+	@Then("Error message please check password")
+	public void error_message_please_check_password() {
+	    
+		String actualMessage=loginPage.PasswordErrorDisplayMsg();
+		Assert.assertEquals(actualMessage, "Please enter your password");
+	}
+	
+	@Then("Error message please enter username")
+	public void error_message_please_enter_username() {
+	   
+		String actualMessage=loginPage.UserErrorDisplayMsg();
+		Assert.assertEquals(actualMessage,"Please enter your user name");
 	}
 
-	@Then("open the application")
-	public void open_the_application() {
-	  // logger.info("WEbsite is opened");logger.error("An error occurred: {}");
+	@Then("Error message please enter password")
+	public void error_message_please_enter_password() {
+		
+		String actualMessage=loginPage.PasswordErrorDisplayMsg();
+		Assert.assertEquals(actualMessage, "Please enter your password");
 	}
 
+	@When("Admin enter no value only in input and password field and click on Loginbutton")
+	public void admin_enter_no_value_only_in_input_and_password_field_and_click_on_loginbutton() throws InterruptedException {
+	    
+		loginPage.clickLoginButton();
+	}
+
+	
 }
