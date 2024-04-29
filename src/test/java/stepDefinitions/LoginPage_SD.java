@@ -1,12 +1,9 @@
 package stepDefinitions;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
-import com.aventstack.extentreports.model.Log;
 import com.aventstack.extentreports.model.Report;
 
 import context.TestContext;

@@ -1,4 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.132 s - in TestSuite
+Tests run: 12, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 23.758 s <<< FAILURE! - in TestSuite
+runner.TestRunner.runScenario["Validates Sorting(data ordering) on the Program Data table", "Sorting(Data Ordering) Validation"](3)  Time elapsed: 3.416 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ValidateSortingProgramTable.programDescAscendingOrder(ValidateSortingProgramTable.java:93)
+	at stepDefinitions.ManageProgramPage_SD.admin_clicks_the_sort_icon_of_program_desc_column(ManageProgramPage_SD.java:162)
+	at ✽.Admin clicks the sort icon of program Desc column(file:///C:/Users/chand/git/LMS-Hackathon-Team-15/src/test/resources/Features/ProgramModule/02_Sorting_DataOrdering_Validation.feature:19)
+
+runner.TestRunner.runScenario["Validates Sorting(data ordering) on the Program Data table", "Sorting(Data Ordering) Validation"](3)  Time elapsed: 1.163 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ValidateSortingProgramTable.programDescAscendingOrder(ValidateSortingProgramTable.java:93)
+	at stepDefinitions.ManageProgramPage_SD.admin_clicks_the_sort_icon_of_program_desc_column(ManageProgramPage_SD.java:162)
+	at ✽.Admin clicks the sort icon of program Desc column(file:///C:/Users/chand/git/LMS-Hackathon-Team-15/src/test/resources/Features/ProgramModule/02_Sorting_DataOrdering_Validation.feature:19)
+
+runner.TestRunner.runScenario["Validates Sorting(data ordering) on the Program Data table", "Sorting(Data Ordering) Validation"](4)  Time elapsed: 3.224 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ValidateSortingProgramTable.programDescAscendingOrder(ValidateSortingProgramTable.java:93)
+	at stepDefinitions.ManageProgramPage_SD.admin_clicks_the_sort_icon_of_program_desc_column(ManageProgramPage_SD.java:162)
+	at ✽.Admin clicks the sort icon of program Desc column(file:///C:/Users/chand/git/LMS-Hackathon-Team-15/src/test/resources/Features/ProgramModule/02_Sorting_DataOrdering_Validation.feature:24)
+
+runner.TestRunner.runScenario["Validates Sorting(data ordering) on the Program Data table", "Sorting(Data Ordering) Validation"](4)  Time elapsed: 0.299 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ValidateSortingProgramTable.programDescAscendingOrder(ValidateSortingProgramTable.java:93)
+	at stepDefinitions.ManageProgramPage_SD.admin_clicks_the_sort_icon_of_program_desc_column(ManageProgramPage_SD.java:162)
+	at ✽.Admin clicks the sort icon of program Desc column(file:///C:/Users/chand/git/LMS-Hackathon-Team-15/src/test/resources/Features/ProgramModule/02_Sorting_DataOrdering_Validation.feature:24)
+
