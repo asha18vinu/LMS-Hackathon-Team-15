@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 27 13:13:19 EDT 2024</td>
+<td>Started on:</td><td>Sun Apr 28 22:42:05 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11500 ms)</td>
+<tr><td>Total time:</td><td>17 seconds (17044 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,85 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for multi row delete", "Delete Multiple Batches"</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;p-paginator-icon pi pi-angle-right&quot;&gt;&lt;/span&gt; is not clickable at point (1169, 505). Other element would receive the click: &lt;div class=&quot;p-paginator-bottom p-paginator p-component ng-star-inserted&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=124.0.2478.51)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [379cfee71d2c3b7771abe181e197f384, clickElement {id=f.232FA7F1423D5A8DE58AA017162547E4.d.2233F3E51CDEBD2713A69DD4E74C1571.e.131}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50850}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\Users\subas\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50850/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (379cfee71d2c3b7771abe181e197f384)] -&gt; xpath: //span[@class=&apos;p-paginator-icon pi pi-angle-right&apos;]]
+Session ID: 379cfee71d2c3b7771abe181e197f384
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
+	at pageObjects.BatchPage.verifyDeletedBatches(BatchPage.java:571)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:97)
+	at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/B_BatchModule/DeleteMultipleBatches.feature:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1605950465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1605950465'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;p-paginator-icon pi pi-angle-right&quot;&gt;&lt;/span&gt; is not clickable at point (1169, 505). Other element would receive the click: &lt;div class=&quot;p-paginator-bottom p-paginator p-component ng-star-inserted&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=124.0.2478.51)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [379cfee71d2c3b7771abe181e197f384, clickElement {id=f.232FA7F1423D5A8DE58AA017162547E4.d.2233F3E51CDEBD2713A69DD4E74C1571.e.131}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50850}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\Users\subas\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50850/devtoo..., se:cdpVersion: 124.0.2478.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (379cfee71d2c3b7771abe181e197f384)] -&gt; xpath: //span[@class=&apos;p-paginator-icon pi pi-angle-right&apos;]]
+Session ID: 379cfee71d2c3b7771abe181e197f384
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy38.click(Unknown Source)
+	at pageObjects.BatchPage.verifyDeletedBatches(BatchPage.java:571)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:97)
+	at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/B_BatchModule/DeleteMultipleBatches.feature:24)
+</pre></div></td>
+<td>13</td>
+<td>runner.TestRunner@64d43929</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,34 +155,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@64d43929</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@64d43929</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check all the deleted rows are reflected after loging back in", "Delete Multiple Batches"</td>
 <td></td>
 <td>1</td>
-<td>runner.TestRunner@64d43929</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@64d43929</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@64d43929</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
-<td></td>
-<td>0</td>
 <td>runner.TestRunner@64d43929</td></tr>
 </table><p>
 </body>

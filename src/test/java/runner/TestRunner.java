@@ -12,8 +12,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
-@CucumberOptions(features = "src\\test\\resources\\Features\\B_BatchModule\\AddNewBatch.feature", glue = { "hooks",
-		"stepDefinitions" }, monochrome = true, tags = "@sanity"
+@CucumberOptions(features = "src\\test\\resources\\Features\\B_BatchModule\\", glue = { "hooks","stepDefinitions" }, monochrome = true, tags = "@deleteMultiple"
 //			plugin = {"pretty",
 //				
 //					"timeline:test-output-thread/"
@@ -23,9 +22,9 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //		TestContext context;
 //		WebDriver driver;
 //		public TestRunner(TestContext context) {
-//			this.context=context;
+//			this.context=context;jvrmgjtrj y5u y
 //			driver=context.getWebDriverManager().getDriver();
-//		}
+//		} 
 //		@Override
 //		@DataProvider(parallel=false)
 //		public Object[][] scenarios(){
@@ -50,3 +49,4 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //			
 //		}
 }
+

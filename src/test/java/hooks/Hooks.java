@@ -46,13 +46,13 @@ public class Hooks {
 
 	@After
 	public  void getScreenShot(Scenario scenario) throws IOException {
-		if (scenario.isFailed()) {
+		if (scenario.isFailed()) { 
 			String scenarioName = scenario.getName();
 			Status scenarioStatus = scenario.getStatus();
 			scenario.log("Scenario Name: " + scenarioName);
 			scenario.log("Scenario Status: " + scenarioStatus);
 			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() + new Date() + ".jpeg"));
+			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() + new Date() + ".jpeg")); 
 		    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));			
 		}	
 	//	String scenarioName = scenario.getName();

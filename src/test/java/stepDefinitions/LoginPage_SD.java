@@ -35,7 +35,7 @@ public class LoginPage_SD  {
 	@Given("Admin is on the Login page")
 	public void admin_is_on_the_Login_page() {
 		
-		logger.info("Login Page: Admin is on the login page");
+		logger.info("Login Page: Admin is on the login page"); 
 	}
 
 	@When("Admin enters the valid username and password")

@@ -37,7 +37,7 @@ Scenario Outline: Check if description is optional field
  |AddBatch |   0 |
  
 
-@validbatch @smoke
+@validbatch @smoke @delete 
 Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
     Given Admin is on the BatchDetails page
     When Admin fills out the mandatory fields "<sheetname>" and <RowNo> 
@@ -60,7 +60,7 @@ When Admin enters any of the "<Fields>" with invalid values "<InvalidValues>"
 Then Admin should get error message "<ErrorMessage>"
 
 Examples: 
-      | Fields            |InvalidValues|ErrorMessage                                                |      
+      | Fields            |InvalidValues|ErrorMessage                                                 |      
       | batchName       	|@%sdsd				|This field should start with an alphabet and min 2 character.| 
       | Description       |!            |This field should start with an alphabet and min 2 character.|  
       

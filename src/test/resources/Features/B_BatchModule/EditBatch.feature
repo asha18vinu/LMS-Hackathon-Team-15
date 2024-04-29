@@ -1,5 +1,13 @@
 Feature: Edit batch
-  @tag1
+
+
+
+Background: 
+  Given Admin is logged on the Lms portal dashboardPage after login
+  When  Admin clicks "Batch" from navigation bar
+  
+  
+  @edit
   Scenario: Validate row level edit icon
     Given The edit icon on row level in data table is enabled
     When Admin clicks the edit icon
@@ -7,10 +15,13 @@ Feature: Edit batch
   
 
   @tag2
-  Scenario: Check if the fields are updated
+  Scenario Outline: Check if the fields are updated
     Given Admin clicks the edit icon
-    When Update the fields with invalid values and click save
+    When Update the fields with valid values and click save "<sheetname>" and <rowno>
     Then The updated batch details should appear on the data table
+    Examples:
+    |sheetname|rowno|
+    |AddBatch |0    |
 
  @tag2
   Scenario: Check if the update throws error with invalid valued
@@ -29,5 +40,7 @@ Feature: Edit batch
     Given Admin clicks the edit icon
     When Erase data from description field
     Then The updated batch details should appear on the data table
+
+
 
  
