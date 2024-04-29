@@ -22,6 +22,7 @@ public class UserPage_SD {
 	private LoginPage loginPage;
 	private HomePage homePage;
 	private UserPage_VerifySort userVerifySort;
+	private UserPage_Edit userPage_Edit;
 	private CommonUtils commonUtils;
 	private String title;
 	private static final Logger logger = LogManager.getLogger(HomePage_SD.class);
@@ -31,6 +32,7 @@ public class UserPage_SD {
 		this.homePage = testContext.getPageObjectManager().getHomePage();
 		this.loginPage = testContext.getPageObjectManager().getLoginPage();
 		this.userVerifySort=testcontext.getPageObjectManager().getUserVerifySort();
+		this.userPage_Edit=testcontext.getPageObjectManager().getUserPage_Edit();
 		this.commonUtils = testContext.getCommonUtils();
 	}
 	
@@ -61,5 +63,6 @@ public class UserPage_SD {
 	 
 	   
 	}
+	//User Edit step definitions
 
 }

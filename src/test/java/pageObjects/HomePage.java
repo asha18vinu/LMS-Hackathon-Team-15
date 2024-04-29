@@ -129,7 +129,7 @@ public class HomePage {
 		System.out.println("Align: " + align + "Location: " + loc + "Margin: " + margin + "LogoFloat:" + logofloat);
 		// add screenshot code
 		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-		String screenshotFileName = "Screenshot_" + timestamp + ".png";
+		String screenshotFileName = "Screenshot_VerifyLogoAlignment_" + timestamp + ".png";
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File Destfile = new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath()
 				+ screenshotFileName);

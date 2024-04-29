@@ -11,6 +11,7 @@ public class PageObjectManager {
 	private HomePage homePage;
 	private DashboardPage dashboardPage;
 	private UserPage_VerifySort userVerifySort;
+	private UserPage_Edit userPage_Edit;
 
 	public WebDriver getDriver() {
 		return driver;
@@ -33,6 +34,10 @@ public class PageObjectManager {
 	}
 	public UserPage_VerifySort getUserVerifySort() {
 		return (userVerifySort == null ? userVerifySort = new UserPage_VerifySort(driver) : userVerifySort);
+	}
+	
+	public UserPage_Edit getUserPage_Edit() {
+		return (userPage_Edit == null ? userPage_Edit = new UserPage_Edit(driver) : userPage_Edit);
 	}
 
 

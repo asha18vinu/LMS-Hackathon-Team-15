@@ -5453,3 +5453,55 @@ NumpyNinja
 [INFO ] 2024-04-29 03:18:19.133 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ed74d03: 25 ms
 [INFO ] 2024-04-29 03:18:19.163 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2279e7c7: 30 ms
 [INFO ] 2024-04-29 03:18:19.185 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@59ac60d1: 22 ms
+[INFO ] 2024-04-29 12:42:38.166 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 12:42:38.202 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-29 12:42:55.968 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-29 12:43:11.562 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-29 12:43:16.926 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:19.215 [main] LoggerLoad - Actual url::https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/login Expected url::https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/NowhereTogo
+[INFO ] 2024-04-29 12:43:19.686 [main] LoggerLoad - Actual responseCode::200 Expected ResponseCode::404
+[ERROR] 2024-04-29 12:43:20.070 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-29 12:43:20.515 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:21.153 [main] LoggerLoad - Actual responseCode::200 Expected ResponseCode::400
+[INFO ] 2024-04-29 12:43:21.153 [main] LoggerLoad - Actual responseCode did not match with Expected ResponseCode, Not a Broken Link: 
+[INFO ] 2024-04-29 12:43:21.633 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:22.127 [main] LoggerLoad - Actual Home page Text::Please login to LMS application
+User *
+Password *
+Login Expected Home page Text::Please login to LMS application
+User *
+Password *
+Login
+[INFO ] 2024-04-29 12:43:23.027 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:24.593 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:26.242 [main] LoggerLoad - Actual application namee :
+S LMS - Learning Management System
+27 4
+NumpyNinja
+ Expected application nameLMS - Learning Management System
+[INFO ] 2024-04-29 12:43:27.146 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:28.942 [main] LoggerLoad - Actual company name::e :
+S LMS - Learning Management System
+27 4
+NumpyNinja
+ Expected company name::NumpyNinja
+[INFO ] 2024-04-29 12:43:29.544 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:30.718 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:31.472 [main] LoggerLoad - Actual number of Text field::2 Expected number of Text field::2
+[INFO ] 2024-04-29 12:43:31.987 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:32.616 [main] LoggerLoad - Actual first text field value::User * Expected first text field value::User *
+[INFO ] 2024-04-29 12:43:33.440 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:33.943 [main] LoggerLoad - Actual first symbol value::User * Expected first symbol value::User *
+[INFO ] 2024-04-29 12:43:34.412 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:35.107 [main] LoggerLoad - Actual second text field value::Password * Expected second text field value::Password *
+[INFO ] 2024-04-29 12:43:35.671 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:36.172 [main] LoggerLoad - Actual symbol text::Password * Expected symbol text::Password *
+[INFO ] 2024-04-29 12:43:36.901 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:37.357 [main] LoggerLoad - Actual alignment Input field::center Expected alignment Input field::center
+[INFO ] 2024-04-29 12:43:37.773 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:38.612 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:39.013 [main] LoggerLoad - Actual alignment login field::center Expected alignment login field::center
+[INFO ] 2024-04-29 12:43:39.457 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:39.880 [main] LoggerLoad - Actual color user::rgba(0, 0, 0, 0.87) Expected color user::rgba(0, 0, 0, 0.87)
+[INFO ] 2024-04-29 12:43:40.301 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-29 12:43:40.696 [main] LoggerLoad - Actual color password field::rgba(0, 0, 0, 0.87) Expected color password::rgba(0, 0, 0, 0.87)
