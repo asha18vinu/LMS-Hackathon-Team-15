@@ -64,5 +64,31 @@ public class UserPage_SD {
 	   
 	}
 	//User Edit step definitions
+	
+	@When("Admin clicks on the edit icon")
+	public void admin_clicks_on_the_edit_icon() {
+		
+		userPage_Edit.searchUserByName();//call the actual searchUserByname program
+		userPage_Edit.clickOnUserEditIcon();
+		
+	}
+
+	@Then("A new pop up with User details appears")
+	public void a_new_pop_up_with_user_details_appears() {
+	   
+	   
+	}
+
+	@When("Update the fields with valid data and click submit from sheet {string} and {string}")
+	public void update_the_fields_with_valid_data_and_click_submit_from_sheet_and(String string, String string2) {
+	   
+	   
+	}
+
+	@Then("Admin gets message {string} and see the updated values in data table")
+	public void admin_gets_message_and_see_the_updated_values_in_data_table(String string) {
+	   
+	   
+	}
 
 }

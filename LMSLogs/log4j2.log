@@ -5505,3 +5505,7 @@ NumpyNinja
 [INFO ] 2024-04-29 12:43:39.880 [main] LoggerLoad - Actual color user::rgba(0, 0, 0, 0.87) Expected color user::rgba(0, 0, 0, 0.87)
 [INFO ] 2024-04-29 12:43:40.301 [main] HomePage_SD - ----------Admin launch the Browser----------
 [INFO ] 2024-04-29 12:43:40.696 [main] LoggerLoad - Actual color password field::rgba(0, 0, 0, 0.87) Expected color password::rgba(0, 0, 0, 0.87)
+[INFO ] 2024-04-29 19:08:06.227 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 19:08:06.280 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-29 19:08:26.217 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-29 19:08:41.895 [main] AllureLifecycle - Could not add attachment: no test is running

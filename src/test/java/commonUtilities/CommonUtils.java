@@ -30,45 +30,71 @@ public class CommonUtils {
 		this.driver = driver;
 		// this.action=action;
 	}
-	
-	//Explicit Wait method
-		public void explicitlyWaitForElement(WebElement element,long waitTimeinSeconds) {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitTimeinSeconds));
-			wait.until(ExpectedConditions.elementToBeClickable(element));
-		}
-		
-		
-		public void explicitlyWaitForElement_Visible(WebElement element,long waitTimeinSeconds) {
-			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitTimeinSeconds));
-			wait.until(ExpectedConditions.visibilityOf(element));
-		}
-		
-		//Click and wait Method
-		public void clickAndWait(WebElement element, long waitTimeinSeconds) {
-			 try {
-				wait(waitTimeinSeconds);
-				explicitlyWaitForElement(element, waitTimeinSeconds);
-				element.click();
-				LoggerLoad.info("Element Clicked successfully: {} " +element);
-				
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				LoggerLoad.error("Element not Clicked");
-			}
-			 
+
+	// Explicit Wait method
+	public void explicitlyWaitForElement(WebElement element, long waitTimeinSeconds) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitTimeinSeconds));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+
+	public void explicitlyWaitForElement_Visible(WebElement element, long waitTimeinSeconds) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(waitTimeinSeconds));
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
+
+	// Click and wait Method
+	public void clickAndWait(WebElement element, long waitTimeinSeconds) {
+		try {
+			wait(waitTimeinSeconds);
+			explicitlyWaitForElement(element, waitTimeinSeconds);
+			element.click();
+			LoggerLoad.info("Element Clicked successfully: {} " + element);
+
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			LoggerLoad.error("Element not Clicked");
 		}
 
+	}
+
+	// Send keys method
+	public void sendKeysMethod(WebElement element, String value, long waitTimeinSeconds) {
+		try {
+			explicitlyWaitForElement(element, waitTimeinSeconds);
+			element.click();
+			element.clear();
+			element.sendKeys(value);
+
+		} catch (Exception e) {
+			LoggerLoad.error("Element'" + element + "'is not displayed");
+
+		}
+
+	}
+
+	// Verify Text Element
+	public String checkTextElement(WebElement element, long waitTimeinSeconds) {
+		explicitlyWaitForElement(element, waitTimeinSeconds);
+
+		String text = null;
+		try {
+			text = element.getText();
+		} catch (Exception e) {
+			System.out.println("Text not found for the WebElement" + element + "because of exception" + e);
+		}
+		return text;
+	}
 
 	public String getCurrentUrl() {
 		driver.getCurrentUrl();
-		//System.out.println("Current Url is: " + driver.getCurrentUrl());
+		// System.out.println("Current Url is: " + driver.getCurrentUrl());
 		return driver.getCurrentUrl();
 	}
 
 	public String getTitle() {
 
 		driver.getTitle();
-	//	System.out.println("Current Tittle is: " + driver.getTitle());
+		// System.out.println("Current Tittle is: " + driver.getTitle());
 		return driver.getTitle();
 	}
 
@@ -82,23 +108,23 @@ public class CommonUtils {
 		}
 
 	}
+
 	public boolean isDisplayed(WebElement element) {
 		boolean flag = false;
 		try {
-			if (element.isDisplayed()) {				
+			if (element.isDisplayed()) {
 				flag = true;
-				System.out.println("The element is Displayed"+element);
+				System.out.println("The element is Displayed" + element);
 
 			} else {
 				flag = false;
-				System.out.println("The element is not Displayed"+element);
+				System.out.println("The element is not Displayed" + element);
 			}
 		} catch (Exception e) {
 			System.out.println(e);
 		}
 		return flag;
 	}
-
 
 	public void switchWindow() {
 
@@ -135,6 +161,5 @@ public class CommonUtils {
 		return recode;
 
 	}
-	
 
 }

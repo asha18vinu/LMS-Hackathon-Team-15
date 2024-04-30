@@ -30,6 +30,22 @@ public class ExcelFileData extends ResourceBundleDataReader {
 	// LoginPage data
 	public static String userName;
 	public static String password;
+	
+	//UserPage data
+	public static String userFirstName;
+	public static String userMiddleName;
+	public static String userLastName;
+	public static String userLocation;
+	public static String userPhoneNo;
+	public static String userLinkedInUrl;
+	public static String userRole;
+	public static String userRoleStatus;
+	public static String userUnderGraduate;
+	public static String userEmail;
+	public static String userVisaStatus;
+	public static String userPostGraduate;
+	public static String userTimeZone;
+	public static String userComments;
 
 	static Map<String, String> xLDataMap;
 
@@ -72,5 +88,29 @@ public class ExcelFileData extends ResourceBundleDataReader {
 		return xLDataMap;
 
 	}
+	
+	// EDit/Update user details- User Page validation TestData
+		public static Map<String, String> userPageEditExcelData(String key, String sheetName) throws Exception {
+
+			xLDataMap = ExcelFileSetup.getData1(key, sheetName);
+
+			userFirstName = xLDataMap.get("userFirstName");
+			userMiddleName = xLDataMap.get("userMiddleName");
+			userLastName = xLDataMap.get("userLastName");
+			userLocation = xLDataMap.get("userLocation");
+			userPhoneNo = xLDataMap.get("userPhoneNo");
+			userLinkedInUrl = xLDataMap.get("userLinkedInUrl");
+			userRole = xLDataMap.get("userRole");			
+			userRoleStatus = xLDataMap.get("userRoleStatus");
+			userUnderGraduate = xLDataMap.get("userUnderGraduate");
+			userEmail = xLDataMap.get("userEmail");
+			userVisaStatus = xLDataMap.get("userVisaStatus");
+			userPostGraduate = xLDataMap.get("userPostGraduate");
+			userTimeZone = xLDataMap.get("userTimeZone");
+			userComments = xLDataMap.get("userComments");
+
+			return xLDataMap;
+
+		}
 
 }
