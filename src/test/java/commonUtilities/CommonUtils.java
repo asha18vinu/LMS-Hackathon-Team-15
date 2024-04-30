@@ -162,4 +162,62 @@ public class CommonUtils {
 
 	}
 
+	 public Map<String, String> getValidProgramDataFromExcel(String sheetName, Integer rowNo)throws InvalidFormatException, IOException {
+                Map<String, String> dataMap = new HashMap<>();
+
+                excelReader = FileReaderManager.getInstance().getExcelInstance();
+                System.out.println("excelPath=" + excelPath);
+                List<Map<String, String>> list = excelReader.getData(excelPath, sheetName);
+                Map<String, String> rowData = list.get(rowNo);
+
+                String Name = rowData.get("ProgramName");
+                String description = rowData.get("ProgramDescription");
+                String Status = rowData.get("Status");
+                String EditName = rowData.get("EditProgramName");
+                String EditDescription = rowData.get("EditProgramDescription");
+
+                dataMap.put("ProgramName", Name);
+                dataMap.put("ProgramDescription", description);
+                dataMap.put("Status", Status);
+                dataMap.put("EditProgramName", EditName);
+                dataMap.put("EditProgramDescription", EditDescription);
+
+                return dataMap;
+        }
+
+        public void waitForElementToBeClickable(WebDriver driver, WebElement element) {
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                wait.until(ExpectedConditions.elementToBeClickable(element));
+
+        }
+
+        public WebElement waitForElementToBeVisible(WebDriver driver, WebElement element) {
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                WebElement message = wait.until(ExpectedConditions.visibilityOf(element));
+                return message;
+        }
+
+        public void waitForElementToBeInVisible(WebDriver driver, WebElement element) {
+                WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                wait.until(ExpectedConditions.invisibilityOf(element));
+        }
+
+        public String getActiveElementAttribute(WebDriver driver) {
+                WebElement activeElement = driver.switchTo().activeElement();
+                String message = activeElement.getAttribute("validationMessage");
+                System.out.println("Actual message appeared on the screen is: " + message);
+                return message;
+        }
+
+        public void actionsClick(WebElement element, WebDriver driver) {
+                Actions actions = new Actions(driver);
+                actions.moveToElement(element).perform();
+                actions.click().perform();
+        }
+
+        public void actionsSendKeys(WebDriver driver,WebElement element, String input ) {
+                Actions actions = new Actions(driver);
+                actions.sendKeys(element, input).perform();
+        }
+
 }
