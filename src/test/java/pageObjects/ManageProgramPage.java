@@ -59,7 +59,7 @@ public class ManageProgramPage {
     @FindBy(xpath= "//div[@class='p-dialog-footer ng-tns-c133-4 ng-star-inserted']/button[1]/span[2]") public WebElement NoBtn;
     @FindBy(xpath= "//div[@class='p-dialog-content ng-tns-c133-4']/span") public WebElement deleteValidationMsg;
     @FindBy(xpath= "//div[@class='p-datatable-footer ng-star-inserted']/div") public WebElement totalProgram;
-    
+    @FindBy(xpath= "//p-confirmdialog/div") public WebElement deleteConfirmAlert;
     
     //Feature: Edit a Program
   
@@ -67,10 +67,11 @@ public class ManageProgramPage {
   //fetch the matching program row
     public boolean checkForTheAddedProgram(WebDriver driver, CommonUtils cUtils, String ProgName, String Desc, String Status) {
     	boolean found = false;
-    	
+    	System.out.println("Inside checkForTheAddedProgram");
     	WebElement tbody = driver.findElement(By.xpath("//tbody[@class='p-datatable-tbody']"));
     	boolean isEmpty = tbody.findElements(By.xpath("./*")).isEmpty();
     	if (isEmpty) {
+    		System.out.println("return false");
     		return found;
     	}
 

@@ -1262,3 +1262,338 @@
 [INFO ] 2024-04-28 22:53:11.264 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
 [INFO ] 2024-04-28 22:56:28.687 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
 [INFO ] 2024-04-28 22:56:28.706 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 23:46:57.796 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 23:46:57.812 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-28 23:49:23.646 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-28 23:49:23.665 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 10:35:07.533 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.549 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ] 2024-04-29 10:35:07.550 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.550 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.551 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.551 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.551 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.551 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.552 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.560 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+[INFO ] 2024-04-29 10:35:07.561 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.561 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.562 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.562 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.562 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.563 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.564 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.564 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.564 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.564 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.565 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.565 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.565 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.565 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.569 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-04-29 10:35:07.569 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.570 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.570 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.570 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.570 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 10:35:07.577 [main] Utils - [TestNG] Running:
+  C:\Users\kundu\AppData\Local\Temp\testng-eclipse-1908284824\testng-customsuite.xml
+
+[INFO ] 2024-04-29 10:35:07.596 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[INFO ] 2024-04-29 10:35:09.071 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 10:35:09.093 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 10:35:12.049 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:12.212 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:13.016 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:13.159 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:13.421 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-29 10:35:13.758 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:13.888 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:14.465 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:14.602 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:15.206 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:15.335 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:15.912 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:16.036 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:16.583 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:16.712 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:17.505 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:17.655 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:18.256 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:18.384 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:20.980 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:21.108 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:21.705 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:21.835 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:22.656 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:22.834 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:35:23.755 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 10:35:23.916 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 10:38:40.407 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@502f9271: 0 ms
+[INFO ] 2024-04-29 10:38:40.429 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@eefc1bf: 22 ms
+[INFO ] 2024-04-29 10:38:40.469 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1cb24198: 40 ms
+[INFO ] 2024-04-29 10:38:40.477 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@1a77faae: 8 ms
+[INFO ] 2024-04-29 10:38:40.489 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7e846cca: 12 ms
+[INFO ] 2024-04-29 10:38:40.496 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@7e6833c6: 7 ms
+[INFO ] 2024-04-29 10:38:40.505 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5f83a8dc: 9 ms
+[INFO ] 2024-04-29 16:39:19.973 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:39:19.993 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:39:23.299 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:23.462 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:23.717 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-29 16:39:24.106 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:24.241 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:24.848 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:24.980 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:25.517 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:25.639 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:26.194 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:26.313 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:26.896 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:27.010 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:27.761 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:27.896 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:28.478 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:28.615 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:31.160 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:31.296 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:32.092 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:32.220 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:33.689 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:33.820 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:39:34.789 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 16:39:34.919 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 16:40:10.255 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:40:10.277 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:41:13.928 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:41:13.946 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:42:37.592 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:42:37.608 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:43:37.701 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:43:37.722 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:48:47.855 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:48:47.875 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:54:38.032 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:54:38.050 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 16:58:41.874 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 16:58:41.891 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 17:05:31.197 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 17:05:31.220 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 17:12:50.322 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 17:12:50.342 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 17:20:03.948 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 17:20:03.967 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 17:25:02.438 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 17:25:02.462 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 17:32:15.014 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 17:32:15.034 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 18:26:47.362 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-04-29 18:26:47.367 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-04-29 18:26:47.368 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.368 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.368 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.369 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.369 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.369 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.370 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.375 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+[INFO ] 2024-04-29 18:26:47.376 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.377 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.377 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.377 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.378 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.378 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.380 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.380 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.380 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.380 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.381 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.381 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.381 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.381 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.383 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.384 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.385 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.385 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.385 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.385 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:26:47.393 [main] Utils - [TestNG] Running:
+  C:\Users\kundu\AppData\Local\Temp\testng-eclipse-1622615908\testng-customsuite.xml
+
+[INFO ] 2024-04-29 18:26:47.409 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[INFO ] 2024-04-29 18:26:48.757 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 18:26:48.773 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 18:26:52.940 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:53.100 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:53.973 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:54.113 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:54.362 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-29 18:26:54.701 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:54.835 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:55.412 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:55.553 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:56.105 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:56.246 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:56.819 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:56.950 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:57.502 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:57.617 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:58.388 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:58.517 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:26:59.109 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:26:59.233 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:27:01.867 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:27:02.000 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:27:02.585 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:27:02.720 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:27:03.546 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:27:03.675 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:27:04.499 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:27:04.624 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:29:07.030 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6654e105: 0 ms
+[INFO ] 2024-04-29 18:29:07.052 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@50fd4246: 22 ms
+[INFO ] 2024-04-29 18:29:07.108 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2cf073da: 56 ms
+[INFO ] 2024-04-29 18:29:07.108 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5bf9bb2: 0 ms
+[INFO ] 2024-04-29 18:29:07.124 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@43905ade: 16 ms
+[INFO ] 2024-04-29 18:29:07.140 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@20de9df: 16 ms
+[INFO ] 2024-04-29 18:29:07.140 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@81ac569: 0 ms
+[INFO ] 2024-04-29 18:44:37.261 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-04-29 18:44:37.265 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.267 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.267 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.267 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.267 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.268 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.268 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.269 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.275 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 5 ms.
+[INFO ] 2024-04-29 18:44:37.276 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.277 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.277 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.278 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.278 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.278 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.280 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.280 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.280 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.280 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.281 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.281 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.281 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.282 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.284 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2024-04-29 18:44:37.284 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.285 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.285 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.285 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.285 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:44:37.290 [main] Utils - [TestNG] Running:
+  C:\Users\kundu\AppData\Local\Temp\testng-eclipse--1105934112\testng-customsuite.xml
+
+[INFO ] 2024-04-29 18:44:37.307 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[INFO ] 2024-04-29 18:44:37.996 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 18:44:38.014 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 18:44:40.801 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:40.959 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:41.752 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:41.884 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:42.122 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-29 18:44:42.493 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:42.617 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:43.176 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:43.308 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:43.876 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:44.000 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:44.566 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:44.703 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:45.257 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:45.374 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:46.131 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:46.237 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:46.808 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:46.923 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:49.483 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:49.592 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:50.199 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:50.313 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:51.183 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:51.293 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:44:52.198 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:44:52.332 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:23.719 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6e53bb4f: 0 ms
+[INFO ] 2024-04-29 18:45:23.750 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@70cdbd18: 30 ms
+[INFO ] 2024-04-29 18:45:23.803 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2fca9fae: 53 ms
+[INFO ] 2024-04-29 18:45:23.816 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@48d24d63: 13 ms
+[INFO ] 2024-04-29 18:45:23.850 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@eb09112: 34 ms
+[INFO ] 2024-04-29 18:45:23.857 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6dde913e: 7 ms
+[INFO ] 2024-04-29 18:45:23.874 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@90c01ab: 17 ms
+[INFO ] 2024-04-29 18:45:51.714 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.718 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.719 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.719 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.720 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.720 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.720 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.720 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.721 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.728 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+[INFO ] 2024-04-29 18:45:51.729 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.729 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.729 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.730 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.730 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.730 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.732 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.732 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.732 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.732 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.733 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.733 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.733 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.733 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.735 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-04-29 18:45:51.735 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.737 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.737 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.737 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.737 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-29 18:45:51.743 [main] Utils - [TestNG] Running:
+  C:\Users\kundu\AppData\Local\Temp\testng-eclipse--607760907\testng-customsuite.xml
+
+[INFO ] 2024-04-29 18:45:51.760 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[INFO ] 2024-04-29 18:45:52.479 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-29 18:45:52.495 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kundu\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-29 18:45:55.113 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:55.282 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:56.139 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:56.259 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:56.503 [main] LoginPage_SD - Page Validation success
+[INFO ] 2024-04-29 18:45:56.885 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:56.996 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:57.567 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:57.684 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:58.274 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:58.383 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:58.958 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:59.064 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:45:59.626 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:45:59.734 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:46:00.477 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:46:00.586 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:46:01.182 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:46:01.298 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:46:03.894 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:46:04.028 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:46:04.676 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:46:04.801 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:46:05.678 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:46:05.798 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:46:06.721 [main] LoginPage_SD - Login Page: Admin is on the login page
+[INFO ] 2024-04-29 18:46:06.840 [main] LoginPage_SD - Admin is in the Dashboard page
+[INFO ] 2024-04-29 18:48:04.164 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3199c2c1: 0 ms
+[INFO ] 2024-04-29 18:48:04.181 [main] Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@461f295c: 17 ms
+[INFO ] 2024-04-29 18:48:04.215 [main] Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60b721c9: 34 ms
+[INFO ] 2024-04-29 18:48:04.224 [main] Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@8872669: 9 ms
+[INFO ] 2024-04-29 18:48:04.236 [main] Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3dfef314: 12 ms
+[INFO ] 2024-04-29 18:48:04.242 [main] Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3d2ec8b2: 6 ms
+[INFO ] 2024-04-29 18:48:04.249 [main] Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4cb1af3f: 6 ms

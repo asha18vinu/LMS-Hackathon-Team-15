@@ -20,6 +20,7 @@ Feature: Add New Program Dummy
   @tag3
   Scenario Outline: Delete a specific Program
     When Admin find a specific program from "<sheet>" and clicks <Delete> button on the data table for the specific row <row>
+    And Admin clicks <Yes> button in the dialog box to confirm the deletion
     Then Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table
 
     Examples: 

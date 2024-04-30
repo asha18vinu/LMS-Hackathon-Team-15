@@ -6,7 +6,7 @@
       <class name="runner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="34 36"/>
+          <include name="runScenario" invocation-numbers="34 37 28"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- runner.TestRunner -->

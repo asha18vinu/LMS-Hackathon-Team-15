@@ -474,6 +474,7 @@ public class ManageProgramPage_SD {
 
 	 @Then("Admin should see a alert open with heading Confirm along with  <YES> and <NO> button for deletion")
 	 public void admin_should_see_a_alert_open_with_heading_confirm_along_with_yes_and_no_button_for_deletion() {
+		 cUtils.waitForElementToBeVisible(driver,mp.deleteConfirmAlert);
 	     assertEquals(mp.alerttxt.getText(),"Confirm");
 	     Assert.assertTrue(mp.deleteValidationMsg.getText().contains("Are you sure you want to delete"));
 	     Assert.assertTrue(mp.YesBtn.isDisplayed());
@@ -488,16 +489,17 @@ public class ManageProgramPage_SD {
 	 }
 	 
 	 @When("Admin find a specific program from {string} and clicks <Delete> button on the data table for the specific row {int}")
-	 public void admin_find_a_specific_program_from_and_clicks_delete_button_on_the_data_table_for_the_specific_row(String string, Integer int1) throws InvalidFormatException, IOException {
+	 public void admin_find_a_specific_program_from_and_clicks_delete_button_on_the_data_table_for_the_specific_row(String string, Integer int1) throws InvalidFormatException, IOException, InterruptedException {
 		 Map<String, String> data = cUtils.getValidProgramDataFromExcel(string, int1);
 		 cUtils.actionsSendKeys(driver, mp.SearchTextBox,data.get("ProgramName"));
-		 //driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(5));
-		 cUtils.waitForElementToBeVisible(driver, mp.mpDataTable);
+		 //driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
+		 //cUtils.waitForElementToBeVisible(driver, mp.mpDataTable);
+		 Thread.sleep(2000);
 		 WebElement row = mp.getRow(driver, 1);
 		 WebElement column = mp.getCell(driver, row, 5);
-		 mp.progName = mp.getCell(driver, row, 2).getText().toString();
-		 mp.progDesc = mp.getCell(driver, row, 3).getText().toString();
-		 mp.status = mp.getCell(driver, row, 4).getText().toString();
+		 mp.progName = mp.getCell(driver, row, 2).getText();
+		 mp.progDesc = mp.getCell(driver, row, 3).getText();
+		 mp.status = mp.getCell(driver, row, 4).getText();
 		 System.out.println("PROGNAME"+mp.progName);
 		 WebElement deleteBtn = column.findElement(By.id("deleteProgram"));
 		 deleteBtn.click(); 
@@ -508,7 +510,7 @@ public class ManageProgramPage_SD {
 		 String ExpectedMessageText="Program Deleted";
 		 mp.VerifySucessfullPopUp(driver, cUtils, ExpectedMessageText);
 		 //driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
-		 cUtils.waitForElementToBeVisible(driver, mp.mpDataTable);
+		 cUtils.waitForElementToBeVisible(driver, mp.mpDataTableHeader);
 		 System.out.println("progName="+mp.progName);
 		 Assert.assertFalse(mp.checkForTheAddedProgram(driver, 
 				  cUtils,

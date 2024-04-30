@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>35/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>35/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 28 20:35:40 PDT 2024</td>
+<td>Started on:</td><td>Mon Apr 29 18:45:51 PDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103831 ms)</td>
+<tr><td>Total time:</td><td>132 seconds (132383 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,112 +76,68 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Add New Program Dummy"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.CharSequence.toString()&quot; because &quot;s&quot; is null
-	at java.base/java.lang.String.contains(String.java:2850)
-	at pageObjects.ManageProgramPage.checkForTheAddedProgram(ManageProgramPage.java:81)
-	at stepDefinitions.ManageProgramPage_SD.admin_gets_a_message_successful_program_deleted_alert_and_able_to_see_that_program_deleted_in_the_data_table(ManageProgramPage_SD.java:496)
-	at ✽.Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/AddProgramdummy.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace763597826", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace763597826'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.CharSequence.toString()&quot; because &quot;s&quot; is null
-	at java.base/java.lang.String.contains(String.java:2850)
-	at pageObjects.ManageProgramPage.checkForTheAddedProgram(ManageProgramPage.java:81)
-	at stepDefinitions.ManageProgramPage_SD.admin_gets_a_message_successful_program_deleted_alert_and_able_to_see_that_program_deleted_in_the_data_table(ManageProgramPage_SD.java:496)
-	at ✽.Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/AddProgramdummy.feature:13)
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Edit popup", "Edit Program Details"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (c74d490c938529777eb652f48d2c69d0)] -&gt; xpath: //p-dialog/div/div/div/span[contains(text(),&apos;Program Details&apos;)]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kundu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59184/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c74d490c938529777eb652f48d2c69d0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commonUtilities.CommonUtils.waitForElementToBeInVisible(CommonUtils.java:113)
+	at stepDefinitions.ManageProgramPage_SD.admin_can_see_the_program_details_popup_disappears_and_can_see_nothing_changed_for_particular_program(ManageProgramPage_SD.java:455)
+	at ✽.Admin can see the Program details popup disappears and can see nothing changed for particular program(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/004_EditProgramDetails.feature:45)
+</pre></div><a href='#' onClick='toggleBox("stack-trace846382515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace846382515'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for invisibility of [[ChromeDriver: chrome on windows (c74d490c938529777eb652f48d2c69d0)] -&gt; xpath: //p-dialog/div/div/div/span[contains(text(),&apos;Program Details&apos;)]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.63, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\kundu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59184/devtoo..., se:cdpVersion: 124.0.6367.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c74d490c938529777eb652f48d2c69d0
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commonUtilities.CommonUtils.waitForElementToBeInVisible(CommonUtils.java:113)
+	at stepDefinitions.ManageProgramPage_SD.admin_can_see_the_program_details_popup_disappears_and_can_see_nothing_changed_for_particular_program(ManageProgramPage_SD.java:455)
+	at ✽.Admin can see the Program details popup disappears and can see nothing changed for particular program(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/004_EditProgramDetails.feature:45)
 </pre></div></td>
-<td>2</td>
+<td>11</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Add New Program Dummy"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Admin clicks &lt;YES&gt; button on the alert&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@When(&quot;Admin clicks &lt;YES&gt; button on the alert&quot;)
-public void admin_clicks_yes_button_on_the_alert() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1935683208", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1935683208'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Admin clicks &lt;YES&gt; button on the alert&apos; is undefined.
-You can implement this step using the snippet(s) below:
-
-@When(&quot;Admin clicks &lt;YES&gt; button on the alert&quot;)
-public void admin_clicks_yes_button_on_the_alert() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
-	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete a specific Program", "Add New Program Dummy"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.findElements(org.openqa.selenium.By)&quot; because &quot;row&quot; is null
+	at pageObjects.ManageProgramPage.getCell(ManageProgramPage.java:127)
+	at stepDefinitions.ManageProgramPage_SD.admin_find_a_specific_program_from_and_clicks_delete_button_on_the_data_table_for_the_specific_row(ManageProgramPage_SD.java:499)
+	at ✽.Admin find a specific program from &quot;sheet1&quot; and clicks &lt;Delete&gt; button on the data table for the specific row 0(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/005_DeleteProgram.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1169905762", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1169905762'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.findElements(org.openqa.selenium.By)&quot; because &quot;row&quot; is null
+	at pageObjects.ManageProgramPage.getCell(ManageProgramPage.java:127)
+	at stepDefinitions.ManageProgramPage_SD.admin_find_a_specific_program_from_and_clicks_delete_button_on_the_data_table_for_the_specific_row(ManageProgramPage_SD.java:499)
+	at ✽.Admin find a specific program from &quot;sheet1&quot; and clicks &lt;Delete&gt; button on the data table for the specific row 0(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/005_DeleteProgram.feature:22)
 </pre></div></td>
-<td>1</td>
+<td>18</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Save button on Program Details form", "Add New Program Form Validation"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ManageProgramPage.VerifySucessfullPopUp(ManageProgramPage.java:144)
+	at stepDefinitions.ManageProgramPage_SD.admin_gets_a_message_successful_program_created_alert_and_able_to_see_the_new_program_added_in_the_data_table_for_and(ManageProgramPage_SD.java:341)
+	at ✽.Admin gets a message Successful Program Created alert and able to see the new program added in the data table for &quot;sheet1&quot; and 0(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/003_AddNewProgramForm.feature:62)
+</pre></div><a href='#' onClick='toggleBox("stack-trace218002096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace218002096'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ManageProgramPage.VerifySucessfullPopUp(ManageProgramPage.java:144)
+	at stepDefinitions.ManageProgramPage_SD.admin_gets_a_message_successful_program_created_alert_and_able_to_see_the_new_program_added_in_the_data_table_for_and(ManageProgramPage_SD.java:341)
+	at ✽.Admin gets a message Successful Program Created alert and able to see the new program added in the data table for &quot;sheet1&quot; and 0(file:///C:/Users/kundu/git/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/003_AddNewProgramForm.feature:62)
+</pre></div></td>
+<td>3</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -193,7 +149,47 @@ public void admin_clicks_yes_button_on_the_alert() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Program Details form", "Add New Program Form Validation"</td>
+<td></td>
+<td>17</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Add New Program Form Validation"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate radio button for Program Status", "Add a Program"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Name", "Add New Program Form Validation"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the text and pagination icon below the data table", "Manage Program Validation"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Program description", "Edit Program Details"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Edit Program Details"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Sort arrow icon on the data table", "Manage Program Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete Program", "Add New Program Dummy"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
@@ -203,12 +199,32 @@ public void admin_clicks_yes_button_on_the_alert() {
 <td>0</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the heading", "Manage Program Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Add New Program Dummy"</td>
+<td></td>
+<td>18</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario", "Title of your feature"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Select Status only", "Add New Program Form Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the footer", "Manage Program Validation"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change Program Status", "Edit Program Details"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Program Details Popup window", "Add a Program"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Description", "Add New Program Form Validation"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
@@ -218,9 +234,24 @@ public void admin_clicks_yes_button_on_the_alert() {
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Program Details form", "Add New Program Form Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify data table on the Program page", "Manage Program Validation"</td>
 <td></td>
-<td>17</td>
+<td>0</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Search bar on the Program page", "Manage Program Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Check box on the data table", "Manage Program Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Add New Program", "Manage Program Validation"</td>
+<td></td>
+<td>0</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Program Name", "Edit Program Details"</td>
@@ -228,57 +259,12 @@ public void admin_clicks_yes_button_on_the_alert() {
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfull login with valid credentials", "Admin login to the application with valid data"</td>
-<td></td>
-<td>4</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify data table on the Program page", "Manage Program Validation"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Sort arrow icon on the data table", "Manage Program Validation"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Name", "Add New Program Form Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Edit Program Details"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate landing in Program Page", "Manage Program Validation"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the text and pagination icon below the data table", "Manage Program Validation"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Name", "Add New Program Form Validation"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Add New Program Form Validation"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Empty form submission", "Add New Program Form Validation"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Save button on Program Details form", "Add New Program Form Validation"</td>
-<td></td>
-<td>3</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Description", "Add New Program Form Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Select Status only", "Add New Program Form Validation"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
@@ -293,62 +279,12 @@ public void admin_clicks_yes_button_on_the_alert() {
 <td>0</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change Program Status", "Edit Program Details"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel or Close icon on Program Details form", "Add New Program Form Validation"</td>
-<td></td>
-<td>17</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on Edit popup", "Edit Program Details"</td>
-<td></td>
-<td>16</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Add New Program", "Manage Program Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the heading", "Manage Program Validation"</td>
 <td></td>
 <td>0</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate input fields and their text boxes in Program details form", "Add a Program"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate radio button for Program Status", "Add a Program"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete Program", "Add New Program Dummy"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario", "Title of your feature"</td>
-<td></td>
-<td>0</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit Program description", "Edit Program Details"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Search bar on the Program page", "Manage Program Validation"</td>
-<td></td>
-<td>1</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Edit Program Details"</td>
-<td></td>
-<td>2</td>
-<td>runner.TestRunner@43ed0ff3</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Program Details Popup window", "Add a Program"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Empty form submission", "Add New Program Form Validation"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
@@ -358,14 +294,34 @@ public void admin_clicks_yes_button_on_the_alert() {
 <td>0</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid values on the text column", "Edit Program Details"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Name", "Add New Program Form Validation"</td>
 <td></td>
 <td>1</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Check box on the data table", "Manage Program Validation"</td>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Enter only Program Name", "Add New Program Form Validation"</td>
 <td></td>
 <td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate landing in Program Page", "Manage Program Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate input fields and their text boxes in Program details form", "Add a Program"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfull login with valid credentials", "Admin login to the application with valid data"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@43ed0ff3</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel or Close icon on Program Details form", "Add New Program Form Validation"</td>
+<td></td>
+<td>16</td>
 <td>runner.TestRunner@43ed0ff3</td></tr>
 </table><p>
 </body>
