@@ -38,6 +38,15 @@ public class ResourceBundleDataReader {
 			throw new RuntimeException("implicit Wait not specified in the file.");
 	}
 	
+	public String getManageBatchHeader() 
+	{
+		String BatchHeader = dataRead.getString("BatchHeader");
+		if (BatchHeader != null)
+			return BatchHeader;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+	
 	public String getUrl() 
 	{
 		String url = dataRead.getString("url");

@@ -36,13 +36,19 @@ public class CommonUtils {
 		excelPath = FileReaderManager.getInstance().getResourcebundleInstance().getExcelTestData();
 	}
 
-	public void getAssertionEqualsCheck(String actual, String expected) {
+	public boolean getAssertionEqualsCheck(String actual, String expected) {
+		boolean flag=false;
 		try {
 			Assert.assertTrue(actual.toLowerCase().contains(expected.toLowerCase()),
 					"Actual message does not contain expected message");
+			 flag=true;
 		} catch (Exception e) {
 			System.out.println("Assertion Error");
+			 flag=false;
 		}
+		
+		System.out.println(flag+ "   returning value in success msg");
+		return flag;
 	}
 
 	public boolean validateErrorMsg(String errorMsg, String expectedErrorMsg) {
@@ -59,40 +65,32 @@ public class CommonUtils {
 
 	public void checkExistanceofFieldType(String fieldName, String fieldType,
 			Map<String, WebElement> fieldNameLocators) {
-
 		String actualFieldType = " ";
-
 		for (Entry<String, WebElement> entry : fieldNameLocators.entrySet()) {
 			String fieldname = entry.getKey();
 			WebElement element = entry.getValue();
-			try {
+			try { 
+				
 				if (fieldName.equalsIgnoreCase(fieldname) && (element.isEnabled() || element.isDisplayed())) {
-					System.out.println(fieldName + "  " + fieldType);
-
+					
 					if (element.getTagName().equals("input") && element.getAttribute("type").equals("text")) {
-						actualFieldType = "textBox";
-						System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);
+						actualFieldType = "textBox";					
 					}
 
-					else if (element.getTagName().equals("input") && element.getAttribute("type").equals("radio")) {
+					else if (element.getTagName().equals("input") && element.getAttribute("type").equals("radio") && (element.isEnabled() || element.isDisplayed())) {
 						actualFieldType = "radioButton";
-
-						System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);
+						
 					} else if (element.getAttribute("class").contains("p-dropdown-label")
 							|| element.getAttribute("type").contains("text")
-							|| element.getAttribute("aria-haspopup").contains("listbox")) {
-						actualFieldType = "dropdown";
-						System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);
+							|| element.getAttribute("aria-haspopup").contains("listbox")&& (element.isEnabled() || element.isDisplayed())) {
+						actualFieldType = "dropdown";					
 					}
 
 					else if (element.getTagName().equals("input")
-							&& element.getAttribute("type").equalsIgnoreCase("number")) {
+							&& element.getAttribute("type").equalsIgnoreCase("number")&& (element.isEnabled() || element.isDisplayed())&&element.getAttribute("type").equals("text")) {
 						actualFieldType = "textBox";
-
-						System.out.println(fieldname + "  " + fieldType + "  " + actualFieldType);
 					}
-
-					assertEquals(fieldType.toLowerCase(), actualFieldType.toLowerCase(),
+					assertEquals(actualFieldType.toLowerCase(),fieldType.toLowerCase(),
 							"Field type mismatch for field: " + fieldname);
 				}
 			} catch (Exception e) {
@@ -102,9 +100,9 @@ public class CommonUtils {
 
 	}
 
-	public void enterDetails(String batchName, String description, String noOfClasses) {
-
-	}
+//	public void enterDetails(String batchName, String description, String noOfClasses) {
+//
+//	}
 
 	public List<Map<String, String>> getValidDataFromExcel(String sheetName, Integer rowNo)
 			throws InvalidFormatException, IOException {
@@ -125,4 +123,19 @@ public class CommonUtils {
 		return colHeader;
 	}
 
-}
+	public void updateInvalidValuesCheck(WebElement field, WebElement errorMsg, String expectedErrorMsg,
+			WebElement saveBtn, String nameTesxtField, boolean flag) {
+		System.out.println("field :" +field);
+	if(field.isDisplayed() && field.isEnabled())
+		{
+		field.clear();
+		field.sendKeys(nameTesxtField);
+		
+		saveBtn.click();
+		flag = validateErrorMsg(errorMsg.getText(), expectedErrorMsg);
+		}
+	}
+	
+	}
+
+
