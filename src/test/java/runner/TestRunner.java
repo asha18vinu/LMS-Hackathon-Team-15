@@ -26,12 +26,12 @@ import managers.DriverManager;
 					)
 
 	public  class TestRunner extends AbstractTestNGCucumberTests{
-//		TestContext context;
-//		WebDriver driver;
-//		public TestRunner(TestContext context) {
-//			this.context=context;
-//			driver=context.getWebDriverManager().getDriver();
-//		}
+		TestContext context;
+		WebDriver driver;
+		public TestRunner(TestContext context) {
+			this.context=context;
+			driver=context.getWebDriverManager().getDriver();
+		}
 //		@Override
 //		@DataProvider(parallel=false)
 //		public Object[][] scenarios(){
@@ -39,22 +39,22 @@ import managers.DriverManager;
 //			return super.scenarios();
 //		}
 //		
-//		public  static ThreadLocal<String> BROWSER = new ThreadLocal<>();
-//		@BeforeTest
-//		@Parameters({"browser"})
-//		public void browserType(@Optional("chrome") String browser) throws Throwable
-//		{  
-//			System.out.println("BROWSER RUNNING : "+browser);
-//			TestRunner.BROWSER.set(browser);			
-//			
-//	    }
-//		@AfterSuite
-//		public void tearDown()
-//		{
-//			driver.quit();
-//			System.out.println("Shutting down"); 
-//			
-//		}
+		public  static ThreadLocal<String> BROWSER = new ThreadLocal<>();
+		@BeforeTest
+		@Parameters({"browser"})
+		public void browserType(@Optional("chrome") String browser) throws Throwable
+		{  
+			System.out.println("BROWSER RUNNING : "+browser);
+			TestRunner.BROWSER.set(browser);			
+			
+	    }
+		@AfterSuite
+		public void tearDown()
+		{
+			driver.quit();
+			System.out.println("Shutting down"); 
+			
+		}
 }
 
 
