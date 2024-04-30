@@ -25,4 +25,4 @@ Feature: Add New Program Dummy
 
     Examples: 
       | sheet  | row |
-      | sheet1 |   0 |
+      | ProgramName |   0 |

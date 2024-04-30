@@ -13,7 +13,7 @@ Feature: Edit Program Details
 
     Examples: 
       | sheet  | row | field |
-      | sheet1 |   0 | name  |
+      | ProgramPage |   0 | name  |
 
   @tag2
   Scenario Outline: Edit Program description
@@ -22,7 +22,7 @@ Feature: Edit Program Details
 
     Examples: 
       | sheet  | row | field       |
-      | sheet1 |   0 | description |
+      | ProgramPage |   0 | description |
 
   @tag3
   Scenario Outline: Validate invalid values on the text column
