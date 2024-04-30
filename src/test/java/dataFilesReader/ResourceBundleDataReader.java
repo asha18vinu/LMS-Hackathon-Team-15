@@ -16,7 +16,7 @@ public class ResourceBundleDataReader {
 		// BrowserType
 		// browser1=FileReaderManager.getInstance().getResourcebundleInstance().getBrowserType();
 		// BrowserType browserType = BrowserType.valueOf((browser.toUpperCase()));
-		String browserName = dataRead.getString("browser");
+		//String browserName = dataRead.getString("browser");
 		System.out.println(browserName);
 		if (browserName == null || browserName.equalsIgnoreCase("chrome"))
 			return BrowserType.CHROME;
@@ -59,6 +59,33 @@ public class ResourceBundleDataReader {
 		String excelTestData = dataRead.getString("excelTestData");
 		if (excelTestData != null)
 			return excelTestData;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+
+	public String getBatchUrl() 
+	{
+		String batchpageUrl = dataRead.getString("batchpageUrl");
+		if (batchpageUrl != null)
+			return batchpageUrl;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+	
+	public String getBatchPopboxHeader() 
+	{
+		String batchPopUpBoxHeader = dataRead.getString("batchPopUpBoxHeader");
+		if (batchPopUpBoxHeader != null)
+			return batchPopUpBoxHeader;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+
+	public String getManageBatchHeader() 
+	{
+		String BatchHeader = dataRead.getString("BatchHeader");
+		if (BatchHeader != null)
+			return BatchHeader;
 		else
 			throw new RuntimeException("implicit Wait not specified in the file.");
 	}
