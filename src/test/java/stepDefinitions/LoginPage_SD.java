@@ -51,8 +51,8 @@ public class LoginPage_SD  {
 	}
 
 	@Given("Admin Logout of the application")
-	public void admin_Logout_of_the_application() 
-	{
+	
+	
 	
 	}
 
