@@ -25,20 +25,17 @@ import managers.DriverManager;
 					"timeline:test-output-thread/"}
 					)
 
-	public  class TestRunner extends AbstractTestNGCucumberTests{
-		TestContext context;
-		WebDriver driver;
-		public TestRunner(TestContext context) {
-			this.context=context;
-			driver=context.getWebDriverManager().getDriver();
-		}
-//		@Override
-//		@DataProvider(parallel=false)
-//		public Object[][] scenarios(){
-// 			
-//			return super.scenarios();
-//		}
-//		
+	
+	public  class TestRunner  extends AbstractTestNGCucumberTests{
+		
+		@Override
+	    @DataProvider(parallel = false)
+	    public Object[][] scenarios() {
+					
+			return super.scenarios();
+	    }
+	
+		
 		public  static ThreadLocal<String> BROWSER = new ThreadLocal<>();
 		@BeforeTest
 		@Parameters({"browser"})
@@ -48,11 +45,14 @@ import managers.DriverManager;
 			TestRunner.BROWSER.set(browser);			
 			
 	    }
-		@AfterSuite
-		public void tearDown()
-		{
-			driver.quit();
-			System.out.println("Shutting down"); 
+//		@AfterSuite
+//		public void tearDown()
+//		{
+//			driver.quit();
+//			System.out.println("Shutting down"); 
+//			
+//		}
+}
 			
 		}
 }
