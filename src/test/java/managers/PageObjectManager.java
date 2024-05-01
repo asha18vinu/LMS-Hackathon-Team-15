@@ -3,6 +3,10 @@ package managers;
 import org.openqa.selenium.WebDriver;
 import pageObjects.*;
 import tech.grasshopper.pdf.section.dashboard.Dashboard;
+import commonUtilities.Pagination;
+import pageObjects.HomePage;
+import pageObjects.LoginPage;
+import pageObjects.ManageProgrampage;
 
 public class PageObjectManager {
 
@@ -13,6 +17,9 @@ public class PageObjectManager {
 	private UserPage_VerifySort userVerifySort;
 	private UserPage_Edit userPage_Edit;
 	private ManageProgramPage mp;
+	private ManageProgrampage  manageProgramPage;
+	private UserSortingPage userSortingPage;
+	private Pagination pagination;
 
 	public WebDriver getDriver() {
 		return driver;
@@ -45,5 +52,23 @@ public class PageObjectManager {
                 return (mp == null) ? mp = new ManageProgramPage(driver) : mp;
 
         }
+	public ManageProgrampage getManageProgramPage()
+	{ 
+		return (manageProgramPage == null) ? 
+				manageProgramPage = new ManageProgrampage(driver) : 
+					manageProgramPage; 
+	}
 
+	
+	public UserSortingPage getUserSortingPage() {
+		return (userSortingPage == null) ?
+				userSortingPage = new UserSortingPage(driver):
+						userSortingPage;
+		
+	}
+	
+	public Pagination getPagination() {
+		return (pagination == null) ? pagination = new Pagination(driver) :
+			pagination;
+	}
 }
