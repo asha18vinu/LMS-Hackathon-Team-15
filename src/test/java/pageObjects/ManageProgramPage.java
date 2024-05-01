@@ -60,6 +60,7 @@ public class ManageProgramPage {
     @FindBy(xpath= "//div[@class='p-dialog-content ng-tns-c133-4']/span") public WebElement deleteValidationMsg;
     @FindBy(xpath= "//div[@class='p-datatable-footer ng-star-inserted']/div") public WebElement totalProgram;
     @FindBy(xpath= "//p-confirmdialog/div") public WebElement deleteConfirmAlert;
+    @FindBy(xpath="//p-confirmdialog/div/div/div[1]/div/button") public WebElement deleteConfirmCloseBtn;
     
     //Feature: Edit a Program
   

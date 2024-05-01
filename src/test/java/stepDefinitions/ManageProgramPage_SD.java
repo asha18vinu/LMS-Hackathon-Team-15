@@ -519,9 +519,42 @@ public class ManageProgramPage_SD {
 				  mp.status));
 	 }
 
-	 
-	 
- 
+	 @When("Admin clicks <NO> button on the alert")
+         public void admin_clicks_no_button_on_the_alert() {
+                 cUtils.waitForElementToBeVisible(driver,mp.NoBtn);
+                 cUtils.actionsClick(mp.NoBtn, driver);
+                 driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(5));
+         }
+
+         @Then("Admin can see the deletion alert disappears without deleting")
+         public void admin_can_see_the_deletion_alert_disappears_without_deleting() {
+                 try {
+                                cUtils.waitForElementToBeInVisible(driver,mp.deleteConfirmAlert);
+                                Assert.assertTrue(mp.checkForTheAddedProgram(driver,
+                                                  cUtils,
+                                                  mp.progName,
+                                                  mp.progDesc,
+                                                  mp.status));
+                         } catch (org.openqa.selenium.NoSuchElementException e) {
+                                Assert.assertFalse(true);
+                         }
+         }
+
+         @When("Admin clicks Close icon on Confirm Deletion alert  on the alert")
+         public void admin_clicks_close_icon_on_confirm_deletion_alert_on_the_alert() {
+                 cUtils.waitForElementToBeVisible(driver,mp.deleteConfirmCloseBtn);
+                 cUtils.actionsClick(mp.deleteConfirmCloseBtn, driver);
+                 driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(5));
+         }
+
+         @Then("Admin can see the deletion alert disappears without any changes")
+         public void admin_can_see_the_deletion_alert_disappears_without_any_changes() {
+                try {
+                                cUtils.waitForElementToBeInVisible(driver,mp.deleteConfirmAlert);
+                        } catch (org.openqa.selenium.NoSuchElementException e) {
+                                Assert.assertFalse(true);
+                        }
+         }
 }
 
 
