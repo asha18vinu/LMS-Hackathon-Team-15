@@ -2,11 +2,9 @@ runner\TestRunnerRetry.class
 stepDefinitions\BatchPagevalidation_SD.class
 managers\DriverManager$1.class
 browserManager\BrowserManager.class
-pageObjects\HomePage.class
 managers\FileReaderManager.class
 dataFilesReader\ConfigFileSetup.class
 managers\DriverManager.class
-stepDefinitions\LoginPage_SD.class
 runner\TestRunnerReRun.class
 browserManager\ChromeManager.class
 stepDefinitions\AddNewBatch_SD.class

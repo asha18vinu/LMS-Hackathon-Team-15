@@ -66,7 +66,7 @@ public class DeleteBatch_SD {
 	}
 
 	@Then("Batch is still listed in data table")
-	public void batch_is_still_listed_in_data_table() {
+	public void batch_is_still_listed_in_data_table() throws InterruptedException {
 		batchPage.checkfordeletedBatch();
 	}
 

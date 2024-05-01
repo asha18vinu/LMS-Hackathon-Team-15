@@ -14,6 +14,7 @@ Background:
   Given The delete icon on row level in data table is enabled
   When Admin clicks the delete icon
   Then Alert appears with yes and No option
+  
   @delete
   Scenario: Validate reject alert
   Given Admin clicks the delete icon

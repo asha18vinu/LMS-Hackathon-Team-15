@@ -1,5 +1,6 @@
 package runner;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -12,35 +13,35 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
-@CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\", glue = { "hooks","stepDefinitions" }, monochrome = false //tags = "@edit"
+@CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\02_AddNewbatch.feature",
+		//"src\\test\\resources\\Features\\D_BatchModule\\02_AddNewBatch.feature",
+		//"src\\test\\resources\\Features\\D_BatchModule\\03_EditBatch.feature"},
+		 glue = { "hooks","stepDefinitions" }, monochrome = false ,tags="@Add"
 //			plugin = {"pretty",
 //				
 //					"timeline:test-output-thread/"
 )
 
-public class TestRunner extends AbstractTestNGCucumberTests { 
-//		TestContext context;
-//		WebDriver driver;
-//		public TestRunner(TestContext context) {
-//			this.context=context;jvrmgjtrj y5u y
-//			driver=context.getWebDriverManager().getDriver();
-//		} 
-//		@Override   
-//		@DataProvider(parallel=false)
-//		public Object[][] scenarios(){
-// 			
-//			return super.scenarios();
-//		}
-//		
-//		public  static ThreadLocal<String> BROWSER = new ThreadLocal<>();
-//		@BeforeTest
-//		@Parameters({"browser"})
-//		public void browserType(@Optional("chrome") String browser) throws Throwable
-//		{  
-//			System.out.println("BROWSER RUNNING : "+browser);
-//			TestRunner.BROWSER.set(browser);			
-//			
-//	    }
+ 
+public  class TestRunner  extends AbstractTestNGCucumberTests{
+		
+		@Override
+	    @DataProvider(parallel = false)
+	    public Object[][] scenarios() {
+					
+			return super.scenarios();
+	    }
+	
+		
+		public  static ThreadLocal<String> BROWSER = new ThreadLocal<>();
+		@BeforeTest
+		@Parameters({"browser"})
+		public void browserType(@Optional("chrome") String browser) throws Throwable
+		{  
+			System.out.println("BROWSER RUNNING : "+browser);
+			TestRunner.BROWSER.set(browser);			
+			
+	    }
 //		@AfterSuite
 //		public void tearDown()
 //		{
@@ -49,4 +50,5 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //			
 //		}
 }
+
 

@@ -48,7 +48,7 @@ public final class DriverManager {
 	}
 
 	public void closeBrowser() {
-		System.out.println("I.m closing the driver");
+		
 		driver.get().quit();
 		driver.remove();
 	}

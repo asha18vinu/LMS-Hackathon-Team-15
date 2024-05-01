@@ -10,12 +10,17 @@ public class ResourceBundleDataReader {
 	ResourceBundle dataRead=ResourceBundle.getBundle("configTestData/configTestData");
 	
 	public BrowserType getBrowserType() {
-		//String browserName = TestRunner.BROWSER.get();		******Browser value from testng.xml to testrunner to here. uncomment this if you want to execute from testngcb.xml
+		
+	//	***************These are the code used to Run from different browser**************//
+		String browserName = TestRunner.BROWSER.get();		//******Browser value from testng.xml to testrunner to here. uncomment this if you want to execute from testngcb.xml
 		// BrowserType
 		// browser1=FileReaderManager.getInstance().getResourcebundleInstance().getBrowserType();
 		// BrowserType browserType = BrowserType.valueOf((browser.toUpperCase()));
-		String browserName = dataRead.getString("browser");
-		System.out.println(browserName);
+		
+		
+	//****************************************************************************************//
+		//String browserName = dataRead.getString("browser");
+		//System.out.println(browserName);
 		if (browserName == null || browserName.equalsIgnoreCase("chrome"))
 			return BrowserType.CHROME;
 
@@ -84,11 +89,29 @@ public class ResourceBundleDataReader {
 	
 	public String getExcelTestData() 
 	{
-		String excelTestData = dataRead.getString("excelTestData");
-		if (excelTestData != null)
-			return excelTestData;
+		String BatchModuleexcelTestData = dataRead.getString("BatchModuleexcelTestData");
+		if (BatchModuleexcelTestData != null)
+			return BatchModuleexcelTestData;
 		else
 			throw new RuntimeException("implicit Wait not specified in the file.");
 	}
 
+	
+	public String getUserName() 
+	{
+		String userName = dataRead.getString("userName");
+		if (userName != null)
+			return userName;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+	public String getPassword() 
+	{
+		String password = dataRead.getString("password");
+		if (password != null)
+			return password;
+		else
+			throw new RuntimeException("implicit Wait not specified in the file.");
+	}
+	
 }

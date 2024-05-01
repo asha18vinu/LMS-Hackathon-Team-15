@@ -38,4 +38,3 @@ public ResourceBundleDataReader getResourcebundleInstance()
 }
 
 
-//FileReaderManager.getInstance().getResourcebundleInstance().;

@@ -15,9 +15,9 @@ Background:
     Then A new pop up with Batch details appears
   
 
- @edit
+ @edit1
   Scenario Outline: Check if the fields are updated
-    Given Admin clicks the edit icon
+    Given Admin clicks the edit icon to edit
     When Update the fields with valid values and click save "<sheetname>" and <rowno>
     Then The updated batch details should appear on the data table
     Examples:
@@ -48,6 +48,11 @@ Background:
     Given Admin clicks the edit icon
     When Erase data from description field
     Then The updated batch details should appear on the data table
+    
+ Scenario Outline: Check if you if the mandatory fields are enabled
+    Given Admin clicks the edit icon
+    When check mandatory fields are enabled
+    Then all mandatory fields should be enabled
 
 
 

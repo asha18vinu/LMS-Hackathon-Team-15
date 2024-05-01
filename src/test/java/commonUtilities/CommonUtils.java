@@ -13,6 +13,7 @@ import java.util.Map.Entry;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -69,7 +70,7 @@ public class CommonUtils {
 		for (Entry<String, WebElement> entry : fieldNameLocators.entrySet()) {
 			String fieldname = entry.getKey();
 			WebElement element = entry.getValue();
-			try { 
+			try { //Checks each fieldType attribut to ocnfirm its fieldtype
 				
 				if (fieldName.equalsIgnoreCase(fieldname) && (element.isEnabled() || element.isDisplayed())) {
 					
@@ -100,9 +101,6 @@ public class CommonUtils {
 
 	}
 
-//	public void enterDetails(String batchName, String description, String noOfClasses) {
-//
-//	}
 
 	public List<Map<String, String>> getValidDataFromExcel(String sheetName, Integer rowNo)
 			throws InvalidFormatException, IOException {
@@ -135,6 +133,9 @@ public class CommonUtils {
 		flag = validateErrorMsg(errorMsg.getText(), expectedErrorMsg);
 		}
 	}
+	public static void scrollToElement(WebDriver driver, WebElement element) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+    }
 	
 	}
 

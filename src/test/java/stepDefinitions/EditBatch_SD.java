@@ -24,7 +24,8 @@ public class EditBatch_SD {
 	BatchPage batchPage;
 	WebDriver driver;
 	String actualerrorMsg;
-	boolean flag;
+	static boolean flag;
+	static String batchNametoEdit;
 	private static final Logger logger = LogManager.getLogger(Hooks.class);
 	
 
@@ -39,20 +40,29 @@ public class EditBatch_SD {
 	}
 
 	@When("Admin clicks the edit icon")
-	public void admin_clicks_the_edit_icon() {
+	public void admin_clicks_the_edit_icon() throws InterruptedException {		
+	   batchPage.clicksTheEditIcon();
+	}
+	
+	@When("Admin clicks the edit icon to edit")
+	public void admin_clicks_the_edit_icon_to_edit() throws InterruptedException {
+		batchNametoEdit=batchPage.checkForCreatedBranchToEdit();
 	   batchPage.clicksTheEditIcon();
 	}
 
 	@When("Update the fields with valid values and click save {string} and {int}")
-	public void update_the_fields_with_valid_values_and_click_save(String sheetName,Integer rowno) throws InvalidFormatException, IOException {
-	   batchPage.updateBatchDetails(sheetName,rowno);
+	public void update_the_fields_with_valid_values_and_click_save(String sheetName,Integer rowno) throws InvalidFormatException, IOException  {
+	   flag=batchPage.updateBatchDetails(sheetName,rowno,batchNametoEdit);
 	}
 
 	@Then("The updated batch details should appear on the data table")
-	public void the_updated_batch_details_should_appear_on_the_data_table() {
-	   if(flag==true)
-		batchPage.checkForTheAddedBatch();
-	   else logger.info("Batch Is not added after erasing decriptional field");
+	public void the_updated_batch_details_should_appear_on_the_data_table() throws InterruptedException {
+//	   if(flag==true)
+//	   {
+//		      //batchPage.checkForTheAddedBatch();
+//	   }
+//	   else 
+//		   logger.info("Batch Is not added after erasing decriptional field");
 	   
 	   Assert.assertTrue(flag);
 	}

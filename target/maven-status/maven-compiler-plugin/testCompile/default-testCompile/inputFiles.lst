@@ -16,7 +16,6 @@ C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\dataFilesReader\ResourceBundleDataReader.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\browserManager\ChromeManager.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\commonUtilities\CommonUtils.java
-C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\pageObjects\HomePage.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\dataFilesReader\ConfigFileSetup.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\runner\TestRunnerReRun.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\commonUtilities\Pagination.java
@@ -25,4 +24,3 @@ C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\browserTypeEnum\BrowserType.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\commonUtilities\LoggerLoad.java
 C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\runner\TestRunnerJunit.java
-C:\Users\subas\EclipseLMSPractice\Team15_SeleniumTribe_LMSUIHackathon_Apr24\src\test\java\stepDefinitions\LoginPage_SD.java
