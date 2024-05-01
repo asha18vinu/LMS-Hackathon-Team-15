@@ -10,11 +10,11 @@ public class ResourceBundleDataReader {
 	ResourceBundle dataRead=ResourceBundle.getBundle("configTestData/configTestData");
 	
 	public BrowserType getBrowserType() {
-		//String browserName = TestRunner.BROWSER.get();		******Browser value from testng.xml to testrunner to here. uncomment this if you want to execute from testngcb.xml
+		String browserName = TestRunner.BROWSER.get();		******Browser value from testng.xml to testrunner to here. uncomment this if you want to execute from testngcb.xml
 		// BrowserType
 		// browser1=FileReaderManager.getInstance().getResourcebundleInstance().getBrowserType();
 		// BrowserType browserType = BrowserType.valueOf((browser.toUpperCase()));
-		String browserName = dataRead.getString("browser");
+		//String browserName = dataRead.getString("browser");
 		System.out.println(browserName);
 		if (browserName == null || browserName.equalsIgnoreCase("chrome"))
 			return BrowserType.CHROME;
