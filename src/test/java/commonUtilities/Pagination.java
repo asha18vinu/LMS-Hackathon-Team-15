@@ -47,15 +47,26 @@ public class Pagination {
 		WebElement initialPage;
 		
 		String totalRecords;
-		
+		int recordCount;
 		//String currentPage;
 		
 		//Total Records
-		public String extractTotalUserFromFooter()
-		{
-			totalRecords = (pageFooter.getText()).replaceAll("[^0-9]","");
-			return totalRecords;
-		}
+	public int extractTotalUserFromFooter()
+	{
+		totalRecords = pageFooter.getText();
+        Pattern pattern = Pattern.compile("\\d+");
+        Matcher matcher = pattern.matcher(totalRecords);
+        
+        if (matcher.find()) 
+        {            
+            String numberString = matcher.group();            
+            recordCount = Integer.parseInt(numberString);
+        }   
+        
+		System.out.println(pageFooter.getText());
+		System.out.println("Total Records in Table - "+ recordCount);
+		return recordCount;
+	}
 		public String extractTotalProgramFromFooter()
 		{
 			totalRecords = (pageFooter.getText()).replaceAll("[^0-9]","");
@@ -123,51 +134,55 @@ public class Pagination {
 		//Current Page Number
 		public int getSelectedPageNumber() 
 		{
-			int currentPage;
+			WebElement paginationContainer = driver.findElement(By.xpath("//span[@class='p-paginator-pages ng-star-inserted']"));
 
-		    for (int i = 0; i < paginationNumbers.size(); i++) {
-		        WebElement page = paginationNumbers.get(i);
-		        
-		        // Check if the button has the "p-highlight" class
-		        if (page.getAttribute("class").contains("p-highlight"))
-		        {
-		            String pageNumberString = page.getText().trim();
-		            currentPage = Integer.parseInt(pageNumberString);
-		            System.out.println("Current Page - "+currentPage);
-		            return currentPage;
-		        }
-		    }
-		    
-		    return -1;
+        List<WebElement> paginationButtons = paginationContainer.findElements(By.tagName("button"));
+
+       for (WebElement button : paginationButtons) 
+       {
+            // Check if the button has the "p-highlight" class
+            if (button.getAttribute("class").contains("p-highlight")) 
+            {              
+                int highlightedButtonText = Integer.parseInt(button.getText());
+                System.out.println("Highlighted Button Text: " + highlightedButtonText);
+                return highlightedButtonText;
+                
+            }
+        }
+		return -1;
 
 		}
 
 		//Pagination Footer 
 		public boolean verifyFooterText(String moduleName)
 		{
-			String actualFooterText = pageFooter.getText();
-			String expectedFooterText = "In total there are "+totalRecords+" "+moduleName+ " ";
-			
-			if(actualFooterText.equals(expectedFooterText))
-				return true;
-			else
-				return false;
+			int records = extractTotalUserFromFooter();
+		String actualFooterText = pageFooter.getText();
+		String expectedFooterText = "In total there are "+records+" "+moduleName+ ".";
+		System.out.println("Actual Text:  "+actualFooterText+ " Expected Text:  "+expectedFooterText);
+		
+		if(actualFooterText.equals(expectedFooterText))
+			return true;
+		else
+			return false;
 		}
 		
 		//Pagination Text 
 		public boolean verifyPaginationText()
 		{
 			String actualPaginationText = paginationString.getText();
-			int selectedPageNumber = getSelectedPageNumber();
-			int recordsPerPage = 5;
-			int startRecord = (selectedPageNumber - 1) * recordsPerPage + 1;
-			int endRecord = startRecord+recordsPerPage-1;
-			String expectedPaginationText = "Showing "+startRecord+" to " +endRecord+ " of "+totalRecords+ " entries";
-			
-			if(actualPaginationText.equals(expectedPaginationText))
-				return true;
-			else
-				return false;
+		Thread.sleep(1000);
+		int selectedPageNumber = getSelectedPageNumber();
+		int recordsPerPage = 5;
+		int startRecord = (selectedPageNumber - 1) * recordsPerPage + 1;
+		int endRecord = startRecord+recordsPerPage-1;
+		String expectedPaginationText = "Showing "+startRecord+" to " +endRecord+ " of "+recordCount+ " entries";
+		
+		System.out.println("Actual Pagination Text- "+actualPaginationText+" Expected Pagination Text - "+expectedPaginationText);
+		if(actualPaginationText.equals(expectedPaginationText))
+			return true;
+		else
+			return false;
 			
 		}
 
