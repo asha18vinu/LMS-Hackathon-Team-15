@@ -10,6 +10,9 @@ public class TestContext {
 	private DriverManager webDriverManager;
 	private PageObjectManager pageObjectManager;
 	private CommonUtils commonUtils;
+	private WebDriver driver;
+	
+	
 
 	public TestContext() {
 		webDriverManager = new DriverManager();
@@ -29,4 +32,6 @@ public class TestContext {
 
 		return commonUtils;
 	}
+
+	
 }

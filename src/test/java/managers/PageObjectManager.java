@@ -12,6 +12,7 @@ public class PageObjectManager {
 	private DashboardPage dashboardPage;
 	private UserPage_VerifySort userVerifySort;
 	private UserPage_Edit userPage_Edit;
+	private ManageProgramPage mp;
 
 	public WebDriver getDriver() {
 		return driver;
@@ -39,6 +40,10 @@ public class PageObjectManager {
 	public UserPage_Edit getUserPage_Edit() {
 		return (userPage_Edit == null ? userPage_Edit = new UserPage_Edit(driver) : userPage_Edit);
 	}
+	 public ManageProgramPage getMp()
+        {
+                return (mp == null) ? mp = new ManageProgramPage(driver) : mp;
 
+        }
 
 }
