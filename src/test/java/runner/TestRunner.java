@@ -1,17 +1,17 @@
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
+package runner;
+
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import context.TestContext;
+
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-import managers.DriverManager;
 
-@CucumberOptions(features = "src\\test\\resources\\Features\\",
+
+@CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\",
 	
 		 glue = { "hooks","stepDefinitions" }, monochrome = false 
 //				
@@ -46,5 +46,6 @@ public  class TestRunner  extends AbstractTestNGCucumberTests{
 //			
 //		}
 }
+
 
 
