@@ -10,14 +10,8 @@ public class TestContext {
 	private DriverManager webDriverManager;
 	private PageObjectManager pageObjectManager;
 	private CommonUtils commonUtils;
-	private BatchPage batchPage;
 	private WebDriver driver;
-	private LoginPage loginPage;
-	private HomePage homePage;
-	private DashboardPage dashboardPage;
-	private UserPage_VerifySort userVerifySort;
-	private UserPage_Edit userPage_Edit;
-	private ManageProgramPage mp;
+	
 	
 
 	public TestContext() {
@@ -39,8 +33,5 @@ public class TestContext {
 		return commonUtils;
 	}
 
-	public BatchPage getBatchPage()
-	{ 
-		return (batchPage == null) ? batchPage = new BatchPage(driver) : batchPage; 
-	}
+	
 }
