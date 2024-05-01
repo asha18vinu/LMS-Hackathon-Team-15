@@ -13,10 +13,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
-@CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\02_AddNewbatch.feature",
+@CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\",
 		//"src\\test\\resources\\Features\\D_BatchModule\\02_AddNewBatch.feature",
 		//"src\\test\\resources\\Features\\D_BatchModule\\03_EditBatch.feature"},
-		 glue = { "hooks","stepDefinitions" }, monochrome = false ,tags="@Add"
+		 glue = { "hooks","stepDefinitions" }, monochrome = false ,tags="@delete"
 //			plugin = {"pretty",
 //				
 //					"timeline:test-output-thread/"

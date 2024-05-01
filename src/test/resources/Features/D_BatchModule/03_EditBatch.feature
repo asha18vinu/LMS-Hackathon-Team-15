@@ -42,17 +42,20 @@ Background:
        Examples:
     |sheetname|rowno|
     |AddBatch |1    |
+    
+    @MandatoryfieldsEnabled
+   Scenario: Check if you if the mandatory fields are enabled
+    Given Admin clicks the edit icon
+    When check mandatory fields are enabled
+    Then all mandatory fields should be enabled
 
-@edit
+
   Scenario: Check if description field is optional in update
     Given Admin clicks the edit icon
     When Erase data from description field
     Then The updated batch details should appear on the data table
     
- Scenario Outline: Check if you if the mandatory fields are enabled
-    Given Admin clicks the edit icon
-    When check mandatory fields are enabled
-    Then all mandatory fields should be enabled
+ 
 
 
 

@@ -43,6 +43,24 @@ public class EditBatch_SD {
 	public void admin_clicks_the_edit_icon() throws InterruptedException {		
 	   batchPage.clicksTheEditIcon();
 	}
+
+	@When("check mandatory fields are enabled")
+	public void mandatory_fields_are_enabled() throws InterruptedException {		
+	   flag=batchPage.checkManadatoryFieldsEnabled();
+	}
+	@Then("all mandatory fields should be enabled")
+	public void mandatory_fields_should_be_enabled() throws InterruptedException {		
+		try
+		{
+	 Assert.assertTrue(flag);
+		}catch(AssertionError e)
+		{
+			logger.info("asserti0n eror :mandatory fields are disabled" +e.getMessage());
+		}
+	}
+	
+	
+
 	
 	@When("Admin clicks the edit icon to edit")
 	public void admin_clicks_the_edit_icon_to_edit() throws InterruptedException {

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-30T20:58:57 EDT" name="Default suite" finished-at="2024-04-30T20:59:11 EDT" duration-ms="14118">
+  <suite started-at="2024-05-01T12:53:43 EDT" name="Default suite" finished-at="2024-05-01T12:54:53 EDT" duration-ms="70297">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-04-30T20:58:57 EDT" name="Default test" finished-at="2024-04-30T20:59:11 EDT" duration-ms="14118">
+    <test started-at="2024-05-01T12:53:43 EDT" name="Default test" finished-at="2024-05-01T12:54:53 EDT" duration-ms="70297">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-04-30T20:58:57 EDT" name="browserType" finished-at="2024-04-30T20:58:57 EDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="browserType" finished-at="2024-05-01T12:53:43 EDT" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,18 +21,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserType -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-04-30T20:58:57 EDT" name="setUpClass" finished-at="2024-04-30T20:58:58 EDT" duration-ms="498" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="setUpClass" finished-at="2024-05-01T12:53:43 EDT" duration-ms="522" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11d1735e]]>
+                <![CDATA[org.testng.TestRunner@1ab502f6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-04-30T20:58:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-30T20:59:10 EDT" duration-ms="12060" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:53:54 EDT" duration-ms="10659" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,26 +45,42 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Actual message does not contain expected message expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Actual message does not contain expected message expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at commonUtilities.CommonUtils.getAssertionEqualsCheck(CommonUtils.java:43)
-at pageObjects.BatchPage.verifySuccessMessage(BatchPage.java:347)
-at stepDefinitions.AddNewBatch_SD.admin_should_see_the_successfull_message(AddNewBatch_SD.java:111)
-at ✽.Admin should see the Successfull message(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/02_AddNewbatch.feature:47)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-04-30T20:59:10 EDT" name="tearDownClass" finished-at="2024-04-30T20:59:11 EDT" duration-ms="1336" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:54:20 EDT" duration-ms="26012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate reject alert"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:54:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:54:52 EDT" duration-ms="31487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate accept alert"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:54:52 EDT" name="tearDownClass" finished-at="2024-05-01T12:54:53 EDT" duration-ms="1424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

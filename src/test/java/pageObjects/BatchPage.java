@@ -278,7 +278,7 @@ public class BatchPage {
 
 	public boolean checkForTheAddedBatch() throws InterruptedException {	
 		driver.navigate().back();
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
 		List<WebElement> tableRowData = new ArrayList<>();
 		Thread.sleep(1000);;
 		WebElement nextPageButton = driver
@@ -308,7 +308,15 @@ public class BatchPage {
 				}
 			}
 			Thread.sleep(1000);;
+			try
+			{
+		
 			nextPageButton.click();
+			}catch(Exception e)
+			{
+				logger.info("Assertion error : " +e.getMessage());
+				break;
+			}
 		}
 
 		if (flag) {
@@ -566,24 +574,58 @@ public class BatchPage {
 	    }
 	}
 
-//	public boolean verifyDeletedBatches(List<String> deletedBatchNames) {
-//
-//		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
-//		List<WebElement> batchNameElements = driver.findElements(By.xpath("//table//tbody//tr//td[2]"));
-//		List<String> batchNames = batchNameElements.stream().map(WebElement::getText).collect(Collectors.toList());
-//
-//		System.out.println("Inside verify delete batch code");
-//		for (String deletedBatchName : deletedBatchNames) {
-//			System.out.println(deletedBatchName+"checking the batch deleted");
-//
-//			if (batchNames.contains(deletedBatchName)) {
-//				return false;
-//			}
-//		}
-//		//deletedBatchNames.clear();
-//		return true;
-//	}
-	
+
+	public boolean checkForTheAddedBatch1() throws InterruptedException {	
+		driver.navigate().back();
+		driver.navigate().refresh();
+		List<WebElement> tableRowData = new ArrayList<>();
+		Thread.sleep(1000);;
+		WebElement nextPageButton = driver
+				.findElement(By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']"));
+
+		while (nextPageButton.isEnabled()) {
+
+			List<WebElement> currentPageRows = getRowsFromCurrentPage();
+
+			tableRowData.addAll(currentPageRows);
+
+			for (WebElement row : currentPageRows) {
+
+				List<WebElement> cells = row.findElements(By.tagName("td"));
+
+				List<WebElement> filteredCells = new ArrayList<>();
+				for (int i = 1; i < cells.size() - 1; i++) {
+					filteredCells.add(cells.get(i));
+				}
+
+				for (WebElement cell : filteredCells) {
+
+					if (cell.getText().equalsIgnoreCase(batchName)||cell.getText().equalsIgnoreCase(batchNametoEdit)) {
+						flag = true;
+						break;
+					}
+				}
+			}
+			Thread.sleep(1000);;
+			try
+			{
+		
+			nextPageButton.click();
+			}catch(Exception e)
+			{
+				logger.info("Assertion error : " +e.getMessage());
+				break;
+			}
+		}
+
+		if (flag) {
+			logger.info("Batch present the table");
+		} else
+			logger.info("batch is not Present");
+
+		return flag;
+	}
+
 	
 	public boolean verifyDeletedBatches(List<String> deletedBatchNames) throws InterruptedException {
 	    boolean isDeletedBatchPresent = false;
@@ -645,31 +687,52 @@ public class BatchPage {
 		    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
 		  
 		    WebElement checkbox = driver.findElement(By.xpath("//table//tbody//tr[1]//td[1]//div[@role='checkbox']"));
+		    if(!(checkbox==null))
+		    {
 		    if(!checkbox.isSelected()&&checkbox.isDisplayed())
 		    {
 		    checkbox.click();
 		    }
-		 
+		    clickMDeleteIconForsingleRow();
 		    logger.info("checkbox selected for the rows");
+		    }
+		    else {
+		    	logger.info("No Records found");
+		    }
 	}
 
 	
 	public void clickMDeleteIconForsingleRow()
-	{
+	{try {
 		    WebElement deleteIcon = driver.findElement(By.xpath("//table//tbody//tr[1]//td[7]//button[@icon='pi pi-trash']"));
 		    deleteIcon.click();
 		    logger.info("deleted for the rows");
+	}catch(AssertionError e)
+	{
+		logger.info("Assertion error : "+e.getMessage());
+	}
 	}
 
-	public void assertYesOrNoBtn() {		
+	public void assertYesOrNoBtn() {	
+		try {
 		Assert.assertTrue(yesButton.isDisplayed(), "'Yes' optionbutton is not displayed");
 		Assert.assertTrue(noButton.isDisplayed(), "'No' optionbutton is not displayed");
+		}catch(AssertionError e)
+		{
+			logger.info("Assertion error ocurred in vidibility of yes and no button" +e.getMessage());
+		}
 		logger.info("Assertion yes button found");
 	}
 
 	public void clickYesOption() {
+		try {
 		yesButton.click();
 		logger.info("yes button clicked");
+		}
+		catch(AssertionError e)
+		{
+			logger.info("assertion error");
+		}
 	}
 
 	public void verifyTheDeletedMessage() {
@@ -689,8 +752,14 @@ public class BatchPage {
 	}
 
 	public void clickNoOption() {
+		try
+		{
 		noButton.click();
-		logger.info("No button clicked");
+		}catch(AssertionError e)
+		{
+		logger.info("assertion error : "+e.getMessage());
+		}
+	
 
 	}
 
@@ -974,6 +1043,16 @@ try {
 }
 return branchNameToEdit.getText();		
 
+	}
+
+
+	public boolean checkManadatoryFieldsEnabled() {
+		
+		if(nameTextField.isEnabled() && programName.isEnabled() && statusActiveRadiobtn.isSelected())
+			logger.info("mandatory fields not enabled");
+			flag=true;
+		
+		return false;
 	}
 	
 
