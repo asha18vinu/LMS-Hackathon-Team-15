@@ -20,7 +20,26 @@ public class Pagination {
 		@FindBy(xpath = "//span[@class='p-paginator-icon pi pi-angle-right']") WebElement nextPageIcon;
 		@FindBy(xpath = "//span[@class='p-paginator-icon pi pi-angle-double-right']") WebElement lastPageIcon;
 		@FindBy(xpath = "//span[@class='p-paginator-icon pi pi-angle-double-left]") WebElement firstPageIcon;
+		@FindBy (xpath = "//button[@class = 'p-paginator-next p-paginator-element p-link p-ripple']")
+		WebElement nextIcon;
 		
+		@FindBy (xpath = "//button[@class = 'p-paginator-last p-paginator-element p-link p-ripple ng-star-inserted']")
+		WebElement lastIcon;
+		
+		@FindBy (xpath = "//button[@class = 'p-paginator-next p-paginator-element p-link p-ripple p-disabled']")
+		WebElement checkNextIcon;	
+		
+		@FindBy (xpath = "//button[@class = 'p-paginator-first p-paginator-element p-link p-ripple ng-star-inserted']")
+		WebElement firstpage;
+		
+		@FindBy (xpath = "//button[text()='4']")
+		WebElement fourthpage;
+		
+		@FindBy (xpath = "//button[text()='3']")
+		WebElement thirdPage;
+		
+		@FindBy (xpath = "//button[@class = 'p-paginator-first p-paginator-element p-link p-ripple ng-star-inserted']")
+		WebElement initialPage;
 		String totalRecords;
 		//String currentPage;
 		
@@ -30,7 +49,12 @@ public class Pagination {
 			totalRecords = (pageFooter.getText()).replaceAll("[^0-9]","");
 			return totalRecords;
 		}
-		
+
+		public String extractTotalProgramFromFooter()
+		{
+			totalRecords = (pageFooter.getText()).replaceAll("[^0-9]","");
+			return totalRecords;
+		}
 		public boolean isPrevPageIconDisplayed()
 		{
 			if(previousPageIcon.isDisplayed()) 
@@ -138,6 +162,62 @@ public class Pagination {
 			else
 				return false;
 			
+		}
+		public void clickPreviousPageIcon() {
+			previousPageIcon.click();
+		}
+		public boolean clickPage(WebElement element) {
+			try {
+		        
+		        wait.until(ExpectedConditions.elementToBeClickable(element));
+		        element.click();
+		        System.out.println("The element clicked successfully");
+		        
+		        return true;
+		    } catch(Exception e){
+		        return false;
+		    }
+			}
+		public boolean checkIsNextPageDisabled() {
+			if(checkNextIcon.isEnabled()) {
+				System.out.println("Next Page icon is enabled");
+				return false;
+			}
+			else {
+				System.out.println("Next Page icon is diabled");
+				return true;
+			}
+		}
+		
+		public WebElement getNextIcon() {
+			return nextIcon;
+		}
+		
+		public WebElement getfirstpage() {
+			return firstpage;
+		}
+		
+		public WebElement getFourthPage() {
+			return fourthpage;
+		}
+		
+		public WebElement getLastIcon() {
+			return lastIcon;
+		}
+		
+		public boolean isThirdPageDisplayed() {
+			if(thirdPage.isDisplayed()) {
+				System.out.println("Previous page is visible");
+				return true;
+			}
+			else {
+				System.out.println("Previous page is not displayed");
+				return false;
+			}
+		}
+		
+		public WebElement getInitialPage() {
+			return initialPage;
 		}
 
 	}
