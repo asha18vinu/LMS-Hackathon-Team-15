@@ -27,7 +27,7 @@ Given User login in and navigate to User Module
 		Scenario: Empty Form Submission
 		Given Admin is in Assign Student details pop up page
 		When Admin clicks Save button with entering any data
-		Then Admin gets a Error message alert
+		Then Admin gets a Error message alert on Assign student Page
 		
 		Scenario: Validate Cancel or Close icon on Assign Student form
 		Given Admin is in Assign Student details pop up page

@@ -31,19 +31,19 @@ public class DashboardPage_SD {
 		driver=testcontext.getWebDriverManager().getDriver(); 		
 	}
 	
+//	
+//	@Given("Admin is in Home Page")
+//	public void admin_is_in_home_page() {
+//		logger.info("Login Page: Admin is on the login page");
+//	}
 	
-	@Given("Admin is in Home Page")
-	public void admin_is_in_home_page() {
-		logger.info("Login Page: Admin is on the login page");
-	}
-	
-	@When("Admin enter valid credentials and clicks login button")
-	public void admin_enter_valid_credentials_and_clicks_login_button() {
-		driver.findElement(By.xpath("//input[@*='userLoginEmailId']")).sendKeys("sdetorganizers@gmail.com");
-		driver.findElement(By.xpath("//input[@*='Password']")).sendKeys("UIHackathon@02");
-		driver.findElement(By.xpath("//button[@*='submit']")).click();
-		pageLoadStartTime = System.currentTimeMillis();
-	}
+//	@When("Admin enter valid credentials and clicks login button")
+//	public void admin_enter_valid_credentials_and_clicks_login_button() {
+//		driver.findElement(By.xpath("//input[@*='userLoginEmailId']")).sendKeys("sdetorganizers@gmail.com");
+//		driver.findElement(By.xpath("//input[@*='Password']")).sendKeys("UIHackathon@02");
+//		driver.findElement(By.xpath("//button[@*='submit']")).click();
+//		pageLoadStartTime = System.currentTimeMillis();
+//	}
 	
 	@When("Admin enter invalid credentials  and clicks login button")
 	public void admin_enter_invalid_credentials_and_clicks_login_button() {

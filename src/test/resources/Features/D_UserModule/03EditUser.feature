@@ -1,4 +1,4 @@
-Feature: Sort User Feature
+Feature: Edit User Feature
 
   Background: 
     Given Admin is on dashboard page after Login and clicks User on the navigation bar

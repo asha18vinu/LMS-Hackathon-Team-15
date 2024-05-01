@@ -164,8 +164,8 @@ public class BatchPage {
 
 
 	public void login() {
-		userName.sendKeys("sdetorganizers@gmail.com");
-		password.sendKeys("UIHackathon@02");
+		userName.sendKeys(FileReaderManager.getInstance().getResourcebundleInstance().getUserName());
+		password.sendKeys(FileReaderManager.getInstance().getResourcebundleInstance().getPassword());
 		loginBtn.click();
 	}
 	public void batchNavigationBar() {

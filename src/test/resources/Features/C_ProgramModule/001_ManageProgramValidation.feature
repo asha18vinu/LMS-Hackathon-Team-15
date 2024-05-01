@@ -1,9 +1,11 @@
 Feature: Manage Program Validation
 
   Background: Logged on the LMS portal as Admin
-    Given Admin is in Home Page
-    When Admin enter valid credentials and clicks login button
+    Given Admin is on Home Page
+    When Admin login with valid credentials
     Then Admin should land on dashboard page
+  
+    
 
   @tag1
   Scenario: Validate landing in Program Page

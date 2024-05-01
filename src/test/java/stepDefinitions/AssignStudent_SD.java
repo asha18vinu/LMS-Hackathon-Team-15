@@ -120,8 +120,8 @@ public void admin_should_see_user_role_as_r03_and_other_fields_student_email_id_
 		driver.findElement(By.xpath("//button[@label='Save']")).click();
 	}
 
-	@Then("Admin gets a Error message alert")
-	public void admin_gets_a_error_message_alert() {
+	@Then("Admin gets a Error message alert on Assign student Page")
+	public void admin_gets_a_error_message_alert_on_Assign_student_Page() {
 		Assert.assertNotNull(driver.findElement(By.xpath("//div[normalize-space()='User Email Id is required.']")));
 		Assert.assertNotNull(driver.findElement(By.xpath("//div[normalize-space()='Program Name is required.']")));
 		Assert.assertNotNull(driver.findElement(By.xpath("//div[normalize-space()='Batch Name is required.']")));
