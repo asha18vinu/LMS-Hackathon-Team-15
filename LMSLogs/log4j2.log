@@ -5509,3 +5509,1706 @@ NumpyNinja
 [INFO ] 2024-04-29 19:08:06.280 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
 [ERROR] 2024-04-29 19:08:26.217 [main] AllureLifecycle - Could not add attachment: no test is running
 [ERROR] 2024-04-29 19:08:41.895 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 00:11:26.115 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 00:11:26.156 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 00:11:43.080 [main] AllureLifecycle - Could not add attachment: no test is running
+[WARN ] 2024-04-30 02:41:42.901 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 02:41:44.615 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 02:41:44.656 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 02:42:30.734 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 02:42:31.861 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 02:42:31.891 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 02:45:03.142 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 02:45:04.474 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 02:45:04.507 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 02:50:04.281 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 02:50:05.669 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 02:50:05.699 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 03:08:25.924 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 03:08:27.301 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 03:08:27.333 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 03:09:30.945 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 03:09:32.390 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 03:09:32.427 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 03:12:41.198 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:34) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 03:12:42.688 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 03:12:42.729 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 03:16:26.487 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:33) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.78\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 03:16:28.909 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 03:16:28.939 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 09:18:50.334 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 09:18:50.448 [main] Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.91/win64/chromedriver-win64.zip
+[INFO ] 2024-04-30 09:19:04.714 [main] Downloader - Extracting driver from compressed file chromedriver-win64.zip
+[INFO ] 2024-04-30 09:19:05.117 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 09:31:54.977 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:33) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 09:31:57.533 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 09:31:57.578 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 09:34:22.075 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:33) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 09:34:23.986 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 09:34:24.029 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 09:38:15.150 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:33) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 09:38:17.134 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 09:38:17.181 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 09:56:38.889 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:33) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 09:56:40.715 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 09:56:40.763 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 10:07:53.644 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 10:07:55.717 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:07:55.760 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 10:09:36.326 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 10:09:38.391 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:09:38.433 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 10:23:50.309 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:23:50.353 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 10:24:08.395 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 10:24:24.061 [main] AllureLifecycle - Could not add attachment: no test is running
+[WARN ] 2024-04-30 10:25:19.508 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 10:25:21.614 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:25:21.665 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 10:31:32.670 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 10:31:34.668 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:31:34.710 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 10:32:10.065 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 10:32:11.841 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:32:11.888 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 10:47:10.870 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:47:10.914 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 10:47:29.234 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 10:47:44.928 [main] AllureLifecycle - Could not add attachment: no test is running
+[WARN ] 2024-04-30 10:52:51.659 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 10:52:53.710 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 10:52:53.752 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:00:11.349 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:00:13.439 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:00:13.488 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:03:52.522 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:03:54.370 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:03:54.417 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:08:36.713 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:08:38.670 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:08:38.714 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:21:09.222 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:21:12.089 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:21:12.135 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:38:00.970 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:38:03.086 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:38:03.135 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:43:34.202 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:43:36.175 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:43:36.221 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:45:36.296 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:45:39.328 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:45:39.374 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[WARN ] 2024-04-30 11:47:14.493 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 11:47:16.370 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:47:16.416 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 11:54:45.567 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 11:54:45.616 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 11:55:28.801 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 11:57:36.285 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-2''is not displayed
+[INFO ] 2024-04-30 11:59:36.409 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-4''is not displayed
+[INFO ] 2024-04-30 12:00:51.323 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:00:51.375 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:00:59.784 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:01:22.162 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:01:22.203 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 12:01:36.863 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-3''is not displayed
+[ERROR] 2024-04-30 12:02:05.382 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:03:37.014 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-5''is not displayed
+[INFO ] 2024-04-30 12:04:11.001 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-2''is not displayed
+[INFO ] 2024-04-30 12:05:01.434 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:05:01.472 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 12:05:18.022 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-6''is not displayed
+[ERROR] 2024-04-30 12:05:31.658 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:07:33.923 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-2''is not displayed
+[INFO ] 2024-04-30 12:09:33.992 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-4''is not displayed
+[INFO ] 2024-04-30 12:11:21.151 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:11:21.195 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 12:11:32.231 [main] LoggerLoad - Element'Proxy element for: DefaultElementLocator 'By.id: mat-input-3''is not displayed
+[ERROR] 2024-04-30 12:11:50.674 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:11:53.180 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:13:18.608 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:13:18.633 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:13:45.525 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:14:11.051 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:14:46.863 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:14:46.890 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:15:13.117 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:16:27.542 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:16:27.574 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:16:45.492 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:17:44.118 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:17:44.148 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 12:18:00.920 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:01.993 [main] LoggerLoad - Actual title::LMS Expected Title::LMS
+[INFO ] 2024-04-30 12:18:02.659 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:03.909 [main] LoggerLoad - Actual url::https://lms-frontend-api-hackathon-apr-32673d.herokuapp.com/ Expected url::https://lms-frontend-api-hackathon-apr-32673d.herokuapp.com/
+[INFO ] 2024-04-30 12:18:04.324 [main] LoggerLoad - Actual responseCode::404 Expected ResponseCode::404
+[INFO ] 2024-04-30 12:18:05.010 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:05.724 [main] LoggerLoad - Actual url::https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/login Expected url::https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/NowhereTogo
+[INFO ] 2024-04-30 12:18:06.043 [main] LoggerLoad - Actual responseCode::200 Expected ResponseCode::404
+[ERROR] 2024-04-30 12:18:06.563 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:18:07.094 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:07.555 [main] LoggerLoad - Actual responseCode::200 Expected ResponseCode::400
+[INFO ] 2024-04-30 12:18:07.556 [main] LoggerLoad - Actual responseCode did not match with Expected ResponseCode, Not a Broken Link: 
+[INFO ] 2024-04-30 12:18:08.039 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:08.417 [main] LoggerLoad - Actual Home page Text::Please login to LMS application
+User *
+Password *
+Login Expected Home page Text::Please login to LMS application
+User *
+Password *
+Login
+[INFO ] 2024-04-30 12:18:08.802 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:09.763 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:11.113 [main] LoggerLoad - Actual application namee :
+S LMS - Learning Management System
+27 4
+NumpyNinja
+ Expected application nameLMS - Learning Management System
+[INFO ] 2024-04-30 12:18:11.505 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:12.534 [main] LoggerLoad - Actual company name::e :
+S LMS - Learning Management System
+27 4
+NumpyNinja
+ Expected company name::NumpyNinja
+[INFO ] 2024-04-30 12:18:12.931 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:13.671 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:14.036 [main] LoggerLoad - Actual number of Text field::2 Expected number of Text field::2
+[INFO ] 2024-04-30 12:18:14.415 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:14.763 [main] LoggerLoad - Actual first text field value::User * Expected first text field value::User *
+[INFO ] 2024-04-30 12:18:15.197 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:15.538 [main] LoggerLoad - Actual first symbol value::User * Expected first symbol value::User *
+[INFO ] 2024-04-30 12:18:15.928 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:16.345 [main] LoggerLoad - Actual second text field value::Password * Expected second text field value::Password *
+[INFO ] 2024-04-30 12:18:16.726 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:17.066 [main] LoggerLoad - Actual symbol text::Password * Expected symbol text::Password *
+[INFO ] 2024-04-30 12:18:17.477 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:17.821 [main] LoggerLoad - Actual alignment Input field::center Expected alignment Input field::center
+[INFO ] 2024-04-30 12:18:18.200 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:18.943 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:19.313 [main] LoggerLoad - Actual alignment login field::center Expected alignment login field::center
+[INFO ] 2024-04-30 12:18:19.768 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:20.114 [main] LoggerLoad - Actual color user::rgba(0, 0, 0, 0.87) Expected color user::rgba(0, 0, 0, 0.87)
+[INFO ] 2024-04-30 12:18:20.480 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 12:18:20.819 [main] LoggerLoad - Actual color password field::rgba(0, 0, 0, 0.87) Expected color password::rgba(0, 0, 0, 0.87)
+[INFO ] 2024-04-30 12:23:03.272 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:23:03.300 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:23:24.914 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:24:33.234 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:24:33.270 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:25:05.261 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:25:26.614 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:25:26.643 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:25:59.600 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:26:20.148 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:26:20.182 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:26:53.121 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:27:26.498 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:27:26.527 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:28:08.592 [main] AllureLifecycle - Could not add attachment: no test is running
+[WARN ] 2024-04-30 12:28:18.628 [main] WebDriverManager - Exception deleting driver cache at C:\Users\tusha\.cache\selenium
+org.apache.commons.io.IOExceptionList: 1 exception(s): [org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver]
+	at org.apache.commons.io.IOExceptionList.checkEmpty(IOExceptionList.java:50) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:359) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:42) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStreams.forAll(IOStreams.java:36) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOConsumer.forAll(IOConsumer.java:80) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.cleanDirectory(FileUtils.java:365) ~[commons-io-2.16.1.jar:2.16.1]
+	at io.github.bonigarcia.wdm.WebDriverManager.clearDriverCache(WebDriverManager.java:825) [webdrivermanager-5.8.0.jar:?]
+	at pageObjects.TestCode.main(TestCode.java:36) [test-classes/:?]
+Caused by: org.apache.commons.io.IOIndexedException: IOException #0: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:354) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.io.IOException: Cannot delete file: C:\Users\tusha\.cache\selenium\chromedriver
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1390) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+Caused by: java.nio.file.AccessDeniedException: C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275) ~[?:?]
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110) ~[?:?]
+	at java.nio.file.Files.deleteIfExists(Files.java:1191) ~[?:?]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:159) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.DeletingPathVisitor.visitFile(DeletingPathVisitor.java:37) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.nio.file.Files.walkFileTree(Files.java:2810) ~[?:?]
+	at java.nio.file.Files.walkFileTree(Files.java:2881) ~[?:?]
+	at org.apache.commons.io.file.PathUtils.visitFileTree(PathUtils.java:1730) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.deleteDirectory(PathUtils.java:518) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.file.PathUtils.delete(PathUtils.java:477) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.FileUtils.forceDelete(FileUtils.java:1386) ~[commons-io-2.16.1.jar:2.16.1]
+	at org.apache.commons.io.function.IOStream.lambda$forAll$11(IOStream.java:347) ~[commons-io-2.16.1.jar:2.16.1]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1006) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.apache.commons.io.function.IOStream.forAll(IOStream.java:345) ~[commons-io-2.16.1.jar:2.16.1]
+	... 6 more
+[INFO ] 2024-04-30 12:28:19.785 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:28:19.817 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 12:30:00.774 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:30:00.804 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 12:33:37.533 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:33:37.561 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:33:59.624 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:36:43.824 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:36:43.854 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:37:12.919 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:41:16.973 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:41:17.001 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:41:51.232 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:47:50.573 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:47:50.604 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:48:19.216 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:48:24.792 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:48:29.828 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:48:34.819 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:49:14.708 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:49:19.985 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:50:07.997 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:50:13.401 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 12:51:13.772 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 12:51:13.807 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 12:51:34.421 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:51:39.689 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:51:44.409 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:51:49.940 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:51:54.820 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:52:00.515 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:52:05.620 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:52:10.592 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 12:52:15.277 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:06:46.529 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:06:46.558 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:07:26.630 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:07:31.474 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:07:35.088 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:07:39.436 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:07:43.739 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:07:50.649 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:07:56.498 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:08:06.721 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 13:08:14.818 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:20:27.669 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:20:27.703 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:20:51.522 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:22:29.009 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:22:29.036 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:22:50.469 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:37:30.077 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:37:30.104 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:38:12.034 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:38:25.902 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:38:25.934 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:39:07.958 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:39:18.806 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:39:18.834 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:40:00.722 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 13:40:12.064 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 13:40:12.095 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 13:40:54.047 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 14:12:16.645 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 14:12:16.674 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 14:12:58.664 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:14:19.580 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:15:01.153 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:15:42.643 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:16:24.405 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:17:06.181 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:17:48.258 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:18:30.008 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:19:11.857 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:19:53.685 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:20:35.256 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:21:16.675 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:21:59.128 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:22:41.304 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 14:23:23.030 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 15:00:57.530 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 15:00:57.556 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 15:01:11.228 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 15:21:25.979 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 15:21:26.005 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 15:21:37.250 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 15:22:21.106 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 15:38:14.492 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 15:38:14.520 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 15:40:12.048 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 15:40:12.077 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 15:40:23.024 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 16:58:07.379 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 16:58:07.407 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 16:59:09.674 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:01:05.209 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:01:05.241 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:01:20.317 [main] LoggerLoad - Batch Edited Successfully[[ChromeDriver: chrome on windows (8f36d842b36fcb76350ff76ac24fd69b)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:01:24.009 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:08:39.640 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:08:39.670 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:08:53.916 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (ce451d13a1d2f67b1f593d17b0e78e97)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:08:55.290 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:10:31.183 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:10:31.215 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:10:44.335 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (c753babca4848155f33b1c02b1e1b77f)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:10:45.687 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:12:05.069 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:12:05.095 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:12:17.802 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (7089b10b359054c235b8a26c8db3e88d)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:12:21.429 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:23:04.912 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:23:04.939 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:23:20.269 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (8dc2b306e5bc6c6031dd4deebdc7db08)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:23:24.168 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:27:00.114 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:27:00.146 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:27:14.783 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (b593b71a2f9621c8d564e800ed9fb888)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:31:03.200 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:44:09.793 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:44:09.818 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:44:22.483 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (6b9a4bf5a64df1b1677617444b55b5ef)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:45:05.995 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:53:13.735 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:53:13.760 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:53:29.100 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (0e5f0e70c77c3b44565e82fcef507b4b)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:54:12.613 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:54:45.499 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:54:45.527 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:55:04.176 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1197b2883a9d3e7e4159ed2777afb1ca)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:55:47.873 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 17:57:07.403 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 17:57:07.431 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 17:57:20.945 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d8680f8105f2d48cbb404da9077a1a18)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 17:57:26.395 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 18:00:17.049 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 18:00:17.071 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 18:00:41.288 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (fa50f7b131120197816300e988058502)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 18:00:46.672 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 18:43:34.762 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 18:43:34.792 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 18:43:50.204 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (12f61a14ea85da0b1f4efae7be415997)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:29:05.275 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 20:29:05.319 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 20:29:48.259 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 20:30:03.324 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:30:17.823 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:30:29.772 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:30:39.757 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:30:49.504 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:30:58.995 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:31:08.508 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:31:49.685 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:31:59.550 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:32:09.643 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:32:18.354 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:32:26.711 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:32:35.177 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 20:32:44.019 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (d5a3ba72688fd57e24ae2888366f7cc9)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 20:33:32.555 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 20:59:12.959 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 20:59:13.001 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[ERROR] 2024-04-30 21:00:11.847 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-04-30 21:00:54.863 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 21:04:36.700 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 21:04:36.747 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 21:04:55.493 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (3028065793a5b28a7d86d9542795fb2f)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:04:59.646 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (3028065793a5b28a7d86d9542795fb2f)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:06:13.462 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 21:06:13.507 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 21:06:33.061 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (0a352eab1da1c2792d51f0cfdc05d216)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:06:37.216 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (0a352eab1da1c2792d51f0cfdc05d216)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:06:46.336 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (0a352eab1da1c2792d51f0cfdc05d216)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:06:54.933 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (0a352eab1da1c2792d51f0cfdc05d216)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:07:03.727 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (0a352eab1da1c2792d51f0cfdc05d216)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 21:07:52.725 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 21:19:16.931 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 21:19:16.979 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 21:21:21.673 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 21:21:21.724 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 21:21:37.813 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:21:41.828 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:21:48.045 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:21:50.938 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:21:56.766 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:21:59.282 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:22:05.146 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:22:07.601 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:22:13.317 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:22:15.751 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:22:21.483 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 21:22:24.222 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:22:29.963 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R02Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 21:22:32.716 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:22:58.633 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : InactiveTimezone : EST
+[INFO ] 2024-04-30 21:23:01.514 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:07.279 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 21:23:10.028 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:15.794 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 21:23:18.600 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:24.306 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 21:23:26.695 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:32.357 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:23:35.020 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:40.598 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 21:23:43.365 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:49.050 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : BhatiaLocation : ChicagoPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : PST
+[INFO ] 2024-04-30 21:23:52.043 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:23:57.736 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : RoyLocation : AustinPhone No : 3021302111LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:24:00.453 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:24:06.033 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : RoyLocation : DallasPhone No : 3021302111LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:24:08.731 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:24:14.598 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : 11111Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:24:17.453 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:24:22.619 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : 11111Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:24:25.156 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:24:30.337 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : 11111Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:24:32.787 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:24:37.993 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : 9899Location : 2890Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 21:24:40.690 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:24:45.943 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : Today
+[INFO ] 2024-04-30 21:24:48.254 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[ERROR] 2024-04-30 21:25:01.242 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 21:25:04.129 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:25:05.126 [main] LoggerLoad - Element'[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> id: mat-input-7]'is not displayed
+[INFO ] 2024-04-30 21:25:10.025 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 21:25:12.492 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[ERROR] 2024-04-30 21:25:53.042 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-04-30 21:25:55.537 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (646c5ada604a22527a5da74329a6fe68)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:16:38.711 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-04-30 22:16:38.720 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-04-30 22:16:38.723 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.723 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.724 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.725 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.725 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.726 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.727 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.742 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+[INFO ] 2024-04-30 22:16:38.746 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.747 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.749 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.749 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.750 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.751 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.755 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.755 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.756 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.757 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.759 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.760 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.760 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.760 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.765 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ] 2024-04-30 22:16:38.766 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.768 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.768 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.769 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.769 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-04-30 22:16:38.788 [main] Utils - [TestNG] Running:
+  C:\Users\tusha\AppData\Local\Temp\testng-eclipse-227450927\testng-customsuite.xml
+
+[INFO ] 2024-04-30 22:16:38.835 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+[INFO ] 2024-04-30 22:16:42.053 [main] WebDriverManager - Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ] 2024-04-30 22:16:42.085 [main] WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\tusha\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ] 2024-04-30 22:16:54.236 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:16:55.873 [main] LoggerLoad - Actual title::LMS Expected Title::LMS
+[INFO ] 2024-04-30 22:16:56.570 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:16:58.304 [main] LoggerLoad - Actual url::https://lms-frontend-api-hackathon-apr-32673d.herokuapp.com/ Expected url::https://lms-frontend-api-hackathon-apr-32673d.herokuapp.com/
+[INFO ] 2024-04-30 22:16:58.854 [main] LoggerLoad - Actual responseCode::404 Expected ResponseCode::404
+[INFO ] 2024-04-30 22:17:00.060 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:01.104 [main] LoggerLoad - Actual url::https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/login Expected url::https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/NowhereTogo
+[INFO ] 2024-04-30 22:17:01.511 [main] LoggerLoad - Actual responseCode::200 Expected ResponseCode::404
+[INFO ] 2024-04-30 22:17:02.779 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:03.618 [main] LoggerLoad - Actual responseCode::200 Expected ResponseCode::400
+[INFO ] 2024-04-30 22:17:03.619 [main] LoggerLoad - Actual responseCode did not match with Expected ResponseCode, Not a Broken Link: 
+[INFO ] 2024-04-30 22:17:04.383 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:04.880 [main] LoggerLoad - Actual Home page Text::Please login to LMS application
+User *
+Password *
+Login Expected Home page Text::Please login to LMS application
+User *
+Password *
+Login
+[INFO ] 2024-04-30 22:17:05.511 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:06.984 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:08.715 [main] LoggerLoad - Actual application namee :
+S LMS - Learning Management System
+27 4
+NumpyNinja
+ Expected application nameLMS - Learning Management System
+[INFO ] 2024-04-30 22:17:09.659 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:10.964 [main] LoggerLoad - Actual company name::e :
+S LMS - Learning Management System
+27 4
+NumpyNinja
+ Expected company name::NumpyNinja
+[INFO ] 2024-04-30 22:17:11.557 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:12.805 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:13.360 [main] LoggerLoad - Actual number of Text field::2 Expected number of Text field::2
+[INFO ] 2024-04-30 22:17:14.309 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:14.804 [main] LoggerLoad - Actual first text field value::User * Expected first text field value::User *
+[INFO ] 2024-04-30 22:17:15.409 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:15.958 [main] LoggerLoad - Actual first symbol value::User * Expected first symbol value::User *
+[INFO ] 2024-04-30 22:17:16.550 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:17.059 [main] LoggerLoad - Actual second text field value::Password * Expected second text field value::Password *
+[INFO ] 2024-04-30 22:17:17.747 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:18.207 [main] LoggerLoad - Actual symbol text::Password * Expected symbol text::Password *
+[INFO ] 2024-04-30 22:17:18.869 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:19.367 [main] LoggerLoad - Actual alignment Input field::center Expected alignment Input field::center
+[INFO ] 2024-04-30 22:17:20.043 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:21.129 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:21.625 [main] LoggerLoad - Actual alignment login field::center Expected alignment login field::center
+[INFO ] 2024-04-30 22:17:22.248 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:22.789 [main] LoggerLoad - Actual color user::rgba(0, 0, 0, 0.87) Expected color user::rgba(0, 0, 0, 0.87)
+[INFO ] 2024-04-30 22:17:23.450 [main] HomePage_SD - ----------Admin launch the Browser----------
+[INFO ] 2024-04-30 22:17:24.076 [main] LoggerLoad - Actual color password field::rgba(0, 0, 0, 0.87) Expected color password::rgba(0, 0, 0, 0.87)
+[INFO ] 2024-04-30 22:17:26.160 [main] LoggerLoad - UserName : nullPassword is: null
+[INFO ] 2024-04-30 22:18:08.697 [main] LoggerLoad - UserName : abd@1234.comPassword is: name123
+[INFO ] 2024-04-30 22:18:10.756 [main] LoggerLoad - UserName :  Password is: UIHackathon@02
+[INFO ] 2024-04-30 22:18:53.628 [main] LoggerLoad - UserName : sdetorganizers@gmail.comPassword is: null
+[INFO ] 2024-04-30 22:19:36.365 [main] LoggerLoad - UserName : sdetorganizers@gmail.comPassword is: 1234446
+[INFO ] 2024-04-30 22:20:19.933 [main] LoggerLoad - UserName : sdetorganizers@gmail.comPassword is: UIHackathon@02
+[INFO ] 2024-04-30 22:20:21.589 [main] LoggerLoad - UserName : sdetorganizers@gmail.comPassword is: UIHackathon@02
+[INFO ] 2024-04-30 22:20:23.847 [main] LoggerLoad - UserName : sdetorganizers@gmail.comPassword is: UIHackathon@02
+[INFO ] 2024-04-30 22:20:26.387 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:20:29.312 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:20:34.834 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:20:37.975 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:20:43.331 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:20:46.427 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:20:51.657 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:20:54.370 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:20:59.445 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:21:02.958 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:21:08.124 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 22:21:11.044 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:21:16.411 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R02Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 22:21:19.192 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:21:29.186 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : InactiveTimezone : EST
+[INFO ] 2024-04-30 22:21:32.814 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:21:38.033 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 22:21:41.330 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:21:46.512 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 22:21:49.502 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:21:54.725 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 22:21:57.505 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:03.079 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:22:06.278 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:11.380 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : New yorkPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : EST
+[INFO ] 2024-04-30 22:22:14.995 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:19.944 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : BhatiaLocation : ChicagoPhone No : 3033031212LinkedInUrl : https://www.linkedin.com/NikkiUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : PST
+[INFO ] 2024-04-30 22:22:23.085 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:28.291 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : RoyLocation : AustinPhone No : 3021302111LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:22:31.328 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:36.285 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : RoyLocation : DallasPhone No : 3021302111LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4UserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:22:39.115 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:44.394 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : 11111Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:22:47.250 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:22:52.581 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : 11111Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:22:55.960 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:23:01.191 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : 11111Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:23:05.168 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:23:10.958 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : 9899Location : 2890Phone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : CST
+[INFO ] 2024-04-30 22:23:13.457 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:23:18.660 [main] LoggerLoad - UserFirstName : RiyaYLastName : SenMiddle Name : NikkiLocation : DallasPhone No : 1234567890LinkedInUrl : https://www.linkedin.com/RiyaUserRole : R01Visa Status : H4-EADUserRoleStatus : ActiveTimezone : Today
+[INFO ] 2024-04-30 22:23:21.818 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:23:37.457 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]
+[INFO ] 2024-04-30 22:23:38.296 [main] LoggerLoad - Element'[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> id: mat-input-7]'is not displayed
+[INFO ] 2024-04-30 22:23:43.278 [main] LoggerLoad - User Edit button clicked successfully[[ChromeDriver: chrome on windows (1a0392feea093c22035d04d2f4bc4005)] -> xpath: //td[normalize-space()='RiyaY Sen']]

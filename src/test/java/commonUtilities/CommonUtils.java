@@ -23,7 +23,6 @@ public class CommonUtils {
 
 	private DriverManager driverManager = new DriverManager();
 	private WebDriver driver;
-	private Select select;
 	private Actions action = new Actions(driverManager.getDriver());
 
 	public CommonUtils(WebDriver driver) {
@@ -99,7 +98,7 @@ public class CommonUtils {
 	}
 
 	public void click(WebDriver driver, WebElement element) {
-		// Actions action = new Actions(driver);
+		
 		try {
 			action.moveToElement(element).click().build().perform();
 		} catch (Exception e) {
@@ -126,16 +125,7 @@ public class CommonUtils {
 		return flag;
 	}
 
-	public void switchWindow() {
-
-		Set<String> w1 = driver.getWindowHandles();
-		Iterator<String> i = w1.iterator();
-		String parentWindow = i.next();
-		String childWindow = i.next();
-		driver.switchTo().window(childWindow);
-
-	}
-
+	
 	public int verifyBrokenLink(String url) {
 
 		int recode = 0;

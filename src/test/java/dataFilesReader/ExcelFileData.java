@@ -46,6 +46,8 @@ public class ExcelFileData extends ResourceBundleDataReader {
 	public static String userPostGraduate;
 	public static String userTimeZone;
 	public static String userComments;
+	public static String userDetailsPopupText;
+	public static String fullUserName;
 
 	static Map<String, String> xLDataMap;
 
@@ -108,7 +110,8 @@ public class ExcelFileData extends ResourceBundleDataReader {
 			userPostGraduate = xLDataMap.get("userPostGraduate");
 			userTimeZone = xLDataMap.get("userTimeZone");
 			userComments = xLDataMap.get("userComments");
-
+			userDetailsPopupText=xLDataMap.get("userDetailsPopupText");
+			fullUserName=xLDataMap.get("userFirstName")+" "+xLDataMap.get("userLastName");
 			return xLDataMap;
 
 		}
