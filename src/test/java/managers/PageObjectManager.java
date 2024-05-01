@@ -16,6 +16,8 @@ public class PageObjectManager {
 	private BatchPage batchPage;
 	private ManageProgramPage1 mp;
 	private ManageProgrampage manageProgramPage;
+	private UserSortingPage userSortingPage;
+	private Pagination pagination;
 
 	
 	public BatchPage getBatchPage() {
@@ -61,5 +63,15 @@ public class PageObjectManager {
              return (manageProgramPage == null) ? manageProgramPage = new ManageProgrampage(driver) : manageProgramPage;
 
      }
+	public UserSortingPage getUserSortingPage() {
+	return (userSortingPage == null) ?
+		userSortingPage = new UserSortingPage(driver):
+		userSortingPage;	
+	}
+	
+	public Pagination getPagination() {
+		return (pagination == null) ? pagination = new Pagination(driver) :
+			pagination;
+	}
 
 }
