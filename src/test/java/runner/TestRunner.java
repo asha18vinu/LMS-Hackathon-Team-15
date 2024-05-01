@@ -1,5 +1,3 @@
-package runner;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -13,19 +11,15 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
-
+@CucumberOptions(features = "src\\test\\resources\\Features\\",
 	
-
-	
-
-
-	@CucumberOptions(features="src/test/resources/Features/", glue={"hooks","stepDefinitions"},monochrome=true
-//			plugin = {"pretty",
+		 glue = { "hooks","stepDefinitions" }, monochrome = false 
 //				
 //					"timeline:test-output-thread/"
-					)
+)
 
-	public  class TestRunner  extends AbstractTestNGCucumberTests{
+ 
+public  class TestRunner  extends AbstractTestNGCucumberTests{
 		
 		@Override
 	    @DataProvider(parallel = false)
@@ -52,3 +46,5 @@ import managers.DriverManager;
 //			
 //		}
 }
+
+
