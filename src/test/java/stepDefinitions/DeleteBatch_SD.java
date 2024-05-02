@@ -83,11 +83,14 @@ public class DeleteBatch_SD {
 	@Given("One of the checkbox row is selected")
 	public void one_of_the_checkbox_row_is_selected() throws InterruptedException {
 		batchPage.clickSingleChkbox();
+		System.out.println("selected");
 	}
 
 	@When("Click delete icon below {string} header")
 	public void click_delete_icon_below_header(String string) throws InterruptedException {
-		batchPage.clickMDeleteIconForsingleRow();
+		//batchPage.clickMDeleteIconForsingleRow();
+		batchPage.clickYesOption();
+		System.out.println("header delete enabled");
 	}
 
 	@When("Click delete icon below {string} header for mutiple rows")

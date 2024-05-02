@@ -27,7 +27,7 @@ import org.testng.Assert;
 import commonUtilities.CommonUtils;
 import managers.FileReaderManager;
 
-public class BatchPage {    
+public class BatchPage {
 	private static final Logger logger = LogManager.getLogger(BatchPage.class);
 	WebDriver driver;
 	CommonUtils cUtils;
@@ -39,9 +39,8 @@ public class BatchPage {
 	public static String batchName, description, noOfClasses;// ,programNametxt,status;
 	static String programNameStr;
 	public static String batchNametoEdit;
-	
-	
-	@FindBy(xpath="(//ul[@role='listbox']/p-dropdownitem/li)[2]")
+
+	@FindBy(xpath = "(//ul[@role='listbox']/p-dropdownitem/li)[2]")
 	WebElement programNameTextElement;
 	Random random = new Random();
 	List<String> deletedBatchNames;
@@ -56,7 +55,7 @@ public class BatchPage {
 	@FindBy(xpath = "//button[@*='new']")
 	WebElement addBatchBtn;
 	@FindBy(xpath = "//span[text()='Batch Details']")
-	WebElement batchDetailsPopupboxHeading; 
+	WebElement batchDetailsPopupboxHeading;
 	@FindBy(xpath = "//span[@*='pr_id_5-label']")
 	WebElement batchDetailsDlgBox;
 	@FindBy(xpath = "//input[@*='batchName']")
@@ -96,7 +95,7 @@ public class BatchPage {
 	// @FindBy(xpath="//*[@id='batchStatus']/div[1]")
 	// WebElement activeRadiobtn ;
 	@FindBy(xpath = "//small[contains(@class, 'p-invalid') and contains(text(), 'Batch Name is required.')]")
-	WebElement nameFieldErrorMsg; 
+	WebElement nameFieldErrorMsg;
 	@FindBy(xpath = "//small[@class='p-invalid ng-star-inserted']")
 	WebElement prgNameErrorMsg;
 	@FindBy(xpath = "//small[normalize-space()='Batch Name is required.']")
@@ -125,32 +124,27 @@ public class BatchPage {
 	WebElement tableBody;
 	@FindBy(xpath = "//div[contains(@class, 'p-confirm-dialog')]")
 	WebElement dialog;
-	@FindBy(xpath = "//span[normalize-space()='Yes']")
+	@FindBy(xpath = "/html/body/app-root/app-batch/p-confirmdialog/div/div/div[3]/button[2]")
 	WebElement yesButton;
-	@FindBy(xpath = "//button[contains(@class, 'p-confirm-dialog-reject')]")
+	@FindBy(xpath = "/html/body/app-root/app-batch/p-confirmdialog/div/div/div[3]/button[1]")
 	WebElement noButton;
-	@FindBy(xpath="//span[@class='p-button-icon pi pi-pencil']")
-	WebElement editIcon ;
-	@FindBy(id="filterGlobal")
-	 WebElement searchBox;
-	@FindBy(xpath="//p-dropdown[@id='programName']/div/div/input")
-	WebElement programName;	
-	@FindBy(xpath="//small[@class='p-invalid ng-star-inserted']")
+	@FindBy(xpath = "//span[@class='p-button-icon pi pi-pencil']")
+	WebElement editIcon;
+	@FindBy(id = "filterGlobal")
+	WebElement searchBox;
+	@FindBy(xpath = "//p-dropdown[@id='programName']/div/div/input")
+	WebElement programName;
+	@FindBy(xpath = "//small[@class='p-invalid ng-star-inserted']")
 	WebElement descWebElement;
-	@FindBy(xpath="//small[@id='text-danger']")
+	@FindBy(xpath = "//small[@id='text-danger']")
 	WebElement invalidInputFielderrormsg;
 	WebElement secondColumnElement;
-	@FindBy(xpath="//input[@*='userLoginEmailId']")        //.sendKeys()
+	@FindBy(xpath = "//input[@*='userLoginEmailId']") // .sendKeys()
 	WebElement userName;
-	@FindBy(xpath="//input[@*='Password']")
-	WebElement  password;    
-	@FindBy(xpath="//button[@*='submit']")
-	WebElement loginBtn;//)).sendKeys("UIHackathon@02");
-
-	
-	
-	
-	
+	@FindBy(xpath = "//input[@*='Password']")
+	WebElement password;
+	@FindBy(xpath = "//button[@*='submit']")
+	WebElement loginBtn;// )).sendKeys("UIHackathon@02");
 
 	public BatchPage(WebDriver driver) {
 		this.driver = driver;
@@ -161,15 +155,15 @@ public class BatchPage {
 
 	}
 
-
 	public void login() {
 		userName.sendKeys(FileReaderManager.getInstance().getResourcebundleInstance().getUserName());
 		password.sendKeys(FileReaderManager.getInstance().getResourcebundleInstance().getPassword());
 		loginBtn.click();
 	}
+
 	public void batchNavigationBar() {
 		batchNavBarBtn.click();
-		
+
 	}
 
 	public void addNewBatchButtonClick() {
@@ -185,26 +179,25 @@ public class BatchPage {
 
 	public void checkTheFieldExistanceAndType(String fieldName, String fieldType) {
 		Map<String, WebElement> fieldNameLocators = fieldNameAndType();
-		logger.info("checks for the Field Type" +fieldName+" and for its FieldType "+fieldType);
-		try
-		{
-		cUtils.checkExistanceofFieldType(fieldName, fieldType, fieldNameLocators);
-		}catch(AssertionError e)
-		{
+		logger.info("checks for the Field Type" + fieldName + " and for its FieldType " + fieldType);
+		try {
+			cUtils.checkExistanceofFieldType(fieldName, fieldType, fieldNameLocators);
+		} catch (AssertionError e) {
 			logger.info("Field mismatch");
 		}
 	}
-	public void invalidPrgInput(String sheetName, Integer rowNo) throws InvalidFormatException, IOException, InterruptedException
-	{
+
+	public void invalidPrgInput(String sheetName, Integer rowNo)
+			throws InvalidFormatException, IOException, InterruptedException {
 		List<Map<String, String>> data = cUtils.getValidDataFromExcel(sheetName, rowNo);
 		batchName = data.get(rowNo).get("BatchName") + random.nextInt(90) + 10;
 		nameTextField.sendKeys(batchName);
-		descriptionTextField.sendKeys(data.get(rowNo).get("Description"));		
+		descriptionTextField.sendKeys(data.get(rowNo).get("Description"));
 		programNameFieldDropDownBtn.click();
-		System.out.println("clicking dropdown");	
-		WebElement prgPlaceHolderElt=driver.findElement(By.xpath("//input[@placeholder='Select a Program name']"));
-		prgPlaceHolderElt.sendKeys("prg1");	
-		Thread.sleep(1000);     
+		System.out.println("clicking dropdown");
+		WebElement prgPlaceHolderElt = driver.findElement(By.xpath("//input[@placeholder='Select a Program name']"));
+		prgPlaceHolderElt.sendKeys("prg1");
+		Thread.sleep(1000);
 		Actions actions = new Actions(driver);
 		actions.sendKeys(Keys.ENTER).perform();
 		Thread.sleep(3000);
@@ -212,8 +205,8 @@ public class BatchPage {
 			activeRadiobtn.click();
 		}
 		noOfClassesSnipperField.sendKeys(data.get(rowNo).get("NoOfClasses"));
-		System.out.println("Batchname created : "+batchName);
-		logger.info("BatchName created: " +batchName);
+		System.out.println("Batchname created : " + batchName);
+		logger.info("BatchName created: " + batchName);
 	}
 
 	public void fillBatchValidDestails(String sheetName, Integer rowNo)
@@ -221,14 +214,14 @@ public class BatchPage {
 		List<Map<String, String>> data = cUtils.getValidDataFromExcel(sheetName, rowNo);
 		batchName = data.get(rowNo).get("BatchName") + random.nextInt(90) + 10;
 		nameTextField.sendKeys(batchName);
-		descriptionTextField.sendKeys(data.get(rowNo).get("Description"));		
+		descriptionTextField.sendKeys(data.get(rowNo).get("Description"));
 		programNameFieldDropDownBtn.click();
 		List<WebElement> options = driver.findElements(By.xpath("//ul[@role='listbox']/p-dropdownitem/li/span"));
-	    programNameStr=programNameTextElement.getText();
+		programNameStr = programNameTextElement.getText();
 		for (WebElement option : options) {
 			WebElement element = wait.until(ExpectedConditions.elementToBeClickable(option));
-			String optionText = element.getText();			
-			if (optionText.equals(programNameTextElement.getText())) {			
+			String optionText = element.getText();
+			if (optionText.equals(programNameTextElement.getText())) {
 				option.click();
 				break;
 			}
@@ -240,35 +233,34 @@ public class BatchPage {
 			activeRadiobtn.click();
 		}
 		noOfClassesSnipperField.sendKeys(data.get(rowNo).get("NoOfClasses"));
-		System.out.println("Batchname created : "+batchName);
-		logger.info("BatchName created: " +batchName);	 
-	}  
-	
+		System.out.println("Batchname created : " + batchName);
+		logger.info("BatchName created: " + batchName);
+	}
 
-	public void checkDescriptionFieldOptional(String sheetName, Integer rowNo) throws InvalidFormatException, IOException, InterruptedException {
+	public void checkDescriptionFieldOptional(String sheetName, Integer rowNo)
+			throws InvalidFormatException, IOException, InterruptedException {
 		String labelText = descriptionLabel.getText();
 		boolean flag = labelText.contains("*");
-		 fillBatchValidDestails(sheetName, rowNo);
-		 try {
-		Assert.assertEquals(flag, false);
-		 }catch(AssertionError e)
-		 {
-			 logger.info("Description option sceanrio failed");
-		 }		
-		
+		fillBatchValidDestails(sheetName, rowNo);
+		try {
+			Assert.assertEquals(flag, false);
+		} catch (AssertionError e) {
+			logger.info("Description option sceanrio failed");
+		}
+
 	}
 
 	public boolean clickSaveButton() throws InterruptedException {
-		saveBtn.click();		
-		
-		flag=true;
+		saveBtn.click();
+
+		flag = true;
 		Thread.sleep(1000);
-		try {		
-			
-		if(!(descWebElement.isDisplayed()) || (invalidInputFielderrormsg.isDisplayed()))		
-			flag=false;
-		//System.out.println("catched the descriptional error");
-		} catch (AssertionError e) {			
+		try {
+
+			if (!(descWebElement.isDisplayed()) || (invalidInputFielderrormsg.isDisplayed()))
+				flag = false;
+			// System.out.println("catched the descriptional error");
+		} catch (AssertionError e) {
 			logger.info("Description Is not Optional Assertion error");
 			Assert.fail(e.getMessage());
 		}
@@ -276,15 +268,16 @@ public class BatchPage {
 		return flag;
 	}
 
-	public boolean checkForTheAddedBatch() throws InterruptedException {	
-		driver.navigate().back();
-		//driver.navigate().refresh();
+	public boolean checkForTheAddedBatch() throws InterruptedException {
+		searchBox.clear();
+		searchBox.sendKeys("Batch");
 		List<WebElement> tableRowData = new ArrayList<>();
-		Thread.sleep(1000);;
+		Thread.sleep(1000);
+		;
 		WebElement nextPageButton = driver
 				.findElement(By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']"));
 
-		while (nextPageButton.isEnabled()) {
+		while (true) {
 
 			List<WebElement> currentPageRows = getRowsFromCurrentPage();
 
@@ -301,20 +294,27 @@ public class BatchPage {
 
 				for (WebElement cell : filteredCells) {
 
-					if (cell.getText().equalsIgnoreCase(batchName)||cell.getText().equalsIgnoreCase(batchNametoEdit)) {
+					if (cell.getText().equalsIgnoreCase(batchName)
+							|| cell.getText().equalsIgnoreCase(batchNametoEdit)) {
 						flag = true;
+						logger.info("bacthname is still present");
 						break;
 					}
 				}
 			}
-			Thread.sleep(1000);;
-			try
-			{
-		
-			nextPageButton.click();
-			}catch(Exception e)
-			{
-				logger.info("Assertion error : " +e.getMessage());
+			Thread.sleep(1000);
+			;
+			try {
+
+				if (nextPageButton.getAttribute("disabled") == null
+						|| nextPageButton.getAttribute("disabled").isEmpty()) {
+					nextPageButton.click();
+				} else {
+					// The button is disabled, so we exit the loop or handle the case accordingly
+					break;
+				}
+			} catch (Exception e) {
+				logger.info("Assertion error : " + e.getMessage());
 				break;
 			}
 		}
@@ -333,14 +333,14 @@ public class BatchPage {
 
 	public boolean verifySuccessMessage() {
 		String ExpectedMessageText = "Successful";
-		boolean flag=false;
+		boolean flag = false;
 		try {
 			WebElement successMessage = wait
 					.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']")));
 			String actualMessageText = successMessage.getText();
 			System.out.println("actual Success Message: " + actualMessageText);
-			System.out.println("Expected :" + ExpectedMessageText);		
-			flag=cUtils.getAssertionEqualsCheck(actualMessageText, ExpectedMessageText);
+			System.out.println("Expected :" + ExpectedMessageText);
+			flag = cUtils.getAssertionEqualsCheck(actualMessageText, ExpectedMessageText);
 		} catch (Exception e) {
 			logger.info("Success message not found within the timeout period.");
 		}
@@ -428,19 +428,17 @@ public class BatchPage {
 			nameTextField.sendKeys(invalidValues);
 			saveBtn.click();
 //			errorMsg = driver.findElement(By.xpath("//small[@id='text-danger']"));
-			if(invalidInputFielderrormsg.isDisplayed())
-			{
-				flag=true;
+			if (invalidInputFielderrormsg.isDisplayed()) {
+				flag = true;
 			}
 			break;
 
 		case "Description":
 			descriptionTextField.sendKeys(invalidValues);
 			saveBtn.click();
-			//errorMsg = driver.findElement(By.xpath("//small[@id='text-danger']"));
-			if(invalidInputFielderrormsg.isDisplayed())
-			{
-				flag=true;
+			// errorMsg = driver.findElement(By.xpath("//small[@id='text-danger']"));
+			if (invalidInputFielderrormsg.isDisplayed()) {
+				flag = true;
 			}
 			break;
 
@@ -464,7 +462,10 @@ public class BatchPage {
 	public void checkHeader(String headerText) {
 		try {
 			String cardTitleText = cardTitleElement.getText();
-			Assert.assertTrue(cardTitleText.contains(FileReaderManager.getInstance().getResourcebundleInstance().getManageBatchHeader()), "Header 'Manage Batch' not found");
+			Assert.assertTrue(
+					cardTitleText.contains(
+							FileReaderManager.getInstance().getResourcebundleInstance().getManageBatchHeader()),
+					"Header 'Manage Batch' not found");
 		} catch (Exception e) {
 			Assert.fail("Header 'Manage Batch' not found");
 		}
@@ -500,7 +501,8 @@ public class BatchPage {
 
 	public void checkDeleteButton() {
 		String disabledAttributeValue = deleteButton.getAttribute("disabled");
-		//System.out.println("disabledAttributeValueManage header delete :  "+disabledAttributeValue);
+		// System.out.println("disabledAttributeValueManage header delete :
+		// "+disabledAttributeValue);
 		Assert.assertEquals(disabledAttributeValue, "true", "Delete button is not disabled");
 	}
 
@@ -517,9 +519,8 @@ public class BatchPage {
 		for (WebElement row : rows) {
 			WebElement firstCell = row.findElement(By.xpath(".//td[1]"));
 			WebElement checkbox = firstCell.findElement(By.tagName("input"));
-			if(!checkbox.isSelected())
-			{
-				
+			if (!checkbox.isSelected()) {
+
 			}
 			Assert.assertEquals(checkbox.getAttribute("type"), "checkbox", "Checkbox not found in row");
 		}
@@ -537,22 +538,20 @@ public class BatchPage {
 		}
 
 	}
-	
-	public void SelectTheManageHeaderDelete(WebElement checkbox)
-	{
-		if(!checkbox.isSelected())
-		{
-			checkbox.click(); 
-            logger.info("Checkbox selected");		           
-            wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//button[@icon='pi pi-trash' and not(@disabled)]")));
+
+	public void SelectTheManageHeaderDelete(WebElement checkbox) {
+		if (!checkbox.isSelected()) {
+			checkbox.click();
+			logger.info("Checkbox selected");
+			wait.until(ExpectedConditions
+					.elementToBeClickable(By.xpath(".//button[@icon='pi pi-trash' and not(@disabled)]")));
 		}
-	}  
-	
-	    
+	}
+
 	public void clickManageHeaderDeleteIconForMultipleRow() {
 		try {
-			if (deleteButton.isEnabled()) {				
-				Thread.sleep(1000);			
+			if (deleteButton.isEnabled()) {
+				Thread.sleep(1000);
 				deleteButton.click();
 				Thread.sleep(1000);
 				logger.info("Delete icon clicked");
@@ -561,27 +560,27 @@ public class BatchPage {
 		} catch (Exception e) {
 			logger.info("No batch to delete");
 		}
-}
-	
-	public void clickYesInConfirmationDialog() {
-	   try {
-		   Thread.sleep(1000);
-	     yesButton.click();
-	     Thread.sleep(1000);	     
-	     logger.info("yesoption is clicked in the Dialog Box");
-	    } catch (Exception e) {
-	        logger.info("Confirmation dialog not found or Yes button not present.");
-	    }
 	}
 
+	public void clickYesInConfirmationDialog() {
+		try {
+			Thread.sleep(1000);
+			yesButton.click();
+			Thread.sleep(1000);
+			logger.info("yesoption is clicked in the Dialog Box");
+		} catch (Exception e) {
+			logger.info("Confirmation dialog not found or Yes button not present.");
+		}
+	}
 
-	public boolean checkForTheAddedBatch1() throws InterruptedException {	
+	public boolean checkForTheAddedBatch1() throws InterruptedException {
 
-		//driver.navigate().back();
-		//driver.navigate().refresh();
+		// driver.navigate().back();
+		// driver.navigate().refresh();
 
 		List<WebElement> tableRowData = new ArrayList<>();
-		Thread.sleep(1000);;
+		Thread.sleep(1000);
+		;
 		WebElement nextPageButton = driver
 				.findElement(By.xpath("//button[@class='p-paginator-next p-paginator-element p-link p-ripple']"));
 
@@ -602,20 +601,20 @@ public class BatchPage {
 
 				for (WebElement cell : filteredCells) {
 
-					if (cell.getText().equalsIgnoreCase(batchName)||cell.getText().equalsIgnoreCase(batchNametoEdit)) {
+					if (cell.getText().equalsIgnoreCase(batchName)
+							|| cell.getText().equalsIgnoreCase(batchNametoEdit)) {
 						flag = true;
 						break;
 					}
 				}
 			}
-			Thread.sleep(1000);;
-			try
-			{
-		
-			nextPageButton.click();
-			}catch(Exception e)
-			{
-				logger.info("Assertion error : " +e.getMessage());
+			Thread.sleep(1000);
+			;
+			try {
+
+				nextPageButton.click();
+			} catch (Exception e) {
+				logger.info("Assertion error : " + e.getMessage());
 				break;
 			}
 		}
@@ -628,51 +627,48 @@ public class BatchPage {
 		return flag;
 	}
 
-	
 	public boolean verifyDeletedBatches(List<String> deletedBatchNames) throws InterruptedException {
-	    boolean isDeletedBatchPresent = false;
-	    WebElement nextPageButton = driver.findElement(By.xpath("/html/body/app-root/app-batch/div/mat-card/mat-card-content/p-table/div/p-paginator/div/button[3]"));
-	  
-	    WebElement searchBox = driver.findElement(By.id("filterGlobal"));
-	    searchBox.sendKeys("BatchTribe");
+		boolean isDeletedBatchPresent = false;
+		WebElement nextPageButton = driver.findElement(By.xpath(
+				"/html/body/app-root/app-batch/div/mat-card/mat-card-content/p-table/div/p-paginator/div/button[3]"));
 
-	   
-	    while (true) {	      
-	        List<WebElement> currentPageRows = getRowsFromCurrentPage();
-	        if (currentPageRows == null || currentPageRows.isEmpty()) {
-	            break; 
-	        }	     
-	        for (WebElement row : currentPageRows) {
-	            List<WebElement> batchNameElements = row.findElements(By.xpath(".//td[2]")); // Adjust XPath as needed
-	            List<String> batchNames = batchNameElements.stream()
-	                                                       .map(WebElement::getText)
-	                                                       .collect(Collectors.toList());	    
-	            for (String deletedBatchName : deletedBatchNames) {
-	                if (batchNames.contains(deletedBatchName)) {
-	                    isDeletedBatchPresent = true;
-	                    System.out.println(deletedBatchName + " BatchName is not deleted while selecting multiple rows");
-	                    break; 
-	                }	               
-	            }    
-	           
-	        }
-	        if (isDeletedBatchPresent) {
-                return isDeletedBatchPresent; // Exit the inner loop if a deleted batch name is found
-            }
-	        if (nextPageButton.getAttribute("disabled") == null || nextPageButton.getAttribute("disabled").isEmpty()) {
-	            nextPageButton.click();
-	        } else {
-	            // The button is disabled, so we exit the loop or handle the case accordingly
-	            break;
-	        }
-	    }
-	    return isDeletedBatchPresent;
+		// WebElement searchBox = driver.findElement(By.id("filterGlobal"));
+		searchBox.clear();
+		searchBox.sendKeys("BatchTribe");
+
+		while (true) {
+			List<WebElement> currentPageRows = getRowsFromCurrentPage();
+			if (currentPageRows == null || currentPageRows.isEmpty() || deletedBatchNames==null) {
+				break;
+			}
+			for (WebElement row : currentPageRows) {
+				List<WebElement> batchNameElements = row.findElements(By.xpath(".//td[2]")); // Adjust XPath as needed
+				List<String> batchNames = batchNameElements.stream().map(WebElement::getText)
+						.collect(Collectors.toList());
+				for (String deletedBatchName : deletedBatchNames) {
+					if (batchNames.contains(deletedBatchName)) {
+						isDeletedBatchPresent = true;
+						System.out
+								.println(deletedBatchName + " BatchName is not deleted while selecting multiple rows");
+						break;
+					}
+				}
+
+			}
+			if (isDeletedBatchPresent) {
+				return isDeletedBatchPresent; // Exit the inner loop if a deleted batch name is found
+			}
+			if (nextPageButton.getAttribute("disabled") == null || nextPageButton.getAttribute("disabled").isEmpty()) {
+				nextPageButton.click();
+			} else {
+				// The button is disabled, so we exit the loop or handle the case accordingly
+				break;
+			}
+		}
+		return isDeletedBatchPresent;
 	}
 
-
-	
-	public void verifyTheDeletedBatches() throws InterruptedException
-	{
+	public void verifyTheDeletedBatches() throws InterruptedException {
 		boolean batchesDeleted = verifyDeletedBatches(deletedBatchNames);
 		if (batchesDeleted) {
 			logger.info("Batches deleted successfully.");
@@ -682,58 +678,68 @@ public class BatchPage {
 	}
 
 	public void clickSingleChkbox() throws InterruptedException {
-		 WebElement searchBox = driver.findElement(By.id("filterGlobal"));
-		    searchBox.sendKeys(batchName);
-		    logger.info(batchName+ "  "+"batchname im deleteing");		
-		   
-		    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
-		  
-		    WebElement checkbox = driver.findElement(By.xpath("//table//tbody//tr[1]//td[1]//div[@role='checkbox']"));
-		    if(!(checkbox==null))
-		    {
-		    if(!checkbox.isSelected()&&checkbox.isDisplayed())
-		    {
-		    checkbox.click();
-		    }
-		    clickMDeleteIconForsingleRow();
-		    logger.info("checkbox selected for the rows");
-		    }
-		    else {
-		    	logger.info("No Records found");
-		    }
-	}
+		// WebElement searchBox = driver.findElement(By.id("filterGlobal"));
+		searchBox.sendKeys(batchName);
+		logger.info(batchName + "  " + "batchname im deleteing");
 
 	
-	public void clickMDeleteIconForsingleRow()
-	{try {
-		    WebElement deleteIcon = driver.findElement(By.xpath("//table//tbody//tr[1]//td[7]//button[@icon='pi pi-trash']"));
-		    deleteIcon.click();
-		    logger.info("deleted for the rows");
-	}catch(AssertionError e)
-	{
-		logger.info("Assertion error : "+e.getMessage());
-	}
+
+			WebElement checkbox = driver.findElement(By.xpath("//table//tbody//tr[1]//td[1]//div[@role='checkbox']"));
+			try {
+				if (!(checkbox == null)) {
+					
+					checkbox.click();
+
+					WebElement deleteIcon = driver
+							.findElement(By.xpath("//table//tbody//tr[1]//td[7]//button[@icon='pi pi-trash']"));
+
+					deleteIcon.click();
+					logger.info("deleted for the rows");
+				}
+			} catch (AssertionError e) {
+				logger.info("Assertion error : " + e.getMessage());
+			}
+
+			// clickMDeleteIconForsingleRow();
+			logger.info("checkbox selected for the rows");
+		} 
+	//}
+
+	public void clickMDeleteIconForsingleRow() throws InterruptedException {
+		try {
+			
+		    WebElement deleteIcon = wait.until(ExpectedConditions
+		    		.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-batch/div/mat-card/mat-card-title/div[2]/div[1]/button")));
+		    JavascriptExecutor executor = (JavascriptExecutor) driver;
+		    executor.executeScript("arguments[0].scrollIntoView(true);", deleteIcon);
+  Thread.sleep(1000);
+			if(deleteIcon.isEnabled())
+			{
+			Thread.sleep(1000);
+			deleteIcon.click();
+			System.out.println("deleted");
+			logger.info("deleted for the rows");
+		}} catch (AssertionError e) {
+			logger.info("Assertion error : " );
+		}
 	}
 
-	public void assertYesOrNoBtn() {	
+	public void assertYesOrNoBtn() {
 		try {
-		Assert.assertTrue(yesButton.isDisplayed(), "'Yes' optionbutton is not displayed");
-		Assert.assertTrue(noButton.isDisplayed(), "'No' optionbutton is not displayed");
-		}catch(AssertionError e)
-		{
-			logger.info("Assertion error ocurred in vidibility of yes and no button" +e.getMessage());
+			Assert.assertTrue(yesButton.isDisplayed(), "'Yes' optionbutton is not displayed");
+			Assert.assertTrue(noButton.isDisplayed(), "'No' optionbutton is not displayed");
+		} catch (AssertionError e) {
+			logger.info("Assertion error ocurred in vidibility of yes and no button" + e.getMessage());
 		}
 		logger.info("Assertion yes button found");
 	}
 
 	public void clickYesOption() {
 		try {
-		yesButton.click();
-		logger.info("yes button clicked");
-		}
-		catch(AssertionError e)
-		{
-			logger.info("assertion error");
+			yesButton.click();
+			logger.info("yes button clicked");
+		} catch (AssertionError e) {
+			logger.info("assertion error" + e.getMessage());
 		}
 	}
 
@@ -742,10 +748,10 @@ public class BatchPage {
 			String ExpectedMessageText = "Successful";
 			WebElement batchDeletedMsg = wait.until(ExpectedConditions
 					.visibilityOfElementLocated(By.xpath("//div[@class='p-toast-summary ng-tns-c90-39']")));
-			String actualMessageText = batchDeletedMsg.getText();		
+			String actualMessageText = batchDeletedMsg.getText();
 			cUtils.getAssertionEqualsCheck(actualMessageText, ExpectedMessageText);
 			boolean flag = checkForTheAddedBatch();
-		
+
 			Assert.assertFalse(flag);
 		} catch (Exception e) {
 			// Assert.fail("Batch Deleted message not found within the timeout period.");
@@ -754,69 +760,71 @@ public class BatchPage {
 	}
 
 	public void clickNoOption() {
-		try
-		{
-		noButton.click();
-		}catch(AssertionError e)
-		{
-		logger.info("assertion error : "+e.getMessage());
+		try {
+			noButton.click();
+		} catch (AssertionError e) {
+			logger.info("assertion error : " + e.getMessage());
 		}
-	
 
 	}
 
 	public void checkfordeletedBatch() throws InterruptedException {
+		// WebElement searchBox =
+		// driver.findElement(By.xpath("//input[@id='filterGlobal']"));
+		searchBox.clear();
+		searchBox.sendKeys("Batch");
 		boolean flag = checkForTheAddedBatch();
 		logger.info("Checked for the batch message:" + flag);
-		Assert.assertFalse(flag);
+		Assert.assertTrue(flag);
 	}
 
 	public void selectTheChkBox() {
 		String deleteBatch = batchName;
-		WebElement searchBox = driver.findElement(By.xpath("//input[@id='filterGlobal']"));	
-		searchBox.sendKeys(deleteBatch);	
+		// WebElement searchBox =
+		// driver.findElement(By.xpath("//input[@id='filterGlobal']"));
+		searchBox.sendKeys(deleteBatch);
 		List<WebElement> rows = tableBody.findElements(By.xpath(".//tbody/tr"));
 
 		for (WebElement row : rows) {
 			WebElement secondCell = row.findElement(By.xpath(".//td[2]"));
 			WebElement firstCell = row.findElement(By.xpath(".//td[1]"));
-			//System.out.println(secondCell.getText());
+			// System.out.println(secondCell.getText());
 			if (secondCell.getText().equalsIgnoreCase(deleteBatch)) {
 				WebElement checkbox = firstCell.findElement(By.tagName("input"));
-				if(!checkbox.isSelected())				{
+				if (!checkbox.isSelected()) {
 					checkbox.click(); // Click to select checkbox if not already selected
-		            logger.info("Checkbox selected");
+					logger.info("Checkbox selected");
 				}
 //				WebElement deleteBtn = secondCell
 //						.findElement(By.xpath("//tr[@class='ng-star-inserted'][1]//button[@icon='pi pi-trash']"));
 //				deleteBtn.click();
-				break;				
+				break;
 			}
 		}
-		
+
 	}
 
 	public void checkDataTableForChkBoxSelected() {
-		List<WebElement> checkboxes = driver.findElements(By.xpath("//table//input[@type='checkbox']")); 
-        boolean noneSelected = true;
-        for (WebElement checkbox : checkboxes) {
-            if (checkbox.isSelected()) {
-                noneSelected = false;
-                break;  
-            }
-        }
-       
-        if (noneSelected) {
-            logger.info("None of the checkboxes in the data table are selected.");          
-        } else {
-            logger.info("At least one checkbox in the data table is selected.");
-           
-        }
-		
+		List<WebElement> checkboxes = driver.findElements(By.xpath("//table//input[@type='checkbox']"));
+		boolean noneSelected = true;
+		for (WebElement checkbox : checkboxes) {
+			if (checkbox.isSelected()) {
+				noneSelected = false;
+				break;
+			}
+		}
+
+		if (noneSelected) {
+			logger.info("None of the checkboxes in the data table are selected.");
+		} else {
+			logger.info("At least one checkbox in the data table is selected.");
+
+		}
+
 	}
 
-	public void checkEditIconisEnabled() {	
-		WebElement searchBox = driver.findElement(By.id("filterGlobal"));
+	public void checkEditIconisEnabled() {
+		// WebElement searchBox = driver.findElement(By.id("filterGlobal"));
 		searchBox.sendKeys(batchName);
 		try {
 			// populate then row
@@ -833,15 +841,16 @@ public class BatchPage {
 	}
 
 	public void clicksTheEditIcon() {
-		 editIcon.click();
+		editIcon.click();
 		logger.info("Admin clicked edit iccon to check desctription optional field");
 	}
 
-	public boolean updateBatchDetails(String sheetName, Integer rowno, String batchNametoEdit) throws InvalidFormatException, IOException {
+	public boolean updateBatchDetails(String sheetName, Integer rowno, String batchNametoEdit)
+			throws InvalidFormatException, IOException {
 		List<Map<String, String>> data = cUtils.getValidDataFromExcel(sheetName, rowno);
-				
+
 		description = data.get(rowno).get("UpdateBatchDescription");
-		noOfClasses=data.get(rowno).get("UpdateNoofClasses");	
+		noOfClasses = data.get(rowno).get("UpdateNoofClasses");
 		descriptionTextField.clear();
 		descriptionTextField.sendKeys(description);
 //		if(!statusINactiveRadiobtn.isSelected())
@@ -850,11 +859,9 @@ public class BatchPage {
 //		}
 		noOfClassesSnipperField.sendKeys(noOfClasses);
 		saveBtn.click();
-		flag=verifySuccessMessage();	
+		flag = verifySuccessMessage();
 		return flag;
-		}
-
-
+	}
 
 	public void logoutOftheApp() throws InterruptedException {
 		WebElement logoutButton = driver.findElement(By.xpath("//span[text()='Logout']"));
@@ -864,12 +871,12 @@ public class BatchPage {
 	}
 
 	public String enterInvalidvalue(String sheetName, Integer rowno) throws InvalidFormatException, IOException {
-		
+
 		List<Map<String, String>> data = cUtils.getValidDataFromExcel(sheetName, rowno);
 		description = data.get(rowno).get("InvalidValues");
-		noOfClasses=data.get(rowno).get("InvalidValues");		
+		noOfClasses = data.get(rowno).get("InvalidValues");
 		descriptionTextField.sendKeys(description);
-        String	errormsg=data.get(rowno).get("errormsg");
+		String errormsg = data.get(rowno).get("errormsg");
 //		if(!statusINactiveRadiobtn.isSelected())
 //		{
 //			statusINactiveRadiobtn.click();
@@ -877,111 +884,110 @@ public class BatchPage {
 		noOfClassesSnipperField.sendKeys("InvalidValues");
 		saveBtn.click();
 		verifySuccessMessage();
-		return errormsg;		
+		return errormsg;
 	}
-	
-	
-	
-	
-	public boolean checkInvalidValuesinUpdate(String sheetname, Integer rowno)throws InvalidFormatException, IOException, InterruptedException {
-		List<Map<String, String>> data = cUtils.getValidDataFromExcel(sheetname, rowno);		
+
+	public boolean checkInvalidValuesinUpdate(String sheetname, Integer rowno)
+			throws InvalidFormatException, IOException, InterruptedException {
+		List<Map<String, String>> data = cUtils.getValidDataFromExcel(sheetname, rowno);
 		description = data.get(rowno).get("InvalidValues");
-		noOfClasses=data.get(rowno).get("InvalidValues");	
-		String nameTesxtField=data.get(rowno).get("InvalidValues");	
-	//	System.out.println(description+ " "+noOfClasses+"  "+nameTesxtField);
+		noOfClasses = data.get(rowno).get("InvalidValues");
+		String nameTesxtField = data.get(rowno).get("InvalidValues");
+		// System.out.println(description+ " "+noOfClasses+" "+nameTesxtField);
 		boolean flag = false;
-	//	WebElement errorMsg = null;
+		// WebElement errorMsg = null;
 		for (int i = 0; i < 5; i++) {
 			String fieldName = data.get(i).get("Fields");
 			String expectedErrorMsg = data.get(0).get("errormsg");
-			logger.info("expected eroor msg got for the invalid input in update" +expectedErrorMsg);
+			logger.info("expected eroor msg got for the invalid input in update" + expectedErrorMsg);
 			Thread.sleep(1000);
-			
-			//errorMsg = driver.findElement(By.xpath("//small[@id='text-danger']"));
-			
+
+			// errorMsg = driver.findElement(By.xpath("//small[@id='text-danger']"));
+
 			switch (fieldName) {
 			case "batchField":
-				try
-				{
-				Assert.assertEquals(nameTextField.isEnabled(), true,"Assertion error: manadatory field should be enabled" +fieldName);
-				WebElement batchFieldInvalidValueErrorMsg = driver.findElement(By.xpath("//small[normalize-space()='Batch Name is required.']"));				
-				cUtils.updateInvalidValuesCheck(nameTextField,batchFieldInvalidValueErrorMsg,expectedErrorMsg,saveBtn,nameTesxtField,flag);	
-				}catch(AssertionError e)
-				{
+				try {
+					Assert.assertEquals(nameTextField.isEnabled(), true,
+							"Assertion error: manadatory field should be enabled" + fieldName);
+					WebElement batchFieldInvalidValueErrorMsg = driver
+							.findElement(By.xpath("//small[normalize-space()='Batch Name is required.']"));
+					cUtils.updateInvalidValuesCheck(nameTextField, batchFieldInvalidValueErrorMsg, expectedErrorMsg,
+							saveBtn, nameTesxtField, flag);
+				} catch (AssertionError e) {
 					logger.info("Batch Name field should be enabled");
 				}
 				break;
 
 			case "descriptionField":
-				try
-				{
-				Assert.assertEquals(descriptionTextField.isEnabled(), true,"Assertion error: manadatory field should be enabled :"+fieldName);
-				WebElement descriptionFieldInvalidValueErrorMsg=driver.findElement(By.xpath("//small[normalize-space()='Batch Description is required.']"));
-				cUtils.updateInvalidValuesCheck(descriptionTextField, descriptionFieldInvalidValueErrorMsg, expectedErrorMsg,saveBtn,description,flag);				
-				}catch(Exception e)
-				{
+				try {
+					Assert.assertEquals(descriptionTextField.isEnabled(), true,
+							"Assertion error: manadatory field should be enabled :" + fieldName);
+					WebElement descriptionFieldInvalidValueErrorMsg = driver
+							.findElement(By.xpath("//small[normalize-space()='Batch Description is required.']"));
+					cUtils.updateInvalidValuesCheck(descriptionTextField, descriptionFieldInvalidValueErrorMsg,
+							expectedErrorMsg, saveBtn, description, flag);
+				} catch (Exception e) {
 					logger.info("Batch Description field should be enabled");
-				}break;
+				}
+				break;
 
 			case "programField":
-				try
-				{
-				Assert.assertEquals(programName.isEnabled(), true,"Assertion error: manadatory field should be enabled :"+fieldName);
-				WebElement programNameFieldInvalidValueErrorMsg=driver.findElement(By.xpath("//small[normalize-space()='Program Name is required.']"));
-				cUtils.updateInvalidValuesCheck(programName, programNameFieldInvalidValueErrorMsg, expectedErrorMsg,saveBtn,BatchPage.programNameStr,flag);				
-			}catch(Exception e)
-			{
-				logger.info("Program Name field should be enabled");
-			}break;		
+				try {
+					Assert.assertEquals(programName.isEnabled(), true,
+							"Assertion error: manadatory field should be enabled :" + fieldName);
+					WebElement programNameFieldInvalidValueErrorMsg = driver
+							.findElement(By.xpath("//small[normalize-space()='Program Name is required.']"));
+					cUtils.updateInvalidValuesCheck(programName, programNameFieldInvalidValueErrorMsg, expectedErrorMsg,
+							saveBtn, BatchPage.programNameStr, flag);
+				} catch (Exception e) {
+					logger.info("Program Name field should be enabled");
+				}
+				break;
 
 			case "radioBtn":
-				try
-				{
-				WebElement radioBtnFieldInvalidValueErrorMsg=driver.findElement(By.xpath("//small[normalize-space()='Status is required.']"));
-				cUtils.updateInvalidValuesCheck(statusActiveRadiobtn, radioBtnFieldInvalidValueErrorMsg, expectedErrorMsg,saveBtn,"null",flag);				
-				}catch(Exception e)
-				{
+				try {
+					WebElement radioBtnFieldInvalidValueErrorMsg = driver
+							.findElement(By.xpath("//small[normalize-space()='Status is required.']"));
+					cUtils.updateInvalidValuesCheck(statusActiveRadiobtn, radioBtnFieldInvalidValueErrorMsg,
+							expectedErrorMsg, saveBtn, "null", flag);
+				} catch (Exception e) {
 					logger.info("radio button  field should be enabled");
-				}break;						
+				}
+				break;
 
 			case "NoOfClasses":
-				try
-				{
-				WebElement snipperFieldInvalidValueErrorMsg=driver.findElement(By.xpath("//small[normalize-space()='Status is required.']"));
-				cUtils.updateInvalidValuesCheck(noOfClassesSnipperField, snipperFieldInvalidValueErrorMsg, expectedErrorMsg,saveBtn,"null",flag);				
-		}catch(Exception e)
-		{
-			logger.info("NoofClasses field should be enabled");
-		}break;	
-		default:
-			break;					
+				try {
+					WebElement snipperFieldInvalidValueErrorMsg = driver
+							.findElement(By.xpath("//small[normalize-space()='Status is required.']"));
+					cUtils.updateInvalidValuesCheck(noOfClassesSnipperField, snipperFieldInvalidValueErrorMsg,
+							expectedErrorMsg, saveBtn, "null", flag);
+				} catch (Exception e) {
+					logger.info("NoofClasses field should be enabled");
+				}
+				break;
+			default:
+				break;
+			}
+
 		}
-	
-	
-			}	return flag;
-	
-	
-	
+		return flag;
+
 	}
 
-	public void verifyBatchURl() {		
-		try
-		{
+	public void verifyBatchURl() {
+		try {
 			String Expected = FileReaderManager.getInstance().getResourcebundleInstance().getBatchUrl();
 			cUtils.getAssertionEqualsCheck(driver.getCurrentUrl(), Expected);
-		}catch(AssertionError e)
-		{
+		} catch (AssertionError e) {
 			logger.info("Admin Verifies the BatchUrl and it failed");
 		}
-	}	
-	
-	public void verifyBatchURl1() {		
-		try
-		{
+	}
+
+	public void verifyBatchURl1() {
+		try {
 			String Expected = FileReaderManager.getInstance().getResourcebundleInstance().getBatchUrl();
 			cUtils.getAssertionEqualsCheck(driver.getCurrentUrl(), Expected);
-		}catch(AssertionError e)
-		{
+		} catch (AssertionError e) {
 			logger.info("Admin Verifies the BatchUrl and it failed");
 		}
 	}
@@ -990,24 +996,24 @@ public class BatchPage {
 		saveBtn.click();
 	}
 
-
 	public boolean clearDescriptionalField() throws InterruptedException {
 		descriptionTextField.clear();
 		descriptionTextField.sendKeys(" ");
-		flag=clickSaveButton();
+		flag = clickSaveButton();
 		return flag;
-		
+
 	}
+
 	public List<String> selectMultipleCheckboxesA() throws InterruptedException {
-		   
-		WebElement searchBox = driver.findElement(By.id("filterGlobal"));
+
+		// WebElement searchBox = driver.findElement(By.id("filterGlobal"));
 		searchBox.sendKeys("BatchTribe");
 
 		Thread.sleep(1000);
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
 
-		secondColumnTexts = new ArrayList<>();		
-	
+		secondColumnTexts = new ArrayList<>();
+
 		List<WebElement> rows = driver.findElements(By.xpath("//tbody[@class='p-datatable-tbody']/tr"));
 
 		for (WebElement row : rows) {
@@ -1017,7 +1023,7 @@ public class BatchPage {
 				secondColumnElement = row.findElement(By.xpath("./td[2]"));
 				String text = secondColumnElement.getText();
 				secondColumnTexts.add(text);
-				logger.info("BatchNames Checkbox Selected For Delete : "+text);
+				logger.info("BatchNames Checkbox Selected For Delete : " + text);
 			}
 		}
 		clickManageHeaderDeleteIconForMultipleRow();
@@ -1026,39 +1032,37 @@ public class BatchPage {
 	}
 
 	public String checkForCreatedBranchToEdit() throws InterruptedException {
-		WebElement searchBox = driver.findElement(By.id("filterGlobal"));
+		// WebElement searchBox = driver.findElement(By.id("filterGlobal"));
 		searchBox.sendKeys(batchName);
-        WebElement branchNameToEdit = driver.findElement(By.xpath("//table[@role='grid']/tbody/tr/td[2][contains(text(), '" + batchName + "')]"));
+		WebElement branchNameToEdit = driver
+				.findElement(By.xpath("//table[@role='grid']/tbody/tr/td[2][contains(text(), '" + batchName + "')]"));
 
-try {
-		Thread.sleep(1000);
-		// Locate the row containing the batch name in the search results table
-       // WebElement branchNameToEdit = driver.findElement(By.xpath("//table[@role='grid']/tbody/tr/td[2][contains(text(), '" + batchName + "')]"));
-      
-        // Click the "Edit" button in the corresponding row
-        WebElement editButton = branchNameToEdit.findElement(By.xpath("./following-sibling::td/div/span/button[contains(@class, 'p-button-success')]"));
-        logger.info("Batch Edited Successfully" +branchNameToEdit);
-		//updateBatchDetails(branchNameToEdit.getText());
-}catch(Exception e)
-{
-	System.out.println("bactheditverification");
-}
-return branchNameToEdit.getText();		
+		try {
+			Thread.sleep(1000);
+			// Locate the row containing the batch name in the search results table
+			// WebElement branchNameToEdit =
+			// driver.findElement(By.xpath("//table[@role='grid']/tbody/tr/td[2][contains(text(),
+			// '" + batchName + "')]"));
+
+			// Click the "Edit" button in the corresponding row
+			WebElement editButton = branchNameToEdit.findElement(
+					By.xpath("./following-sibling::td/div/span/button[contains(@class, 'p-button-success')]"));
+			logger.info("Batch Edited Successfully" + branchNameToEdit);
+			// updateBatchDetails(branchNameToEdit.getText());
+		} catch (Exception e) {
+			System.out.println("bactheditverification");
+		}
+		return branchNameToEdit.getText();
 
 	}
-
 
 	public boolean checkManadatoryFieldsEnabled() {
-		
-		if(nameTextField.isEnabled() && programName.isEnabled() && statusActiveRadiobtn.isSelected())
+
+		if (nameTextField.isEnabled() && programName.isEnabled() && statusActiveRadiobtn.isSelected())
 			logger.info("mandatory fields not enabled");
-			flag=true;
-		
+		flag = true;
+
 		return false;
 	}
-	
 
-	}
-
-
-
+}

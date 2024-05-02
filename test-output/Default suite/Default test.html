@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>28/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 01 12:53:43 EDT 2024</td>
+<td>Started on:</td><td>Thu May 02 05:27:11 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>70 seconds (70297 ms)</td>
+<tr><td>Total time:</td><td>212 seconds (212698 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,155 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if you get error message when mandatory fields are erased", "Edit batch"</td>
+<td><div><pre>java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:936)
+	at stepDefinitions.EditBatch_SD.erase_data_from_mandatory_field(EditBatch_SD.java:106)
+	at ✽.Erase data from mandatory field &quot;AddBatch&quot; and 1(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1735639155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735639155'><pre>java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:936)
+	at stepDefinitions.EditBatch_SD.erase_data_from_mandatory_field(EditBatch_SD.java:106)
+	at ✽.Erase data from mandatory field &quot;AddBatch&quot; and 1(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:39)
+</pre></div></td>
+<td>34</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate landing in Batch Page", "Batch Page Validation"</td>
+<td><div><pre>java.lang.AssertionError: URL does not contain &apos;manage batch&apos; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pageObjects.BatchPage.checkURL(BatchPage.java:456)
+	at stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_in_the_url(BatchPagevalidation_SD.java:32)
+	at ✽.Admin should see the &quot;manage batch&quot; in the url(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/01_BatchPageValidation.feature:16)
+</pre></div><a href='#' onClick='toggleBox("stack-trace405587614", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace405587614'><pre>java.lang.AssertionError: URL does not contain &apos;manage batch&apos; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pageObjects.BatchPage.checkURL(BatchPage.java:456)
+	at stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_in_the_url(BatchPagevalidation_SD.java:32)
+	at ✽.Admin should see the &quot;manage batch&quot; in the url(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/01_BatchPageValidation.feature:16)
+</pre></div></td>
+<td>5</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if description field is optional in update", "Edit batch"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at stepDefinitions.EditBatch_SD.the_updated_batch_details_should_appear_on_the_data_table(EditBatch_SD.java:85)
+	at ✽.The updated batch details should appear on the data table(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:56)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1149771724", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1149771724'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at stepDefinitions.EditBatch_SD.the_updated_batch_details_should_appear_on_the_data_table(EditBatch_SD.java:85)
+	at ✽.The updated batch details should appear on the data table(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:56)
+</pre></div></td>
+<td>2</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for single row delete", "Delete Multiple Batches"</td>
+<td><div><pre>java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:106)
+	at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:29)
+</pre></div><a href='#' onClick='toggleBox("stack-trace982374553", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace982374553'><pre>java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:106)
+	at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:29)
+</pre></div></td>
+<td>2</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the update throws error with invalid valued", "Edit batch"</td>
+<td><div><pre>java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:936)
+	at stepDefinitions.EditBatch_SD.update_the_fields_with_invalid_values_and_click_save(EditBatch_SD.java:90)
+	at ✽.Update the fields with invalid values and click save &quot;AddBatch&quot; and 0(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace674594755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace674594755'><pre>java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:936)
+	at stepDefinitions.EditBatch_SD.update_the_fields_with_invalid_values_and_click_save(EditBatch_SD.java:90)
+	at ✽.Update the fields with invalid values and click save &quot;AddBatch&quot; and 0(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:30)
+</pre></div></td>
+<td>34</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for multi row delete", "Delete Multiple Batches"</td>
+<td><div><pre>java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:106)
+	at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:36)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1809109579", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1809109579'><pre>java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:106)
+	at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:36)
+</pre></div></td>
+<td>36</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,20 +225,145 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate reject alert", "Title of your feature"</td>
-<td></td>
-<td>26</td>
-<td>runner.TestRunner@3003697</td></tr>
-<tr>
-<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate accept alert", "Title of your feature"</td>
-<td></td>
-<td>31</td>
-<td>runner.TestRunner@3003697</td></tr>
-<tr>
 <td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin adds a new Batch with mandatory fields with valid data", "Add new batch"</td>
 <td></td>
+<td>4</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the batch details are added in data table", "Add new batch"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate "+ A New batch" in Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level edit icon", "Edit batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data rows", "Batch Page Validation"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for invalid fields", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level delete icon", "Admmin checks the delte functionalities in the applciation"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields are updated", "Edit batch"</td>
+<td></td>
+<td>2</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data table headers in the Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate header in the Batch page", "Batch Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pop up for adding batch", "Batch Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if description is optional field", "Add new batch"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin adds a new Batch with mandatory fields with valid data", "Delete Multiple Batches"</td>
+<td></td>
+<td>4</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for mandatory fields", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if you if the mandatory fields are enabled", "Edit batch"</td>
+<td></td>
+<td>3</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pagination in the Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate accept alert", "Admmin checks the delte functionalities in the applciation"</td>
+<td></td>
+<td>31</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for invalid fields", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the delete icon below the header", "Delete Multiple Batches"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin verifies the fields exist in Batch details page popup", "Add new batch"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Delete button in Batch Page", "Batch Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate reject alert", "Admmin checks the delte functionalities in the applciation"</td>
+<td></td>
 <td>10</td>
-<td>runner.TestRunner@3003697</td></tr>
+<td>runner.TestRunner@1d81e101</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check all the deleted rows are reflected after loging back in", "Delete Multiple Batches"</td>
+<td></td>
+<td>1</td>
+<td>runner.TestRunner@1d81e101</td></tr>
 </table><p>
 </body>
 </html>

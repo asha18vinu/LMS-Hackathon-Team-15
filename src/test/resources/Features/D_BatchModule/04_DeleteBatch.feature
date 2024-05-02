@@ -1,7 +1,6 @@
 
 @tag
-Feature: Title of your feature
-  I want to use this template for my feature file
+Feature: Admmin checks the delte functionalities in the applciation
   
   
 Background: 
@@ -15,14 +14,14 @@ Background:
   When Admin clicks the delete icon
   Then Alert appears with yes and No option
   
-  @delete
+  @delete 
   Scenario: Validate reject alert
   Given The delete icon on row level in data table is enabled
   Given Admin clicks the delete icon
   When Admin click "no" NO option
   Then Batch is still listed in data table
   
- @delete
+ @delete 
   Scenario: Validate accept alert
    Given The delete icon on row level in data table is enabled
   Given Admin clicks the delete icon

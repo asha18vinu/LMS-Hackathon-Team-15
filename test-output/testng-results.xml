@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="34" passed="28" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T12:53:43 EDT" name="Default suite" finished-at="2024-05-01T12:54:53 EDT" duration-ms="70297">
+  <suite started-at="2024-05-02T05:27:11 EDT" name="Default suite" finished-at="2024-05-02T05:30:43 EDT" duration-ms="212698">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-01T12:53:43 EDT" name="Default test" finished-at="2024-05-01T12:54:53 EDT" duration-ms="70297">
+    <test started-at="2024-05-02T05:27:11 EDT" name="Default test" finished-at="2024-05-02T05:30:43 EDT" duration-ms="212698">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="browserType" finished-at="2024-05-01T12:53:43 EDT" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:11 EDT" name="browserType" finished-at="2024-05-02T05:27:11 EDT" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,18 +21,273 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserType -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="setUpClass" finished-at="2024-05-01T12:53:43 EDT" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:11 EDT" name="setUpClass" finished-at="2024-05-02T05:27:11 EDT" duration-ms="790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1ab502f6]]>
+                <![CDATA[org.testng.TestRunner@4ddeada6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:53:54 EDT" duration-ms="10659" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:11 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:17 EDT" duration-ms="5546" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate landing in Batch Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[URL does not contain 'manage batch' expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: URL does not contain 'manage batch' expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at pageObjects.BatchPage.checkURL(BatchPage.java:456)
+at stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_in_the_url(BatchPagevalidation_SD.java:32)
+at ✽.Admin should see the "manage batch" in the url(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/01_BatchPageValidation.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:17 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:18 EDT" duration-ms="882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate header in the Batch page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:19 EDT" duration-ms="874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pagination in the Batch Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:19 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:22 EDT" duration-ms="3096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate data table headers in the Batch Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:22 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:23 EDT" duration-ms="758" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Delete button in Batch Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:23 EDT" duration-ms="741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate "+ A New batch" in Batch Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:25 EDT" duration-ms="1116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate data rows"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:25 EDT" duration-ms="897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate pop up for adding batch"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Batch Page Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:27 EDT" duration-ms="1175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin verifies the fields exist in Batch details page popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:28 EDT" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin verifies the fields exist in Batch details page popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:29 EDT" duration-ms="1139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin verifies the fields exist in Batch details page popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:30 EDT" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin verifies the fields exist in Batch details page popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:32 EDT" duration-ms="1296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin verifies the fields exist in Batch details page popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:33 EDT" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin verifies the fields exist in Batch details page popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:38 EDT" duration-ms="4857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if description is optional field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:42 EDT" duration-ms="4644" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +303,234 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:54:20 EDT" duration-ms="26012" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:47 EDT" duration-ms="4452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if the batch details are added in data table"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:48 EDT" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for error messages for invalid fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:48 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:49 EDT" duration-ms="1116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for error messages for invalid fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:49 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:50 EDT" duration-ms="1262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for error messages for mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add new batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:51 EDT" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate row level edit icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:27:54 EDT" duration-ms="2465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if the fields are updated"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:27:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:28:28 EDT" duration-ms="34487" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if the update throws error with invalid valued"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit batch"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion error: manadatory field should be enabled :programField expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:936)
+at stepDefinitions.EditBatch_SD.update_the_fields_with_invalid_values_and_click_save(EditBatch_SD.java:90)
+at ✽.Update the fields with invalid values and click save "AddBatch" and 0(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:30)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:28:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:03 EDT" duration-ms="34662" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if you get error message when mandatory fields are erased"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit batch"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion error: manadatory field should be enabled :programField expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:936)
+at stepDefinitions.EditBatch_SD.erase_data_from_mandatory_field(EditBatch_SD.java:106)
+at ✽.Erase data from mandatory field "AddBatch" and 1(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:39)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:06 EDT" duration-ms="3125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if you if the mandatory fields are enabled"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit batch"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:09 EDT" duration-ms="2525" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check if description field is optional in update"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Edit batch"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at stepDefinitions.EditBatch_SD.the_updated_batch_details_should_appear_on_the_data_table(EditBatch_SD.java:85)
+at ✽.The updated batch details should appear on the data table(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:56)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:09 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:10 EDT" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate row level delete icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admmin checks the delte functionalities in the applciation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:21 EDT" duration-ms="10817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,14 +539,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Title of your feature"]]>
+                <![CDATA["Admmin checks the delte functionalities in the applciation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:54:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:54:52 EDT" duration-ms="31487" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:52 EDT" duration-ms="31402" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,14 +555,128 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Title of your feature"]]>
+                <![CDATA["Admmin checks the delte functionalities in the applciation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:54:52 EDT" name="tearDownClass" finished-at="2024-05-01T12:54:53 EDT" duration-ms="1424" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:52 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:57 EDT" duration-ms="4955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Admin adds a new Batch with mandatory fields with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Multiple Batches"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:57 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:29:58 EDT" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the delete icon below the header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Multiple Batches"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:29:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:30:00 EDT" duration-ms="2000" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for single row delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Multiple Batches"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiple rows delete icon is not deleting the batches. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:106)
+at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:29)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:30:00 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:30:36 EDT" duration-ms="36464" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check for multi row delete"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Multiple Batches"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Multiple rows delete icon is not deleting the batches. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1066)
+at org.testng.Assert.assertEquals(Assert.java:1030)
+at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:106)
+at ✽.The respective row in the data table is deleted(file:///C:/Users/subas/EclipseLMSPractice/Team15_SeleniumTribe_LMSUIHackathon_Apr24/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:36)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:30:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T05:30:37 EDT" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check all the deleted rows are reflected after loging back in"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Multiple Batches"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T05:30:37 EDT" name="tearDownClass" finished-at="2024-05-02T05:30:43 EDT" duration-ms="5840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
