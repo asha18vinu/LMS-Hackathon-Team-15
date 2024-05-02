@@ -125,9 +125,9 @@ public class BatchPage {
 	WebElement tableBody;
 	@FindBy(xpath = "//div[contains(@class, 'p-confirm-dialog')]")
 	WebElement dialog;
-	@FindBy(xpath = "//span[normalize-space()='Yes']")
+	@FindBy(xpath = "/html/body/app-root/app-batch/p-confirmdialog/div/div/div[3]/button[2]")
 	WebElement yesButton;
-	@FindBy(xpath = "//button[contains(@class, 'p-confirm-dialog-reject')]")
+	@FindBy(xpath = "/html/body/app-root/app-batch/p-confirmdialog/div/div/div[3]/button[1]")
 	WebElement noButton;
 	@FindBy(xpath="//span[@class='p-button-icon pi pi-pencil']")
 	WebElement editIcon ;
@@ -277,7 +277,7 @@ public class BatchPage {
 	}
 
 	public boolean checkForTheAddedBatch() throws InterruptedException {	
-		driver.navigate().back();
+		//driver.navigate().back();
 		//driver.navigate().refresh();
 		List<WebElement> tableRowData = new ArrayList<>();
 		Thread.sleep(1000);;

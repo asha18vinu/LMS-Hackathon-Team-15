@@ -9,14 +9,14 @@ Background:
 
   
   
- @edit
+ @edit @smoke
   Scenario: Validate row level edit icon
     Given The edit icon on row level in data table is enabled
     When Admin clicks the edit icon
     Then A new pop up with Batch details appears
   
 
- @edit1
+ @edit1 @smoke
   Scenario Outline: Check if the fields are updated
     Given Admin clicks the edit icon to edit
     When Update the fields with valid values and click save "<sheetname>" and <rowno>
@@ -25,7 +25,7 @@ Background:
     |sheetname|rowno|
     |AddBatch |0    |
 
- @edit
+ @edit @smoke
   Scenario Outline: Check if the update throws error with invalid valued
     Given Admin clicks the edit icon
     When Update the fields with invalid values and click save "<sheetname>" and <rowno>
@@ -34,7 +34,7 @@ Background:
     |sheetname|rowno|
     |AddBatch |0    |
 
- @edit
+ @edit @smoke
   Scenario Outline: Check if you get error message when mandatory fields are erased
     Given Admin clicks the edit icon
     When Erase data from mandatory field "<sheetname>" and <rowno>
@@ -44,13 +44,13 @@ Background:
     |sheetname|rowno|
     |AddBatch |1    |
     
-    @MandatoryfieldsEnabled
+    @MandatoryfieldsEnabled @smoke
    Scenario: Check if you if the mandatory fields are enabled
     Given Admin clicks the edit icon
     When check mandatory fields are enabled
     Then all mandatory fields should be enabled
 
-
+@smoke
   Scenario: Check if description field is optional in update
     Given Admin clicks the edit icon
     When Erase data from description field

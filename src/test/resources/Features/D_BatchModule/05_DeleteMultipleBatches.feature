@@ -5,6 +5,16 @@ Background:
   Given Admin is logged on the Lms portal dashboardPage after login
   When  Admin clicks Batch from navigation barr
 
+  @validbatch @smoke @delete @deleteMultiple @tested @edit1 @Add
+Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
+    Given Admin is on the BatchDetails page
+    When Admin fills out the mandatory fields "<sheetname>" and <RowNo> 
+    Then Admin clicks the save button
+    Then Admin should see the Successfull message
+
+   Examples:
+   | sheetname         | RowNo  |
+   | AddBatch  	       |  0 		|	
   
   
  @deleteMultiple

@@ -5,8 +5,8 @@
     <classes>
       <class name="runner.TestRunner">
         <methods>
-          <include name="setUpClass"/>
           <include name="browserType"/>
+          <include name="setUpClass"/>
           <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
         </methods>

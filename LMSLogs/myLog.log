@@ -6296,3 +6296,583 @@ Failed to create new User as phone number 9998887776 already exists !!
 [INFO ]2024-05-02 00:24:21.362 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@16b980a0: 30 ms
 [INFO ]2024-05-02 00:24:21.396 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@490f9aec: 33 ms
 >>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
+[INFO ]2024-05-02 10:20:39.748 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 10:20:39.931 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 10:20:44.431 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:20:44.431 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:20:44.731 [main]AddNewBatch_SD-Admin is in the batch page
+[INFO ]2024-05-02 10:22:59.357 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:22:59.363 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:22:59.365 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.366 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.373 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-05-02 10:22:59.389 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+[INFO ]2024-05-02 10:22:59.390 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.391 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.391 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.392 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.393 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.394 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.394 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.394 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.395 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.395 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.398 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.398 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.399 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.399 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.400 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.400 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.405 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-05-02 10:22:59.406 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.408 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.409 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.410 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.410 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.410 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:22:59.411 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:22:59.428 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse-914296350\testng-customsuite.xml
+
+[INFO ]2024-05-02 10:22:59.503 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ]2024-05-02 10:23:01.044 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 10:23:01.134 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 10:23:05.394 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:05.394 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:06.908 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:06.909 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:07.783 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:07.784 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:08.778 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:08.778 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:10.314 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:10.569 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:10.818 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:11.054 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:11.270 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:11.600 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:11.830 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:23:12.550 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:12.550 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:13.577 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:13.577 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:14.656 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:14.656 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:16.147 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:16.147 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:16.439 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:18.254 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:18.255 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:18.651 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:18.719 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:18.725 [main]BatchPage-checks for the Field TypeNameField and for its FieldType textbox
+[INFO ]2024-05-02 10:23:19.983 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:19.983 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:20.241 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:20.295 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:20.296 [main]BatchPage-checks for the Field TypeNumberofClassesField and for its FieldType textBox
+[INFO ]2024-05-02 10:23:21.517 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:21.518 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:21.933 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:21.981 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:21.983 [main]BatchPage-checks for the Field TypeDescriptionField and for its FieldType textbox
+[INFO ]2024-05-02 10:23:22.840 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:22.840 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:23.146 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:23.193 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:23.194 [main]BatchPage-checks for the Field TypeProgramnameField and for its FieldType dropDown
+[INFO ]2024-05-02 10:23:23.295 [main]BatchPage-Field mismatch
+[INFO ]2024-05-02 10:23:24.013 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:24.013 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:24.294 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:24.329 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:24.330 [main]BatchPage-checks for the Field TypeActiveField and for its FieldType radioButton
+[INFO ]2024-05-02 10:23:25.297 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:25.298 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:25.583 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:25.627 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:25.628 [main]BatchPage-checks for the Field TypeInactiveField and for its FieldType radioButton
+[INFO ]2024-05-02 10:23:26.544 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:26.544 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:26.814 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:26.859 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:30.795 [main]BatchPage-BatchName created: BatchTribe5710
+[INFO ]2024-05-02 10:23:30.796 [main]BatchPage-Description option sceanrio failed
+[INFO ]2024-05-02 10:23:30.840 [main]AddNewBatch_SD-Admin clicks the save button after adding valid data to the field
+[INFO ]2024-05-02 10:23:31.362 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:31.362 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:31.637 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:31.666 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:31.666 [main]AddNewBatch_SD-Admin is in the batch page
+[INFO ]2024-05-02 10:23:35.364 [main]BatchPage-BatchName created: BatchTribe5810
+[INFO ]2024-05-02 10:23:35.463 [main]AddNewBatch_SD-Admin clicks the save button after adding valid data to the field
+[INFO ]2024-05-02 10:23:35.560 [main]AddNewBatch_SD-Admin verifies the success message :true
+[INFO ]2024-05-02 10:23:36.070 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:23:36.071 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:23:36.332 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:23:36.360 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:23:36.361 [main]AddNewBatch_SD-Admin Added the batch
+[INFO ]2024-05-02 10:24:35.525 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.532 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-05-02 10:24:35.535 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.536 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.540 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ]2024-05-02 10:24:35.554 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+[INFO ]2024-05-02 10:24:35.556 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.556 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.557 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.558 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:24:35.560 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.561 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.562 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.562 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.563 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.563 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.565 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.566 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.567 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.568 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.570 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.571 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.574 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ]2024-05-02 10:24:35.576 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.578 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:24:35.580 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.582 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.583 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.583 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:24:35.583 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:24:35.597 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse--2027575818\testng-customsuite.xml
+
+[INFO ]2024-05-02 10:24:35.660 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ]2024-05-02 10:24:37.012 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 10:24:37.095 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 10:24:41.158 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:41.158 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:42.625 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:42.625 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:43.487 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:43.487 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:44.453 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:44.454 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:45.811 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:45.983 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:46.140 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:46.394 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:46.596 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:46.779 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:46.944 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:24:47.494 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:47.495 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:48.266 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:48.266 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:49.023 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:49.023 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:51.381 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:51.381 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:51.745 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:51.804 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:52.560 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:52.560 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:52.927 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:52.970 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:52.975 [main]BatchPage-checks for the Field TypeNameField and for its FieldType textbox
+[INFO ]2024-05-02 10:24:54.041 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:54.041 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:54.591 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:54.639 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:54.641 [main]BatchPage-checks for the Field TypeNumberofClassesField and for its FieldType textBox
+[INFO ]2024-05-02 10:24:55.754 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:55.755 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:56.092 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:56.126 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:56.128 [main]BatchPage-checks for the Field TypeDescriptionField and for its FieldType textbox
+[INFO ]2024-05-02 10:24:56.909 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:56.909 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:57.282 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:57.321 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:57.323 [main]BatchPage-checks for the Field TypeProgramnameField and for its FieldType dropDown
+[INFO ]2024-05-02 10:24:57.426 [main]BatchPage-Field mismatch
+[INFO ]2024-05-02 10:24:58.097 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:58.097 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:58.410 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:58.444 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:58.445 [main]BatchPage-checks for the Field TypeActiveField and for its FieldType radioButton
+[INFO ]2024-05-02 10:24:59.414 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:24:59.415 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:24:59.762 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:24:59.827 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:24:59.828 [main]BatchPage-checks for the Field TypeInactiveField and for its FieldType radioButton
+[INFO ]2024-05-02 10:25:00.761 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:00.761 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:01.070 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:25:01.109 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:05.141 [main]BatchPage-BatchName created: BatchTribe4910
+[INFO ]2024-05-02 10:25:05.141 [main]BatchPage-Description option sceanrio failed
+[INFO ]2024-05-02 10:25:05.206 [main]AddNewBatch_SD-Admin clicks the save button after adding valid data to the field
+[INFO ]2024-05-02 10:25:05.732 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:05.732 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:06.025 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:25:06.051 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:06.054 [main]AddNewBatch_SD-Admin is in the batch page
+[INFO ]2024-05-02 10:25:09.949 [main]BatchPage-BatchName created: BatchTribe010
+[INFO ]2024-05-02 10:25:10.007 [main]AddNewBatch_SD-Admin clicks the save button after adding valid data to the field
+[INFO ]2024-05-02 10:25:10.196 [main]AddNewBatch_SD-Admin verifies the success message :true
+[INFO ]2024-05-02 10:25:10.940 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:10.941 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:11.331 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:25:11.431 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:11.439 [main]AddNewBatch_SD-Admin Added the batch
+[INFO ]2024-05-02 10:25:14.976 [main]BatchPage-Assertion error : element click intercepted: Element <button type="button" pripple="" class="p-paginator-next p-paginator-element p-link p-ripple">...</button> is not clickable at point (1210, 648). Other element would receive the click: <div class="ng-tns-c132-6 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1000;">...</div>
+  (Session info: chrome=124.0.6367.93)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bb2bf5cb0c780a7cd046d14779c12f1, clickElement {id=f.63E4B46B8AD8FA5470963904DCFF448C.d.AD0314E0368FAD82208FE9DE189E3268.e.1407}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.93, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\subas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62519}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62519/devtoo..., se:cdpVersion: 124.0.6367.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0bb2bf5cb0c780a7cd046d14779c12f1)] -> xpath: //button[@class='p-paginator-next p-paginator-element p-link p-ripple']]
+Session ID: 0bb2bf5cb0c780a7cd046d14779c12f1
+[INFO ]2024-05-02 10:25:14.976 [main]BatchPage-Batch present the table
+[INFO ]2024-05-02 10:25:14.977 [main]AddNewBatch_SD-Admin checks the datatable to verify the batch is added
+[INFO ]2024-05-02 10:25:15.509 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:15.509 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:15.830 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:25:15.851 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:15.853 [main]BatchPage-Admin ccheceks all the fields with invalid values
+[INFO ]2024-05-02 10:25:16.593 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:16.593 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:16.869 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:25:16.896 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:16.897 [main]BatchPage-Admin ccheceks all the fields with invalid values
+[INFO ]2024-05-02 10:25:17.607 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:17.607 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:17.895 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:25:17.919 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:18.873 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:18.874 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:19.283 [main]BatchPage-Admin clicked edit iccon to check desctription optional field
+[INFO ]2024-05-02 10:25:19.308 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:25:19.779 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:19.779 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:21.292 [main]BatchPage-Batch Edited Successfully[[ChromeDriver: chrome on windows (0bb2bf5cb0c780a7cd046d14779c12f1)] -> xpath: //table[@role='grid']/tbody/tr/td[2][contains(text(), 'BatchTribe010')]]
+[INFO ]2024-05-02 10:25:21.347 [main]BatchPage-Admin clicked edit iccon to check desctription optional field
+[INFO ]2024-05-02 10:25:22.263 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:22.263 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:22.779 [main]BatchPage-Admin clicked edit iccon to check desctription optional field
+[INFO ]2024-05-02 10:25:22.847 [main]BatchPage-expected eroor msg got for the invalid input in updateThis field should start with an alphabet and min 2 character.
+[INFO ]2024-05-02 10:25:23.877 [main]BatchPage-Batch Name field should be enabled
+[INFO ]2024-05-02 10:25:23.877 [main]BatchPage-expected eroor msg got for the invalid input in updateThis field should start with an alphabet and min 2 character.
+[INFO ]2024-05-02 10:25:54.951 [main]BatchPage-Batch Description field should be enabled
+[INFO ]2024-05-02 10:25:54.951 [main]BatchPage-expected eroor msg got for the invalid input in updateThis field should start with an alphabet and min 2 character.
+[INFO ]2024-05-02 10:25:56.968 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:25:56.969 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:25:57.484 [main]BatchPage-Admin clicked edit iccon to check desctription optional field
+[INFO ]2024-05-02 10:25:57.546 [main]BatchPage-expected eroor msg got for the invalid input in updateThis field should start with an alphabet and min 2 character.
+[INFO ]2024-05-02 10:25:58.585 [main]BatchPage-Batch Name field should be enabled
+[INFO ]2024-05-02 10:25:58.585 [main]BatchPage-expected eroor msg got for the invalid input in updateThis field should start with an alphabet and min 2 character.
+[INFO ]2024-05-02 10:26:29.630 [main]BatchPage-Batch Description field should be enabled
+[INFO ]2024-05-02 10:26:29.630 [main]BatchPage-expected eroor msg got for the invalid input in updateThis field should start with an alphabet and min 2 character.
+[INFO ]2024-05-02 10:26:31.541 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:26:31.541 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:26:31.948 [main]BatchPage-Admin clicked edit iccon to check desctription optional field
+[INFO ]2024-05-02 10:26:31.974 [main]Hooks-asserti0n eror :mandatory fields are disabledexpected [true] but found [false]
+[INFO ]2024-05-02 10:26:32.488 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:26:32.489 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:26:32.972 [main]BatchPage-Admin clicked edit iccon to check desctription optional field
+[INFO ]2024-05-02 10:26:35.041 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:26:35.041 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:26:35.643 [main]Hooks-Admin checks the delete icon on row level enabled or not
+[INFO ]2024-05-02 10:26:35.731 [main]BatchPage-BatchTribe010  batchname im deleteing
+[INFO ]2024-05-02 10:26:35.871 [main]BatchPage-deleted for the rows
+[INFO ]2024-05-02 10:26:35.871 [main]BatchPage-checkbox selected for the rows
+[INFO ]2024-05-02 10:26:35.872 [main]Hooks-Admin clicks the delte icon
+[INFO ]2024-05-02 10:26:35.921 [main]BatchPage-Assertion yes button found
+[INFO ]2024-05-02 10:26:35.921 [main]Hooks-verify Dialog box appears with yes or no option 
+[INFO ]2024-05-02 10:26:36.443 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:26:36.443 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:26:36.977 [main]Hooks-Admin checks the delete icon on row level enabled or not
+[INFO ]2024-05-02 10:26:37.042 [main]BatchPage-BatchTribe010  batchname im deleteing
+[INFO ]2024-05-02 10:26:37.156 [main]BatchPage-deleted for the rows
+[INFO ]2024-05-02 10:26:37.157 [main]BatchPage-checkbox selected for the rows
+[INFO ]2024-05-02 10:26:37.157 [main]Hooks-Admin clicks the delte icon
+[INFO ]2024-05-02 10:26:37.215 [main]Hooks-Admin clicks the no option
+[INFO ]2024-05-02 10:27:09.309 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:27:09.309 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:27:09.894 [main]Hooks-Admin checks the delete icon on row level enabled or not
+[INFO ]2024-05-02 10:27:09.993 [main]BatchPage-BatchTribe010  batchname im deleteing
+[INFO ]2024-05-02 10:27:10.161 [main]BatchPage-deleted for the rows
+[INFO ]2024-05-02 10:27:10.161 [main]BatchPage-checkbox selected for the rows
+[INFO ]2024-05-02 10:27:10.161 [main]Hooks-Admin clicks the delte icon
+[INFO ]2024-05-02 10:27:10.236 [main]BatchPage-yes button clicked
+[INFO ]2024-05-02 10:27:10.236 [main]Hooks-Admin clicks the yes option
+[INFO ]2024-05-02 10:27:40.985 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:27:40.986 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:27:41.142 [main]AddNewBatch_SD-Admin is in the batch page
+[INFO ]2024-05-02 10:29:53.846 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:29:53.852 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-05-02 10:29:53.854 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.854 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.859 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-05-02 10:29:53.870 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+[INFO ]2024-05-02 10:29:53.871 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.872 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.872 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.873 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:29:53.874 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.875 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:29:53.876 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.876 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.876 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.877 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.880 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.881 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.882 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.882 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.883 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.884 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.886 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:29:53.887 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.888 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.888 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.890 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.890 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.891 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:29:53.891 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:29:53.903 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse-1870591124\testng-customsuite.xml
+
+[INFO ]2024-05-02 10:29:53.955 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[INFO ]2024-05-02 10:29:55.259 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 10:29:55.348 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 10:29:59.131 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:29:59.131 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:00.686 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:00.686 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:01.597 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:01.598 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:02.536 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:02.536 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:03.865 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:04.080 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:04.228 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:04.370 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:04.642 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:04.828 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:04.998 [main]BatchPage-Asserting :true
+[INFO ]2024-05-02 10:30:05.538 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:05.538 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:06.366 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:06.366 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:07.222 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:07.222 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:08.609 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:08.609 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:08.874 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:30:08.909 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:30:13.464 [main]Utils-[TestNG] Time taken by org.testng.internal.ExitCodeListener@5b6637f3: 1 ms
+[INFO ]2024-05-02 10:30:13.551 [main]Utils-[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6a90b5e8: 87 ms
+[INFO ]2024-05-02 10:30:13.719 [main]Utils-[TestNG] Time taken by org.testng.reporters.jq.Main@34a06981: 167 ms
+[INFO ]2024-05-02 10:30:13.741 [main]Utils-[TestNG] Time taken by org.testng.reporters.FailedReporter@321bf4b1: 22 ms
+[INFO ]2024-05-02 10:30:13.751 [main]Utils-[TestNG] Time taken by org.testng.reporters.XMLReporter@68c05c5b: 10 ms
+[INFO ]2024-05-02 10:30:13.761 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@4c25687b: 10 ms
+[INFO ]2024-05-02 10:30:13.770 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4f66f2dd: 9 ms
+[INFO ]2024-05-02 10:30:50.347 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.352 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:30:50.354 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.354 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.359 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ]2024-05-02 10:30:50.378 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 17 ms.
+[INFO ]2024-05-02 10:30:50.380 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.380 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.381 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.383 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:30:50.384 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.385 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.386 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.386 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.386 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.386 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.388 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.390 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.390 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.390 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.392 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.392 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.396 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-05-02 10:30:50.397 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:30:50.399 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.399 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.402 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.402 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.403 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:30:50.403 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:30:50.414 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse-396510818\testng-customsuite.xml
+
+[INFO ]2024-05-02 10:30:50.477 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ]2024-05-02 10:30:51.816 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 10:30:51.977 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 10:30:55.985 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:55.985 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:56.289 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:30:56.329 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:30:56.330 [main]BatchPage-checks for the Field TypeNameField and for its FieldType textbox
+[INFO ]2024-05-02 10:30:57.260 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:57.261 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:57.537 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:30:57.573 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:30:57.574 [main]BatchPage-checks for the Field TypeNumberofClassesField and for its FieldType textBox
+[INFO ]2024-05-02 10:30:58.376 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:58.376 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:58.636 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:30:58.672 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:30:58.673 [main]BatchPage-checks for the Field TypeDescriptionField and for its FieldType textbox
+[INFO ]2024-05-02 10:30:59.338 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:30:59.338 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:30:59.590 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:30:59.636 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:30:59.637 [main]BatchPage-checks for the Field TypeProgramnameField and for its FieldType dropDown
+[INFO ]2024-05-02 10:30:59.710 [main]BatchPage-Field mismatch
+[INFO ]2024-05-02 10:31:00.333 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:00.333 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:00.631 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:00.666 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:00.669 [main]BatchPage-checks for the Field TypeActiveField and for its FieldType radioButton
+[INFO ]2024-05-02 10:31:01.492 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:01.493 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:01.734 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:01.768 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:01.769 [main]BatchPage-checks for the Field TypeInactiveField and for its FieldType radioButton
+[INFO ]2024-05-02 10:31:02.658 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:02.658 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:02.937 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:02.986 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:07.831 [main]BatchPage-BatchName created: BatchTribe3710
+[INFO ]2024-05-02 10:31:07.831 [main]BatchPage-Description option sceanrio failed
+[INFO ]2024-05-02 10:31:07.884 [main]AddNewBatch_SD-Admin clicks the save button after adding valid data to the field
+[INFO ]2024-05-02 10:31:08.521 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:08.521 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:08.754 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:08.786 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:08.787 [main]AddNewBatch_SD-Admin is in the batch page
+[INFO ]2024-05-02 10:31:12.722 [main]BatchPage-BatchName created: BatchTribe5310
+[INFO ]2024-05-02 10:31:12.761 [main]AddNewBatch_SD-Admin clicks the save button after adding valid data to the field
+[INFO ]2024-05-02 10:31:12.859 [main]AddNewBatch_SD-Admin verifies the success message :true
+[INFO ]2024-05-02 10:31:13.391 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:13.391 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:13.674 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:13.706 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:13.707 [main]AddNewBatch_SD-Admin Added the batch
+[INFO ]2024-05-02 10:31:17.196 [main]BatchPage-Assertion error : element click intercepted: Element <button type="button" pripple="" class="p-paginator-next p-paginator-element p-link p-ripple">...</button> is not clickable at point (1210, 646). Other element would receive the click: <div class="ng-tns-c132-6 p-dialog-mask p-component-overlay p-dialog-mask-scrollblocker ng-star-inserted" style="z-index: 1000;">...</div>
+  (Session info: chrome=124.0.6367.93)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a26adb618775ba2edae99234dc2c6c9, clickElement {id=f.184C515EADDD56627EA207A4C5AF67E8.d.46A97E50C1945DCB3BF0050A561445AB.e.821}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.93, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\subas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62919}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62919/devtoo..., se:cdpVersion: 124.0.6367.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3a26adb618775ba2edae99234dc2c6c9)] -> xpath: //button[@class='p-paginator-next p-paginator-element p-link p-ripple']]
+Session ID: 3a26adb618775ba2edae99234dc2c6c9
+[INFO ]2024-05-02 10:31:17.196 [main]BatchPage-Batch present the table
+[INFO ]2024-05-02 10:31:17.197 [main]AddNewBatch_SD-Admin checks the datatable to verify the batch is added
+[INFO ]2024-05-02 10:31:17.770 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:17.770 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:18.090 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:18.125 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:18.126 [main]BatchPage-Admin ccheceks all the fields with invalid values
+[INFO ]2024-05-02 10:31:18.875 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:18.875 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:19.135 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:19.172 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:19.173 [main]BatchPage-Admin ccheceks all the fields with invalid values
+[INFO ]2024-05-02 10:31:19.935 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:31:19.935 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 10:31:20.219 [main]BatchPage-+Add new Batch is clicked
+[INFO ]2024-05-02 10:31:20.252 [main]BatchPage-Admin verifiees the Popupbox
+[INFO ]2024-05-02 10:31:25.953 [main]Utils-[TestNG] Time taken by org.testng.internal.ExitCodeListener@77fd5501: 0 ms
+[INFO ]2024-05-02 10:31:26.029 [main]Utils-[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@117bfeb8: 76 ms
+[INFO ]2024-05-02 10:31:26.198 [main]Utils-[TestNG] Time taken by org.testng.reporters.jq.Main@593d5f39: 169 ms
+[INFO ]2024-05-02 10:31:26.199 [main]Utils-[TestNG] Time taken by org.testng.reporters.FailedReporter@5e537465: 1 ms
+[INFO ]2024-05-02 10:31:26.214 [main]Utils-[TestNG] Time taken by org.testng.reporters.XMLReporter@36c45b54: 15 ms
+[INFO ]2024-05-02 10:31:26.224 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@424461ad: 9 ms
+[INFO ]2024-05-02 10:31:26.238 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@33e6176b: 13 ms
+[INFO ]2024-05-02 10:34:20.331 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.337 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-05-02 10:34:20.338 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.339 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.343 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ]2024-05-02 10:34:20.353 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+[INFO ]2024-05-02 10:34:20.354 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.354 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.355 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.356 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:34:20.357 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.358 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:34:20.359 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.359 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.360 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.360 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.362 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.363 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.363 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.363 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.364 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.364 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.365 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:34:20.366 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.367 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:34:20.367 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.368 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.368 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.368 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:20.369 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:20.378 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse-1138766423\testng-customsuite.xml
+
+[INFO ]2024-05-02 10:34:20.421 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[WARN ]2024-05-02 10:34:21.168 [main]Utils-The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ]2024-05-02 10:34:23.243 [main]Utils-[TestNG] Time taken by org.testng.internal.ExitCodeListener@23b1aa9: 0 ms
+[INFO ]2024-05-02 10:34:23.330 [main]Utils-[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6c8f4bc7: 86 ms
+[INFO ]2024-05-02 10:34:23.465 [main]Utils-[TestNG] Time taken by org.testng.reporters.jq.Main@375084c9: 134 ms
+[INFO ]2024-05-02 10:34:23.465 [main]Utils-[TestNG] Time taken by org.testng.reporters.FailedReporter@bd93bc3: 0 ms
+[INFO ]2024-05-02 10:34:23.475 [main]Utils-[TestNG] Time taken by org.testng.reporters.XMLReporter@179ee36b: 10 ms
+[INFO ]2024-05-02 10:34:23.481 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@36551e97: 6 ms
+[INFO ]2024-05-02 10:34:23.481 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@685d7ba5: 0 ms
+[INFO ]2024-05-02 10:34:49.074 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:34:49.078 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.080 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.081 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.085 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+[INFO ]2024-05-02 10:34:49.096 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+[INFO ]2024-05-02 10:34:49.097 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.098 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.099 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.099 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.101 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.102 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 10:34:49.102 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.103 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.103 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.103 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.105 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.106 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.106 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.106 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.108 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.108 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.110 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ]2024-05-02 10:34:49.111 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.113 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 10:34:49.113 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.115 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.116 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.116 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 10:34:49.116 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 10:34:49.125 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse--108928288\testng-customsuite.xml
+
+[INFO ]2024-05-02 10:34:49.169 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+[INFO ]2024-05-02 10:34:50.557 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 10:34:50.653 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 10:34:54.835 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 10:34:54.835 [main]AddNewBatch_SD-Admin is in the Dashboard page

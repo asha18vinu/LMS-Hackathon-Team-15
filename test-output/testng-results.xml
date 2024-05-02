@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T12:53:43 EDT" name="Default suite" finished-at="2024-05-01T12:54:53 EDT" duration-ms="70297">
+  <suite started-at="2024-05-02T10:34:20 EDT" name="Default suite" finished-at="2024-05-02T10:34:23 EDT" duration-ms="2756">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@1d81e101]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-01T12:53:43 EDT" name="Default test" finished-at="2024-05-01T12:54:53 EDT" duration-ms="70297">
+    <test started-at="2024-05-02T10:34:20 EDT" name="Default test" finished-at="2024-05-02T10:34:23 EDT" duration-ms="2756">
       <class name="runner.TestRunner">
-        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="browserType" finished-at="2024-05-01T12:53:43 EDT" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T10:34:20 EDT" name="browserType" finished-at="2024-05-02T10:34:20 EDT" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,66 +21,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserType -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="setUpClass" finished-at="2024-05-01T12:53:43 EDT" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T10:34:20 EDT" name="setUpClass" finished-at="2024-05-02T10:34:21 EDT" duration-ms="732" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1ab502f6]]>
+                <![CDATA[org.testng.TestRunner@22048bd6]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:53:54 EDT" duration-ms="10659" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Admin adds a new Batch with mandatory fields with valid data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Add new batch"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:53:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:54:20 EDT" duration-ms="26012" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate reject alert"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Title of your feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:54:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-01T12:54:52 EDT" duration-ms="31487" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate accept alert"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Title of your feature"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@3003697]" started-at="2024-05-01T12:54:52 EDT" name="tearDownClass" finished-at="2024-05-01T12:54:53 EDT" duration-ms="1424" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@1d81e101]" started-at="2024-05-02T10:34:21 EDT" name="tearDownClass" finished-at="2024-05-02T10:34:23 EDT" duration-ms="1971" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
