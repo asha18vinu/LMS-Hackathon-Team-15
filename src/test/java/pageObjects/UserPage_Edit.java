@@ -2,7 +2,6 @@ package pageObjects;
 
 import java.time.Duration;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -108,7 +107,6 @@ public class UserPage_Edit {
 
 	public String searchUserByName() {
 
-	
 		String searchUser = "Riya";// call search by username program here
 		commonUtils.sendKeysMethod(searchBox, searchUser, 1);
 
@@ -165,6 +163,7 @@ public class UserPage_Edit {
 			}
 		}
 
+		userRoleStatusEle.click();
 		WebElement optionRoleStatus = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//span[normalize-space()='" + userRoleStatus + "']")));
 		System.out.println(optionRoleStatus.getText());
@@ -216,7 +215,7 @@ public class UserPage_Edit {
 				break;
 			}
 		}
-
+		userRoleStatusEle.click();
 		WebElement optionRoleStatus = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//span[normalize-space()='" + userRoleStatus + "']")));
 		System.out.println(optionRoleStatus.getText());
