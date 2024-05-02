@@ -7,11 +7,7 @@ Feature: Title of your feature
 Background: 
   Given Admin login with valid credentials
   Given Admin is logged on the Lms portal dashboardPage after login
-<<<<<<< HEAD
-  When  Admin clicks "Batch" from navigation bar
-=======
   When  Admin clicks Batch from navigation barr
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
   
  # @delete
   Scenario: Validate row level delete icon
