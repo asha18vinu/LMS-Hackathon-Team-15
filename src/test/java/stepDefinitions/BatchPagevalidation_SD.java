@@ -61,7 +61,10 @@ public class BatchPagevalidation_SD {
 		batchPage.checkNewBatchStringPresent(string);
 	}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 	@Then("Each row in the data table should have a checkboxx")
 	public void each_row_in_the_data_table_should_have_a_checkboxx() {
 		batchPage.checkDataTableForChkBox();

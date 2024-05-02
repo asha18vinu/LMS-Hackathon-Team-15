@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [INFO ]2024-04-30 14:38:53.893 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
 [INFO ]2024-04-30 14:38:53.897 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
 [INFO ]2024-04-30 14:38:53.899 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
@@ -3191,6 +3192,8 @@
 [INFO ]2024-05-01 12:54:53.747 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@73b3ce31: 7 ms
 [INFO ]2024-05-01 12:54:53.758 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@39f8adc0: 10 ms
 =======
+=======
+>>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 [INFO ]2024-05-01 00:10:34.862 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
 [INFO ]2024-05-01 00:10:34.870 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
 [INFO ]2024-05-01 00:10:34.872 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
@@ -6295,6 +6298,7 @@ Failed to create new User as phone number 9998887776 already exists !!
 [INFO ]2024-05-02 00:24:21.331 [main]Utils-[TestNG] Time taken by org.testng.reporters.XMLReporter@2a1c2d5d: 59 ms
 [INFO ]2024-05-02 00:24:21.362 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@16b980a0: 30 ms
 [INFO ]2024-05-02 00:24:21.396 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@490f9aec: 33 ms
+<<<<<<< HEAD
 >>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 [INFO ]2024-05-02 03:30:00.171 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
 [INFO ]2024-05-02 03:30:00.184 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 3 ms.
@@ -9539,3 +9543,5 @@ Session ID: e4a6a20736edecd71a23d1567a2579ce
 [INFO ]2024-05-02 05:30:44.094 [main]Utils-[TestNG] Time taken by org.testng.reporters.XMLReporter@54372b03: 14 ms
 [INFO ]2024-05-02 05:30:44.105 [main]Utils-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@c7ba58d: 10 ms
 [INFO ]2024-05-02 05:30:44.117 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4795def: 11 ms
+=======
+>>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8

@@ -12,7 +12,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
+<<<<<<< HEAD
 @CucumberOptions(features = "src/test/resources/Features/D_BatchModule/", glue = { "hooks",
+=======
+@CucumberOptions(features = "src/test/resources/Features/E_UserModule/", glue = { "hooks",
+>>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 		"stepDefinitions" }, monochrome = true, plugin = { "pretty",
 			//	"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"html:target/Cucumber.html",
@@ -48,4 +52,8 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 //			
 //		}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8

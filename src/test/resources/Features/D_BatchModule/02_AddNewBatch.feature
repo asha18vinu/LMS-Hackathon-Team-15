@@ -39,7 +39,7 @@ Scenario Outline: Check if description is optional field
  
 
 
-@validbatch 
+
 Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
     Given Admin is on the BatchDetails page
     When Admin fills out the mandatory fields "<sheetname>" and <RowNo> 

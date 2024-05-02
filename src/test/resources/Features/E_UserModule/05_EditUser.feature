@@ -51,6 +51,10 @@ Feature: Edit User Feature
       | InvalidUpdate_invalidEmail            | UserPage_Edit |
       | InvalidUpdate_NumericValueInTextField | UserPage_Edit |
       | InvalidUpdate_InvalidTimezone         | UserPage_Edit |
+<<<<<<< HEAD
+=======
+      | InvalidUpdate_PhoneNumber             | UserPage_Edit |
+>>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 
   @04UserPage_EditUserdetails_MandatoryFields
   Scenario Outline: Check if the fields are updated with invalid values
