@@ -9,11 +9,7 @@ Feature: Batch Page Validation
 Background: 
   Given Admin login with valid credentials
   Given Admin is logged on the Lms portal dashboardPage after login
-<<<<<<< HEAD
-  When  Admin clicks "Batch" from navigation bar
-=======
   When  Admin clicks Batch from navigation barr
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
  
   
   Scenario: Validate landing in Batch Page 
@@ -42,11 +38,7 @@ Background:
   Then Admin should be able to see the "+ A New batch" button
    @Batch
   Scenario: Validate data rows
-<<<<<<< HEAD
-  Then Each row in the data table should have a checkbox 
-=======
   Then Each row in the data table should have a checkboxx 
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
   
   
   Scenario: Validate pop up for adding batch

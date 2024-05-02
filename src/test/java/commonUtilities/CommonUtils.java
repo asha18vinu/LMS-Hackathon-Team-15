@@ -1,28 +1,6 @@
 package commonUtilities;
 
 import static org.testng.Assert.assertEquals;
-<<<<<<< HEAD
-import static org.testng.Assert.fail;
-
-import java.io.IOException;
-import java.time.Duration;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-
-import dataFilesReader.ExcelFileSetup;
-=======
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -51,26 +29,10 @@ import org.testng.Assert;
 import context.*;
 import dataFilesReader.ExcelFileSetup;
 import managers.DriverManager;
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 import managers.FileReaderManager;
 
 public class CommonUtils {
 
-<<<<<<< HEAD
-	WebDriver driver;
-	WebDriverWait wait;
-	ExcelFileSetup excelReader;
-	String excelPath;
-
-	public CommonUtils(WebDriver driver) {
-		this.driver = driver;
-		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		excelReader = FileReaderManager.getInstance().getExcelInstance();
-		excelPath = FileReaderManager.getInstance().getResourcebundleInstance().getExcelTestData();
-	}
-
-	public boolean getAssertionEqualsCheck(String actual, String expected) {
-=======
 	private DriverManager driverManager = new DriverManager();
 	private WebDriver driver;
 	WebDriverWait wait;
@@ -104,7 +66,7 @@ public class CommonUtils {
 			wait(waitTimeinSeconds);
 			explicitlyWaitForElement(element, waitTimeinSeconds);
 			element.click();
-			LoggerLoad.info("Element Clicked successfully: {} " + element);
+			//LoggerLoad.info("Element Clicked successfully: {} " + element);
 
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -267,7 +229,6 @@ public class CommonUtils {
                 actions.sendKeys(element, input).perform();
         }
 		public boolean getAssertionEqualsCheck(String actual, String expected) {
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 		boolean flag=false;
 		try {
 			Assert.assertTrue(actual.toLowerCase().contains(expected.toLowerCase()),
@@ -363,15 +324,6 @@ public class CommonUtils {
 		flag = validateErrorMsg(errorMsg.getText(), expectedErrorMsg);
 		}
 	}
-<<<<<<< HEAD
-	public static void scrollToElement(WebDriver driver, WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-    }
-	
-	}
-
-
-=======
 	//Element is displayed
 		public boolean isPresent(WebElement element) 
 		{
@@ -393,4 +345,3 @@ public class CommonUtils {
 		}
 
 }
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45

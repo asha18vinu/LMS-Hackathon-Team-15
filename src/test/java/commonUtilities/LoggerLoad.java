@@ -7,7 +7,7 @@ public class LoggerLoad {
 
 	public static Logger LoggerLoad = LogManager.getLogger();
 
-	public static void logInfo(String message) {
+	public static void info(String message) {
 
 		LoggerLoad.info(message);
 

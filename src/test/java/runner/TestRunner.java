@@ -12,37 +12,6 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
-<<<<<<< HEAD
-@CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\",
-		//"src\\test\\resources\\Features\\D_BatchModule\\02_AddNewBatch.feature",
-		//"src\\test\\resources\\Features\\D_BatchModule\\03_EditBatch.feature"},
-		 glue = { "hooks","stepDefinitions" }, monochrome = false ,tags="@delete"
-//			plugin = {"pretty",
-//				
-//					"timeline:test-output-thread/"
-)
-
- 
-public  class TestRunner  extends AbstractTestNGCucumberTests{
-		
-		@Override
-	    @DataProvider(parallel = false)
-	    public Object[][] scenarios() {
-					
-			return super.scenarios();
-	    }
-	
-		
-		public  static ThreadLocal<String> BROWSER = new ThreadLocal<>();
-		@BeforeTest
-		@Parameters({"browser"})
-		public void browserType(@Optional("chrome") String browser) throws Throwable
-		{  
-			System.out.println("BROWSER RUNNING : "+browser);
-			TestRunner.BROWSER.set(browser);			
-			
-	    }
-=======
 @CucumberOptions(features = "src/test/resources/Features/E_UserModule/", glue = { "hooks",
 		"stepDefinitions" }, monochrome = true, plugin = { "pretty",
 			//	"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
@@ -71,7 +40,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 		TestRunner.BROWSER.set(browser);
 
 	}
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 //		@AfterSuite
 //		public void tearDown()
 //		{
