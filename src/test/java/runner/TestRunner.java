@@ -14,10 +14,8 @@ import io.cucumber.testng.CucumberOptions;
 import managers.DriverManager;
 
 @CucumberOptions(features = "src\\test\\resources\\Features\\D_BatchModule\\",
-		//"src\\test\\resources\\Features\\D_BatchModule\\02_AddNewBatch.feature",
-		//"src\\test\\resources\\Features\\D_BatchModule\\03_EditBatch.feature"},
-		 glue = { "hooks","stepDefinitions" }, monochrome = false ,tags="@delete"
-//			plugin = {"pretty",
+	
+		 glue = { "hooks","stepDefinitions" }, monochrome = false 
 //				
 //					"timeline:test-output-thread/"
 )
