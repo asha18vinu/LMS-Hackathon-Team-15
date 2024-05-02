@@ -181,11 +181,11 @@ public class AssignStaff_SD
 	
 	}
 
-	@When("Admin clicks Cancel button")
-	public void admin_clicks_cancel_button() 
-	{
-		driver.findElement(By.xpath("//label['Cancel']")).click();
-	}
+//	@When("Admin clicks Cancel button")
+//	public void admin_clicks_cancel_button() 
+//	{
+//		driver.findElement(By.xpath("//label['Cancel']")).click();
+//	}
 
 	@Then("Admin can see the Assign Staff popup disappears without assigning")
 	public void admin_can_see_the_assign_staff_popup_disappears_without_assigning()

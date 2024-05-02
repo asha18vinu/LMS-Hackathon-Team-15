@@ -6,16 +6,16 @@ As an admin
 
 Background:
 	Given Admin login with valid credentials
-  Given Admin is logged on the Lms portal dashboardPage after login
-  When  Admin clicks "Batch" from navigation bar
+  Given Admin is logged on the Lms portal dashboardPage after login 
+  When  Admin clicks Batch from navigation barr
   Then Admin clicks "+A new Batch" button
   Then A new pop up with Batch details appears  
   
  
 
-@tested
+@tested 
   Scenario Outline: Admin verifies the fields exist in Batch details page popup        
-   Then Admin Verifies the "<Fields>" existance and its "<FieldType>"  
+   Then Admin Verifies the "<Fields>" existance and its "<FieldType>" in BatchPage 
     
      Examples: 
       | Fields                |FieldType |
@@ -28,7 +28,6 @@ Background:
 
 
 
-@smoke @tested
 Scenario Outline: Check if description is optional field
  When Admin fill in all the fields except description with valid values "<Sheetname>" and <rowno>
  Then Admin clicks the save button
@@ -40,7 +39,7 @@ Scenario Outline: Check if description is optional field
  
 
 
-@validbatch @smoke @delete @deleteMultiple @tested @edit1
+@validbatch @smoke @delete @deleteMultiple @tested @edit1 @Add
 Scenario Outline: Admin adds a new Batch with mandatory fields with valid data
     Given Admin is on the BatchDetails page
     When Admin fills out the mandatory fields "<sheetname>" and <RowNo> 

@@ -1,8 +1,8 @@
 @tag
-Feature: Add New Program Dummy
+Feature: Delete Program
 
   Background: Admin is on dashboard page after Login and clicks Program on the navigation bar
-    Given Admin is on dashboard page after Login
+   # Given Admin is on dashboard page after Login
     When Admin clicks Program on the navigation bar
     Then Admin should see a heading with text Manage Program on the page
 

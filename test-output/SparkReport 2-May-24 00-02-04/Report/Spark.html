@@ -1,0 +1,3150 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 2, 2024 12:02:04 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@edit</a><a class="dropdown-item" href="#">@delete</a><a class="dropdown-item" href="#">@validbatch</a><a class="dropdown-item" href="#">@Batch</a><a class="dropdown-item" href="#">@MandatoryfieldsEnabled</a><a class="dropdown-item" href="#">@tested</a><a class="dropdown-item" href="#">@tag</a><a class="dropdown-item" href="#">@smoke1</a><a class="dropdown-item" href="#">@edit1</a><a class="dropdown-item" href="#">@Add</a><a class="dropdown-item" href="#">@deleteMultiple</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Batch Page Validation</p>
+            <p class="text-sm">
+              <span>12:02:06 AM</span> / <span>00:00:31:876</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Batch Page Validation</h5>
+<span class='badge badge-success'>05.02.2024 12:02:06 AM</span>
+<span class='badge badge-danger'>05.02.2024 12:02:38 AM</span>
+<span class='badge badge-default'>00:00:31:876</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As an Admin I want to verify the batch page UI
+and its addBatch functionality</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Validate landing in Batch Page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_in_the_url(java.lang.String)">
+                <span>Then Admin should see the "manage batch" in the url</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: URL does not contain 'manage batch' expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at pageObjects.BatchPage.checkURL(BatchPage.java:458)
+	at stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_in_the_url(BatchPagevalidation_SD.java:32)
+	at ✽.Admin should see the "manage batch" in the url(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/01_BatchPageValidation.feature:16)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Validate landing in Batch Page
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>validate header in the Batch page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_in_the_header(java.lang.String)">
+                <span>Then Admin should see the "Manage Batch" in the header</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Validate pagination in the Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.BatchPagevalidation_SD.admin_should_see_the_pagination_controls_under_the_data_table()">
+                <span>Then Admin should see the pagination controls under the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>Validate data table headers in the Batch Page</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Validate data table headers in the Batch Page</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Should see the data table with headers "AddBatch" and 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>Validate Delete button in Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.BatchPagevalidation_SD.admin_should_be_able_to_see_the_icon_button_that_is_disabled(java.lang.String)">
+                <span>Then Admin should be able to see the "Delete" icon button that is disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>Validate "+ A New batch" in Batch Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.BatchPagevalidation_SD.admin_should_be_able_to_see_the_button(java.lang.String)">
+                <span>Then Admin should be able to see the "+ A New batch" button</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>Validate data rows</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.BatchPagevalidation_SD.each_row_in_the_data_table_should_have_a_checkboxx()">
+                <span>Then Each row in the data table should have a checkboxx</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>Validate pop up for adding batch</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_button(java.lang.String)">
+                <span>When Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.a_new_pop_up_with_batch_details_appears()">
+                <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="60"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add new batch</p>
+            <p class="text-sm">
+              <span>12:02:38 AM</span> / <span>00:01:09:214</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add new batch</h5>
+<span class='badge badge-success'>05.02.2024 12:02:38 AM</span>
+<span class='badge badge-danger'>05.02.2024 12:03:47 AM</span>
+<span class='badge badge-default'>00:01:09:214</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5">As an admin
+I want to verify the existence of fields on the Batch details page
+So that I can add a new batch with the required information</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="61"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="62"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Verifies the "NameField" existance and its "textbox" in BatchPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="71"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Verifies the "NumberofClassesField" existance and its "textBox" in BatchPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="80"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Verifies the "DescriptionField" existance and its "textbox" in BatchPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Verifies the "ProgramnameField" existance and its "dropDown" in BatchPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="98"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Verifies the "ActiveField" existance and its "radioButton" in BatchPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="107"><span class="badge log pass-bg mr-2">Pass</span>Admin verifies the fields exist in Batch details page popup</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin Verifies the "InactiveField" existance and its "radioButton" in BatchPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="116"><span class="badge log pass-bg mr-2">Pass</span>Check if description is optional field</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="117"><span class="badge log pass-bg mr-2">Pass</span>Check if description is optional field</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin fill in all the fields except description with valid values "AddBatch" and 2</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks the save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The newly added batch should be present in the data table in Manage Batch</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="128"><span class="badge log pass-bg mr-2">Pass</span>Admin adds a new Batch with mandatory fields with valid data</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="129"><span class="badge log pass-bg mr-2">Pass</span>Admin adds a new Batch with mandatory fields with valid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the BatchDetails page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin fills out the mandatory fields "AddBatch" and 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks the save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see the Successfull message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="141"><span class="badge log pass-bg mr-2">Pass</span>Check if the batch details are added in data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_button(java.lang.String)">
+                <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.a_new_pop_up_with_batch_details_appears()">
+                <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_added_the_batch()">
+                <span>Given Admin added the batch</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.the_newly_added_batch_should_be_present_in_the_data_table_in_manage_batch_page()">
+                <span>Then The newly added batch should be present in the data table in Manage Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="151"><span class="badge log fail-bg mr-2">Fail</span>Check for error messages for invalid fields</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="152"><span class="badge log fail-bg mr-2">Fail</span>Check for error messages for invalid fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Actual message does not contain expected message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at commonUtilities.CommonUtils.getAssertionEqualsCheck(CommonUtils.java:234)
+	at pageObjects.BatchPage.popUpVerification(BatchPage.java:182)
+	at stepDefinitions.AddNewBatch_SD.a_new_pop_up_with_batch_details_appears(AddNewBatch_SD.java:58)
+	at ✽.A new pop up with Batch details appears(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/02_AddNewBatch.feature:12)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Admin enters any of the "batchName" with invalid values "@%sdsd"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Admin should get error message "This field should start with an alphabet and min 2 character."</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check for error messages for invalid fields
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="162"><span class="badge log fail-bg mr-2">Fail</span>Check for error messages for invalid fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Actual message does not contain expected message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at commonUtilities.CommonUtils.getAssertionEqualsCheck(CommonUtils.java:234)
+	at pageObjects.BatchPage.popUpVerification(BatchPage.java:182)
+	at stepDefinitions.AddNewBatch_SD.a_new_pop_up_with_batch_details_appears(AddNewBatch_SD.java:58)
+	at ✽.A new pop up with Batch details appears(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/02_AddNewBatch.feature:12)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Admin enters any of the "Description" with invalid values "!"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Admin should get error message "This field should start with an alphabet and min 2 character."</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check for error messages for invalid fields
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="172"><span class="badge log fail-bg mr-2">Fail</span>Check for error messages for mandatory fields</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="173"><span class="badge log fail-bg mr-2">Fail</span>Check for error messages for mandatory fields</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin clicks "+A new Batch" button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then A new pop up with Batch details appears</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Actual message does not contain expected message expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at commonUtilities.CommonUtils.getAssertionEqualsCheck(CommonUtils.java:234)
+	at pageObjects.BatchPage.popUpVerification(BatchPage.java:182)
+	at stepDefinitions.AddNewBatch_SD.a_new_pop_up_with_batch_details_appears(AddNewBatch_SD.java:58)
+	at ✽.A new pop up with Batch details appears(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/02_AddNewBatch.feature:12)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Any of the mandatory fields are blank "AddBatch" and 0</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Admin should get error message</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check for error messages for mandatory fields
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="183"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Edit batch</p>
+            <p class="text-sm">
+              <span>12:03:47 AM</span> / <span>00:01:23:738</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Edit batch</h5>
+<span class='badge badge-success'>05.02.2024 12:03:47 AM</span>
+<span class='badge badge-danger'>05.02.2024 12:05:11 AM</span>
+<span class='badge badge-default'>00:01:23:738</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=183</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="184"><span class="badge log pass-bg mr-2">Pass</span>Validate row level edit icon</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.the_edit_icon_on_row_level_in_data_table_is_enabled()">
+                <span>Given The edit icon on row level in data table is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.admin_clicks_the_edit_icon()">
+                <span>When Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.a_new_pop_up_with_batch_details_appears()">
+                <span>Then A new pop up with Batch details appears</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="193"><span class="badge log pass-bg mr-2">Pass</span>Check if the fields are updated</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="194"><span class="badge log pass-bg mr-2">Pass</span>Check if the fields are updated</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin clicks the edit icon to edit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Update the fields with valid values and click save "AddBatch" and 0</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then The updated batch details should appear on the data table</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="203"><span class="badge log fail-bg mr-2">Fail</span>Check if the update throws error with invalid valued</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="204"><span class="badge log fail-bg mr-2">Fail</span>Check if the update throws error with invalid valued</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When Update the fields with invalid values and click save "AddBatch" and 0</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:927)
+	at stepDefinitions.EditBatch_SD.update_the_fields_with_invalid_values_and_click_save(EditBatch_SD.java:90)
+	at ✽.Update the fields with invalid values and click save "AddBatch" and 0(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:30)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Error message should appear</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check if the update throws error with invalid valued
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="213"><span class="badge log fail-bg mr-2">Fail</span>Check if you get error message when mandatory fields are erased</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="214"><span class="badge log fail-bg mr-2">Fail</span>Check if you get error message when mandatory fields are erased</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When Erase data from mandatory field "AddBatch" and 1</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Assertion error: manadatory field should be enabled :programField expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at pageObjects.BatchPage.checkInvalidValuesinUpdate(BatchPage.java:927)
+	at stepDefinitions.EditBatch_SD.erase_data_from_mandatory_field(EditBatch_SD.java:106)
+	at ✽.Erase data from mandatory field "AddBatch" and 1(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:39)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Error message should appear</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check if you get error message when mandatory fields are erased
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="223"><span class="badge log pass-bg mr-2">Pass</span>Check if you if the mandatory fields are enabled</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.admin_clicks_the_edit_icon()">
+                <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.mandatory_fields_are_enabled()">
+                <span>When check mandatory fields are enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.mandatory_fields_should_be_enabled()">
+                <span>Then all mandatory fields should be enabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="232"><span class="badge log fail-bg mr-2">Fail</span>Check if description field is optional in update</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.admin_clicks_the_edit_icon()">
+                <span>Given Admin clicks the edit icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.EditBatch_SD.erase_data_from_description_field()">
+                <span>When Erase data from description field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.EditBatch_SD.the_updated_batch_details_should_appear_on_the_data_table()">
+                <span>Then The updated batch details should appear on the data table</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at stepDefinitions.EditBatch_SD.the_updated_batch_details_should_appear_on_the_data_table(EditBatch_SD.java:85)
+	at ✽.The updated batch details should appear on the data table(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/03_EditBatch.feature:56)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check if description field is optional in update
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="241"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Title of your feature</p>
+            <p class="text-sm">
+              <span>12:05:11 AM</span> / <span>00:01:14:590</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Title of your feature</h5>
+<span class='badge badge-success'>05.02.2024 12:05:11 AM</span>
+<span class='badge badge-danger'>05.02.2024 12:06:25 AM</span>
+<span class='badge badge-default'>00:01:14:590</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=241</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="242"><span class="badge log pass-bg mr-2">Pass</span>Validate row level delete icon</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.the_delete_icon_on_row_level_in_data_table_is_enabled()">
+                <span>Given The delete icon on row level in data table is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.admin_clicks_the_delete_icon()">
+                <span>When Admin clicks the delete icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.alert_appears_with_yes_and_no_option()">
+                <span>Then Alert appears with yes and No option</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="251"><span class="badge log pass-bg mr-2">Pass</span>Validate reject alert</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.the_delete_icon_on_row_level_in_data_table_is_enabled()">
+                <span>Given The delete icon on row level in data table is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.admin_clicks_the_delete_icon()">
+                <span>Given Admin clicks the delete icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.admin_click_optionno(java.lang.String)">
+                <span>When Admin click "no" NO option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.batch_is_still_listed_in_data_table()">
+                <span>Then Batch is still listed in data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="261"><span class="badge log pass-bg mr-2">Pass</span>Validate accept alert</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.the_delete_icon_on_row_level_in_data_table_is_enabled()">
+                <span>Given The delete icon on row level in data table is enabled</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.admin_clicks_the_delete_icon()">
+                <span>Given Admin clicks the delete icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.admin_click_option(java.lang.String)">
+                <span>When Admin click "yes" option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.batch_deleted_alert_pops_and_batch_is_no_more_available_in_data_table()">
+                <span>Then Batch deleted alert pops and batch is no more available in data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="271"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Delete Multiple Batches</p>
+            <p class="text-sm">
+              <span>12:06:25 AM</span> / <span>00:01:37:359</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Delete Multiple Batches</h5>
+<span class='badge badge-success'>05.02.2024 12:06:25 AM</span>
+<span class='badge badge-danger'>05.02.2024 12:08:03 AM</span>
+<span class='badge badge-default'>00:01:37:359</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=271</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="272"><span class="badge log pass-bg mr-2">Pass</span>Validate the delete icon below the header</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.none_of_the_checkboxes_in_data_table_are_selected()">
+                <span>Given None of the checkboxes in data table are selected</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.the_delete_icon_under_the_header_should_be_disabled(java.lang.String)">
+                <span>Then The delete icon under the "Manage Batch" header should be disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="280"><span class="badge log fail-bg mr-2">Fail</span>Check for single row delete</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.DeleteBatch_SD.one_of_the_checkbox_row_is_selected()">
+                <span>Given One of the checkbox row is selected</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //table//tbody//tr (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.BatchPage.clickSingleChkbox(BatchPage.java:687)
+	at stepDefinitions.DeleteBatch_SD.one_of_the_checkbox_row_is_selected(DeleteBatch_SD.java:85)
+	at ✽.One of the checkbox row is selected(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:16)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table//tbody//tr"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59419d22fb63bd93f6ca6cebac1de89d, findElement {value=//table//tbody//tr, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\tusha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58910/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59419d22fb63bd93f6ca6cebac1de89d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.BatchPage.clickSingleChkbox(BatchPage.java:687)
+	at stepDefinitions.DeleteBatch_SD.one_of_the_checkbox_row_is_selected(DeleteBatch_SD.java:85)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.DeleteBatch_SD.click_delete_icon_below_header(java.lang.String)">
+                <span>When Click delete icon below "Manage Batch" header</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted()">
+                <span>Then The respective row in the data table is deleted</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check for single row delete
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="289"><span class="badge log fail-bg mr-2">Fail</span>Check for multi row delete</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.DeleteBatch_SD.two_or_more_checkboxes_row_is_selected()">
+                <span>Given Two or more checkboxes row is selected</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //table//tbody//tr (tried for 15 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pageObjects.BatchPage.selectMultipleCheckboxesA(BatchPage.java:1005)
+	at stepDefinitions.DeleteBatch_SD.two_or_more_checkboxes_row_is_selected(DeleteBatch_SD.java:115)
+	at ✽.Two or more checkboxes row is selected(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:23)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//table//tbody//tr"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59419d22fb63bd93f6ca6cebac1de89d, findElement {value=//table//tbody//tr, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\tusha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58910}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58910/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59419d22fb63bd93f6ca6cebac1de89d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at pageObjects.BatchPage.selectMultipleCheckboxesA(BatchPage.java:1005)
+	at stepDefinitions.DeleteBatch_SD.two_or_more_checkboxes_row_is_selected(DeleteBatch_SD.java:115)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.DeleteBatch_SD.click_delete_icon_below_header_for_multiple_rows(java.lang.String)">
+                <span>When Click delete icon below "Manage Batch" header for mutiple rows</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted()">
+                <span>Then The respective row in the data table is deleted</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.DeleteBatch_SD.admin_logout_of_the_application()">
+                <span>Then Admin logout of the application</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check for multi row delete
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="299"><span class="badge log fail-bg mr-2">Fail</span>Check all the deleted rows are reflected after loging back in</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>Given Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_is_logged_on_the_lms_portal_dashboard_page_after_login()">
+                <span>Given Admin is logged on the Lms portal dashboardPage after login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_clicks_from_navigation_barr()">
+                <span>When Admin clicks Batch from navigation barr</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.DeleteBatch_SD.admin_is_in_the_manage_batch()">
+                <span>Given Admin is in the manage batch page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted()">
+                <span>When The respective row in the data table is deleted</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Multiple rows delete icon is not deleting the batches. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at stepDefinitions.DeleteBatch_SD.the_respective_row_in_the_data_table_is_deleted(DeleteBatch_SD.java:103)
+	at ✽.The respective row in the data table is deleted(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/D_BatchModule/05_DeleteMultipleBatches.feature:31)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Check all the deleted rows are reflected after loging back in
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>8</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>8 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:02:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Then Admin should see the "manage batch" in the url</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate landing in Batch Page.Then Admin should see the "manage batch" in the url</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='158'>Then A new pop up with Batch details appears</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for invalid fields.Then A new pop up with Batch details appears</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='168'>Then A new pop up with Batch details appears</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for invalid fields.Then A new pop up with Batch details appears</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='179'>Then A new pop up with Batch details appears</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for mandatory fields.Then A new pop up with Batch details appears</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:55 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='210'>When Update the fields with invalid values and click save "AddBatch" and 0</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if the update throws error with invalid valued.When Update the fields with invalid values and click save "AddBatch" and 0</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:04:31 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='220'>When Erase data from mandatory field "AddBatch" and 1</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if you get error message when mandatory fields are erased.When Erase data from mandatory field "AddBatch" and 1</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:05:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='239'>Then The updated batch details should appear on the data table</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if description field is optional in update.Then The updated batch details should appear on the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:07:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='305'>When The respective row in the data table is deleted</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check all the deleted rows are reflected after loging back in.When The respective row in the data table is deleted</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:06:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='285'>Given One of the checkbox row is selected</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for single row delete.Given One of the checkbox row is selected</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:06:59 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='294'>Given Two or more checkboxes row is selected</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for multi row delete.Given Two or more checkboxes row is selected</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">12</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:03:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='141'>Check if the batch details are added in data table</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check if the batch details are added in data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@edit</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@edit</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:03:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='184'>Validate row level edit icon</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Validate row level edit icon</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='204'>Check if the update throws error with invalid valued</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if the update throws error with invalid valued</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:04:28 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='214'>Check if you get error message when mandatory fields are erased</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if you get error message when mandatory fields are erased</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@delete</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@delete</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:05:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='241' id='251'>Validate reject alert</a>
+<div class="">
+<span class="badge badge-default">Title of your feature.Validate reject alert</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:05:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='241' id='261'>Validate accept alert</a>
+<div class="">
+<span class="badge badge-default">Title of your feature.Validate accept alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validbatch</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validbatch</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Batch</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Batch</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Validate data rows</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data rows</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@MandatoryfieldsEnabled</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MandatoryfieldsEnabled</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:05:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='223'>Check if you if the mandatory fields are enabled</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if you if the mandatory fields are enabled</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>8</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@tested</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tested</h4>
+<span status="pass" class='badge log pass-bg'>8 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:38 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='62'>Admin verifies the fields exist in Batch details page popup</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin verifies the fields exist in Batch details page popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:40 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='71'>Admin verifies the fields exist in Batch details page popup</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin verifies the fields exist in Batch details page popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:42 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='80'>Admin verifies the fields exist in Batch details page popup</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin verifies the fields exist in Batch details page popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='89'>Admin verifies the fields exist in Batch details page popup</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin verifies the fields exist in Batch details page popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='98'>Admin verifies the fields exist in Batch details page popup</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin verifies the fields exist in Batch details page popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='107'>Admin verifies the fields exist in Batch details page popup</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin verifies the fields exist in Batch details page popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:03:02 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='141'>Check if the batch details are added in data table</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check if the batch details are added in data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='152'>Check for error messages for invalid fields</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for invalid fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='162'>Check for error messages for invalid fields</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for invalid fields</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:02:06 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate landing in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate landing in Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:21 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>validate header in the Batch page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.validate header in the Batch page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:23 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>Validate pagination in the Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate pagination in the Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Validate data table headers in the Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data table headers in the Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='31'>Validate Delete button in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate Delete button in Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:31 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='38'>Validate "+ A New batch" in Batch Page</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate "+ A New batch" in Batch Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:32 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='45'>Validate data rows</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate data rows</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>Validate pop up for adding batch</a>
+<div class="">
+<span class="badge badge-default">Batch Page Validation.Validate pop up for adding batch</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:05:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='241' id='242'>Validate row level delete icon</a>
+<div class="">
+<span class="badge badge-default">Title of your feature.Validate row level delete icon</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:05:13 AM</td>
+<td>
+<a href="#" class="linked" test-id='241' id='251'>Validate reject alert</a>
+<div class="">
+<span class="badge badge-default">Title of your feature.Validate reject alert</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:05:53 AM</td>
+<td>
+<a href="#" class="linked" test-id='241' id='261'>Validate accept alert</a>
+<div class="">
+<span class="badge badge-default">Title of your feature.Validate accept alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@smoke1</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke1</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='152'>Check for error messages for invalid fields</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for invalid fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:43 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='162'>Check for error messages for invalid fields</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for invalid fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:03:45 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='173'>Check for error messages for mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Check for error messages for mandatory fields</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@edit1</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@edit1</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:03:49 AM</td>
+<td>
+<a href="#" class="linked" test-id='183' id='194'>Check if the fields are updated</a>
+<div class="">
+<span class="badge badge-default">Edit batch.Check if the fields are updated</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@Add</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Add</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@deleteMultiple</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@deleteMultiple</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:02:56 AM</td>
+<td>
+<a href="#" class="linked" test-id='60' id='129'>Admin adds a new Batch with mandatory fields with valid data</a>
+<div class="">
+<span class="badge badge-default">Add new batch.Admin adds a new Batch with mandatory fields with valid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>00:06:25 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='272'>Validate the delete icon below the header</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Validate the delete icon below the header</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:06:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='280'>Check for single row delete</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for single row delete</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:06:58 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='289'>Check for multi row delete</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check for multi row delete</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>00:07:31 AM</td>
+<td>
+<a href="#" class="linked" test-id='271' id='299'>Check all the deleted rows are reflected after loging back in</a>
+<div class="">
+<span class="badge badge-default">Delete Multiple Batches.Check all the deleted rows are reflected after loging back in</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 2, 2024 12:02:04 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 2, 2024 12:08:03 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>4</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='20%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='80%'><b>4</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='69%'><b>23</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='30%'><b>10</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='88%'><b>180</b> steps passed</small></div>
+<div>
+<small data-tooltip='4%'><b>10</b> steps failed,
+<b>13</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Batch Page Validation":31.876,"Add new batch":69.214,"Edit batch":83.738,"Title of your feature":74.59,"Delete Multiple Batches":97.359
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@smoke</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@edit</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>@delete</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@validbatch</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Batch</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@MandatoryfieldsEnabled</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tested</td>
+<td>8</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>@tag</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>90.909%</td>
+</tr>
+<tr>
+<td>@smoke1</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@edit1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Add</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@deleteMultiple</td>
+<td>2</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>40%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 4,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 23,
+failChild: 10,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 180,
+failGrandChild: 10,
+warningGrandChild: 0,
+skipGrandChild: 13,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

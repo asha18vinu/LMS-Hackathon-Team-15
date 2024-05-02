@@ -4,8 +4,7 @@ Feature: Manage Program Validation
     Given Admin is on Home Page
     When Admin login with valid credentials
     Then Admin should land on dashboard page
-  
-    
+     
 
   @tag1
   Scenario: Validate landing in Program Page

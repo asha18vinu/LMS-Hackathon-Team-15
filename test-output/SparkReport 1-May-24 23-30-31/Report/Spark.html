@@ -1,0 +1,3973 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 1, 2024 11:30:31 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@tag6</a><a class="dropdown-item" href="#">@tag9</a><a class="dropdown-item" href="#">@tag5</a><a class="dropdown-item" href="#">@tag7</a><a class="dropdown-item" href="#">@tag10</a><a class="dropdown-item" href="#">@tag1</a><a class="dropdown-item" href="#">@tag11</a><a class="dropdown-item" href="#">@tag12</a><a class="dropdown-item" href="#">@tag3</a><a class="dropdown-item" href="#">@tag2</a><a class="dropdown-item" href="#">@tag4</a><a class="dropdown-item" href="#">@tag8</a><a class="dropdown-item" href="#">@tag</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Manage Program Validation</p>
+            <p class="text-sm">
+              <span>11:30:32 PM</span> / <span>00:00:39:223</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Manage Program Validation</h5>
+<span class='badge badge-success'>05.01.2024 11:30:32 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:31:12 PM</span>
+<span class='badge badge-default'>00:00:39:223</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate landing in Program Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_url_with_manage_program()">
+                <span>Then Admin should see URL with Manage Program</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Validate the heading</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>Validate Add New Program</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_a_new_program_button_on_the_program_page_above_the_data_table()">
+                <span>Then Admin should see a +A New Program button on the program page above the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>Verify Search bar on the Program page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_search_bar_with_text_as_search()">
+                <span>Then Admin should see Search bar with text as Search...</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>Validating the default state of Delete button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.UserPageValidation_SD.admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled()">
+                <span>Then Admin should see a Delete button on the top left hand side as Disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="42"><span class="badge log pass-bg mr-2">Pass</span>Validate that number of records (rows of data in the table) displayed</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_the_number_of_records_rows_of_data_in_the_table_displayed_on_the_page()">
+                <span>Then Admin should see the number of records (rows of data in the table) displayed on the page.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="50"><span class="badge log pass-bg mr-2">Pass</span>Verify data table on the Program page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_data_table_on_the_manage_program_page_with_following_column_headers_program_name_program_description_program_status_edit_delete()">
+                <span>Then Admin should see data table on the Manage Program Page with following column headers (Program Name, Program Description, Program Status, Edit,Delete)</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Validate the text and pagination icon below the data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_the_text_as_showing_x_to_y_of_z_entries_along_with_pagination_icon_below_the_table()">
+                <span>Then Admin should see the text as Showing x to y of z entries along with Pagination icon below the table.</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>Verify Sort arrow icon on the data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_the_sort_arrow_icon_beside_to_each_column_header_except_edit_and_delete()">
+                <span>Then Admin should see the sort arrow icon beside to each column header except Edit and Delete</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="74"><span class="badge log pass-bg mr-2">Pass</span>Verify Check box on the data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_check_box_on_the_left_side_in_all_rows_of_the_data_table()">
+                <span>Then Admin should see check box on the left side in all rows of the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="82"><span class="badge log pass-bg mr-2">Pass</span>Verify Edit and Delete buttons</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_the_edit_and_delete_buttons_on_each_row_of_the_data_table()">
+                <span>Then Admin should see the Edit and Delete buttons on each row of the data table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="90"><span class="badge log pass-bg mr-2">Pass</span>Validate the footer</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_is_on_home_page()">
+                <span>Given Admin is on Home Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.AddNewBatch_SD.admin_login()">
+                <span>When Admin login with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.LoginPage_SD.admin_should_land_on_dashboard_page()">
+                <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_the_footer_as_in_total_there_are_z_programs_z_total_number_of_records()">
+                <span>Then Admin should see the footer as In total there are z programs.z- Total number of records</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="97"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add a Program</p>
+            <p class="text-sm">
+              <span>11:31:12 PM</span> / <span>00:00:02:115</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add a Program</h5>
+<span class='badge badge-success'>05.01.2024 11:31:12 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:31:14 PM</span>
+<span class='badge badge-default'>00:00:02:115</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=97</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="98"><span class="badge log fail-bg mr-2">Fail</span>Validate Program Details Popup window</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_with_empty_form_along_with_save_and_cancel_button_and_close_x_icon_on_the_top_right_corner_of_the_window()">
+                <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="106"><span class="badge log fail-bg mr-2">Fail</span>Validate input fields and their text boxes in Program details form</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_two_input_fields_and_their_respective_text_boxes_in_the_program_details_window()">
+                <span>Then Admin should see two input fields and their respective text boxes in the program details window</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Validate radio button for Program Status</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_two_radio_button_for_program_status()">
+                <span>Then Admin should see two radio button for Program Status</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="122"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add New Program Form Validation</p>
+            <p class="text-sm">
+              <span>11:31:14 PM</span> / <span>00:01:30:229</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add New Program Form Validation</h5>
+<span class='badge badge-success'>05.01.2024 11:31:14 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:32:44 PM</span>
+<span class='badge badge-default'>00:01:30:229</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=122</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="123"><span class="badge log pass-bg mr-2">Pass</span>Empty form submission</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_is_on_the_manage_program_page()">
+                <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_with_empty_form_along_with_save_and_cancel_button_and_close_x_icon_on_the_top_right_corner_of_the_window()">
+                <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_save_button_without_entering_any_data()">
+                <span>When Admin clicks <Save> button without entering any data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_gets_a_error_message_alert()">
+                <span>Then Admin gets a Error message alert</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="131"><span class="badge log pass-bg mr-2">Pass</span>Enter only Program Name</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="132"><span class="badge log pass-bg mr-2">Pass</span>Enter only Program Name</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only Program Name "Java" in text box and clicks Save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a message alert Description is required</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="140"><span class="badge log pass-bg mr-2">Pass</span>Enter only Program Name</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only Program Name "c" in text box and clicks Save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a message alert Description is required</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="148"><span class="badge log pass-bg mr-2">Pass</span>Enter only Program Name</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only Program Name "c++" in text box and clicks Save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a message alert Description is required</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="156"><span class="badge log pass-bg mr-2">Pass</span>Enter only Program Description</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="157"><span class="badge log pass-bg mr-2">Pass</span>Enter only Program Description</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only Program description "Language" in text box and clicks Save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a message alert Name is required</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="165"><span class="badge log pass-bg mr-2">Pass</span>Select Status only</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_is_on_the_manage_program_page()">
+                <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_with_empty_form_along_with_save_and_cancel_button_and_close_x_icon_on_the_top_right_corner_of_the_window()">
+                <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_selects_only_status_and_clicks_save_button()">
+                <span>When Admin selects only Status and clicks Save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_gets_a_message_alert_name_and_description_required()">
+                <span>Then Admin gets a message alert Name and Description required</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="173"><span class="badge log pass-bg mr-2">Pass</span>Validate invalid values on the text column</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="174"><span class="badge log pass-bg mr-2">Pass</span>Validate invalid values on the text column</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only numbers or special char in "2482" and "7860" column</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a Syntax Error  alert</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="182"><span class="badge log pass-bg mr-2">Pass</span>Validate invalid values on the text column</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only numbers or special char in "@@$$" and "!!%%" column</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a Syntax Error  alert</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="190"><span class="badge log pass-bg mr-2">Pass</span>Validate Cancel or Close icon on Program Details form</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_is_on_the_manage_program_page()">
+                <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_with_empty_form_along_with_save_and_cancel_button_and_close_x_icon_on_the_top_right_corner_of_the_window()">
+                <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_cancel_or_close_icon_on_program_details_form()">
+                <span>When Admin clicks Cancel or Close icon on Program Details form</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.program_details_popup_window_should_be_closed_without_saving()">
+                <span>Then Program Details popup window should be closed without saving</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="198"><span class="badge log pass-bg mr-2">Pass</span>Validate Cancel button on Program Details form</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_is_on_the_manage_program_page()">
+                <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_a_new_program_button()">
+                <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_with_empty_form_along_with_save_and_cancel_button_and_close_x_icon_on_the_top_right_corner_of_the_window()">
+                <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_enter_valid_data_and_clicks_cancel_button()">
+                <span>When Admin enter valid data and clicks Cancel button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_can_see_the_program_details_popup_disappears_without_creating_any_program()">
+                <span>Then Admin can see the Program details popup disappears without creating any program</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="206"><span class="badge log fail-bg mr-2">Fail</span>Validate Save button on Program Details form</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="207"><span class="badge log fail-bg mr-2">Fail</span>Validate Save button on Program Details form</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <A New Program> button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details with empty form along with <SAVE> and <CANCEL> button and Close(X) Icon on the top right corner of the window</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Enter all the required fields with valid values in "ProgramPage" and 0 and click Save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Admin gets a message Successful Program Created alert and able to see the new program added in the data table for "ProgramPage" and 0</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at pageObjects.ManageProgramPage1.VerifySucessfullPopUp(ManageProgramPage1.java:145)
+	at stepDefinitions.ManageProgramPage1_SD.admin_gets_a_message_successful_program_created_alert_and_able_to_see_the_new_program_added_in_the_data_table_for_and(ManageProgramPage1_SD.java:342)
+	at ✽.Admin gets a message Successful Program Created alert and able to see the new program added in the data table for "ProgramPage" and 0(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/003_AddNewProgramForm.feature:62)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Validate Save button on Program Details form
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="215"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Edit Program Details</p>
+            <p class="text-sm">
+              <span>11:32:44 PM</span> / <span>00:00:46:943</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Edit Program Details</h5>
+<span class='badge badge-success'>05.01.2024 11:32:44 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:33:31 PM</span>
+<span class='badge badge-default'>00:00:46:943</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=215</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="216"><span class="badge log pass-bg mr-2">Pass</span>Edit Program Name</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="217"><span class="badge log pass-bg mr-2">Pass</span>Edit Program Name</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <Edit> button on the data table for any row</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details to Edit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin edits name column in "ProgramPage" and 0  and clicks save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a message Successful Program Updated alert and able to see the updated "ProgramPage" information in "name" and 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="225"><span class="badge log pass-bg mr-2">Pass</span>Edit Program description</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="226"><span class="badge log pass-bg mr-2">Pass</span>Edit Program description</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <Edit> button on the data table for any row</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details to Edit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin edits the value of the  Program description in "ProgramPage"  and  0 column and clicks save button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a message Successful Program Updated alert and able to see the updated "ProgramPage" information in "description" and 0</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="234"><span class="badge log pass-bg mr-2">Pass</span>Validate invalid values on the text column</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="235"><span class="badge log pass-bg mr-2">Pass</span>Validate invalid values on the text column</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <Edit> button on the data table for any row</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details to Edit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only numbers or special char in "1234" and "@!$%" column</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a Syntax Error  alert</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="243"><span class="badge log pass-bg mr-2">Pass</span>Validate invalid values on the text column</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin clicks <Edit> button on the data table for any row</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see a popup open for Program details to Edit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters only numbers or special char in "%%^^" and "4446" column</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin gets a Syntax Error  alert</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="251"><span class="badge log pass-bg mr-2">Pass</span>Change Program Status</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_is_on_the_manage_program_page()">
+                <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_edit_button_on_the_data_table_for_any_row()">
+                <span>When Admin clicks <Edit> button on the data table for any row</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_to_edit()">
+                <span>Then Admin should see a popup open for Program details to Edit</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_changes_the_status_of_a_program_and_clicks_save_button()">
+                <span>When Admin changes the Status of a program and clicks save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_gets_a_message_successful_program_updated_alert()">
+                <span>Then Admin gets a message Successful Program Updated alert</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="259"><span class="badge log pass-bg mr-2">Pass</span>Validate Cancel button on Edit popup</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_is_on_the_manage_program_page()">
+                <span>Given Admin is on the Manage Program Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_edit_button_on_the_data_table_for_any_row()">
+                <span>When Admin clicks <Edit> button on the data table for any row</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_popup_open_for_program_details_to_edit()">
+                <span>Then Admin should see a popup open for Program details to Edit</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_cancel_button_on_edit_popup()">
+                <span>When Admin clicks <Cancel> button on edit popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_can_see_the_program_details_popup_disappears_and_can_see_nothing_changed_for_particular_program()">
+                <span>Then Admin can see the Program details popup disappears and can see nothing changed for particular program</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="267"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Add New Program Dummy</p>
+            <p class="text-sm">
+              <span>11:33:31 PM</span> / <span>00:00:03:390</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Add New Program Dummy</h5>
+<span class='badge badge-success'>05.01.2024 11:33:31 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:33:35 PM</span>
+<span class='badge badge-default'>00:00:03:390</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=267</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="268"><span class="badge log fail-bg mr-2">Fail</span>Delete Program</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_delete_button_on_the_data_table_for_any_row()">
+                <span>When Admin clicks <Delete> button on the data table for any row</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_alert_open_with_heading_confirm_along_with_yes_and_no_button_for_deletion()">
+                <span>Then Admin should see a alert open with heading Confirm along with  <YES> and <NO> button for deletion</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="276"><span class="badge log fail-bg mr-2">Fail</span>Click Yes on deletion window</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_delete_button_on_the_data_table_for_any_row()">
+                <span>When Admin clicks <Delete> button on the data table for any row</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_yes_button_in_the_dialog_box_to_confirm_the_deletion()">
+                <span>And Admin clicks <Yes> button in the dialog box to confirm the deletion</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_gets_a_message_successful_program_deleted_alert_and_able_to_see_that_program_deleted_in_the_data_table()">
+                <span>Then Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="285"><span class="badge log fail-bg mr-2">Fail</span>Delete a specific Program</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="286"><span class="badge log fail-bg mr-2">Fail</span>Delete a specific Program</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Admin find a specific program from "ProgramName" and clicks <Delete> button on the data table for the specific row 0</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Admin clicks <Yes> button in the dialog box to confirm the deletion</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="295"><span class="badge log fail-bg mr-2">Fail</span>Click No button  on deletion window</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_delete_button_on_the_data_table_for_any_row()">
+                <span>When Admin clicks <Delete> button on the data table for any row</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_no_button_on_the_alert()">
+                <span>And Admin clicks <NO> button on the alert</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_can_see_the_deletion_alert_disappears_without_deleting()">
+                <span>Then Admin can see the deletion alert disappears without deleting</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="304"><span class="badge log fail-bg mr-2">Fail</span>Validate Cancel/Close(X) icon on Confirm Deletion alert</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" >
+                <span>Given Admin is on dashboard page after Login</span>
+      <div>Step undefined
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_program_on_the_navigation_bar()">
+                <span>When Admin clicks Program on the navigation bar</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_should_see_a_heading_with_text_manage_program_on_the_page()">
+                <span>Then Admin should see a heading with text Manage Program on the page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_delete_button_on_the_data_table_for_any_row()">
+                <span>When Admin clicks <Delete> button on the data table for any row</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_close_icon_on_confirm_deletion_alert_on_the_alert()">
+                <span>And Admin clicks Close icon on Confirm Deletion alert  on the alert</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_can_see_the_deletion_alert_disappears_without_any_changes()">
+                <span>Then Admin can see the deletion alert disappears without any changes</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="313"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Navigation Validation from Manage Program to other Pages</p>
+            <p class="text-sm">
+              <span>11:33:35 PM</span> / <span>00:00:05:529</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Navigation Validation from Manage Program to other Pages</h5>
+<span class='badge badge-success'>05.01.2024 11:33:35 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:33:40 PM</span>
+<span class='badge badge-default'>00:00:05:529</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=313</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> Admin validates the navigation from Manage Program to other pages</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="314"><span class="badge log pass-bg mr-2">Pass</span>Batch link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logging_in_with_valid_credentials()">
+                <span>Given Admin is logging in with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_on_the_program_button_in_the_navigation_bar()">
+                <span>When Admin clicks on the Program button in the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_on_manage_program_page()">
+                <span>Given Admin is on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_on_batch_link_on_manage_program_page()">
+                <span>When Admin clicks on Batch link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_re_directed_to_batch_page()">
+                <span>Then Admin is re-directed to Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="322"><span class="badge log pass-bg mr-2">Pass</span>User link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logging_in_with_valid_credentials()">
+                <span>Given Admin is logging in with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_on_the_program_button_in_the_navigation_bar()">
+                <span>When Admin clicks on the Program button in the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_on_manage_program_page()">
+                <span>Given Admin is on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_on_user_link_on_manage_program_page()">
+                <span>When Admin clicks on User link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_re_directed_to_user_page()">
+                <span>Then Admin is re-directed to User page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="330"><span class="badge log pass-bg mr-2">Pass</span>Logout link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logging_in_with_valid_credentials()">
+                <span>Given Admin is logging in with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_on_the_program_button_in_the_navigation_bar()">
+                <span>When Admin clicks on the Program button in the navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_on_manage_program_page()">
+                <span>Given Admin is on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_on_logout_link_on_manage_program_page()">
+                <span>When Admin clicks on Logout link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_re_directed_to_login_page()">
+                <span>Then Admin is re-directed to Login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="338"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sorting(Data Ordering) Validation</p>
+            <p class="text-sm">
+              <span>11:33:40 PM</span> / <span>00:00:09:054</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sorting(Data Ordering) Validation</h5>
+<span class='badge badge-success'>05.01.2024 11:33:40 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:33:49 PM</span>
+<span class='badge badge-default'>00:00:09:054</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=338</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="339"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_the_sort_icon_of_program_name_columnn_i_complete_action()">
+                <span>When Admin clicks the sort icon of program name columnn I complete action</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program name column values in ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="345"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_is_in_the_ascending_order_on_the_table_based_on_program_name_column()">
+                <span>Given The data is in the ascending order on the table based on Program Name column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_the_sort_icon_of_program_name_column()">
+                <span>When Admin clicks the sort icon of program name column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program name column values in descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="352"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_the_sort_icon_of_program_desc_column()">
+                <span>When Admin clicks the sort icon of program Desc column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program description column values in ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="358"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_is_in_the_ascending_order_on_the_table_based_on_program_description_column()">
+                <span>Given The data is in the ascending order on the table based on Program Description column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_the_sort_icon_of_program_desc_column()">
+                <span>When Admin clicks the sort icon of program Desc column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program description column values in descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="365"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_the_sort_icon_of_program_status_column()">
+                <span>When Admin clicks the sort icon of program Status column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program status column values in ascending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="371"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_is_in_the_ascending_order_on_the_table_based_on_program_status_column()">
+                <span>Given The data is in the ascending order on the table based on Program Status column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_the_sort_icon_of_program_status_column()">
+                <span>When Admin clicks the sort icon of program Status column</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program status column values in descending order</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="378"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Multiple Delete Program</p>
+            <p class="text-sm">
+              <span>11:33:49 PM</span> / <span>00:01:59:782</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Multiple Delete Program</h5>
+<span class='badge badge-success'>05.01.2024 11:33:49 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:35:49 PM</span>
+<span class='badge badge-default'>00:01:59:782</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=378</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="379"><span class="badge log pass-bg mr-2">Pass</span>Validate Common Delete button enabled after clicking on any checkbox</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_any_checkbox_in_the_data_table()">
+                <span>When Admin clicks any checkbox in the data table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_see_common_delete_option_enabled_under_header_manage_program()">
+                <span>Then Admin should see common delete option enabled under header Manage Program</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="385"><span class="badge log fail-bg mr-2">Fail</span>Validate multiple programs deletion by selecting Single checkbox</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_delete_button_under_header_after_selecting_the_check_box_in_the_data_table()">
+                <span>Given Admin clicks delete button under header after selecting the check box in the data table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_yes_button_on_the_alert()">
+                <span>When Admin clicks <YES> button on the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_program_is_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected program is deleted from the data table</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because "deletedNames" is null
+	at pageObjects.UserSortingPage.verifyDeletedBatches(UserSortingPage.java:166)
+	at stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_program_is_deleted_from_the_data_table(ManageProgramPage2_SD.java:247)
+	at ✽.Admin should land on Manage Program page and can see the selected program is deleted from the data table(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/008_MultipleDeleteProgram.feature:17)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Validate multiple programs deletion by selecting Single checkbox
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="392"><span class="badge log fail-bg mr-2">Fail</span>Validate multiple program deletion by selecting Single checkbox</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_delete_button_under_header_after_selecting_the_check_box_in_the_data_table()">
+                <span>Given Admin clicks delete button under header after selecting the check box in the data table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_no_button_on_the_alert()">
+                <span>When Admin clicks <NO> button on the alert</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='p-dialog-footer ng-tns-c133-4 ng-star-inserted']/button[1]/span[2]' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at commonUtilities.CommonUtils.waitForElementToBeVisible(CommonUtils.java:205)
+	at stepDefinitions.ManageProgramPage1_SD.admin_clicks_no_button_on_the_alert(ManageProgramPage1_SD.java:525)
+	at ✽.Admin clicks <NO> button on the alert(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/008_MultipleDeleteProgram.feature:22)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='p-dialog-footer ng-tns-c133-4 ng-star-inserted']/button[1]/span[2]"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ed2e4bf90a499ab9979907f54db9f2a, findElement {value=//div[@class='p-dialog-footer ng-tns-c133-4 ng-star-inserted']/button[1]/span[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\tusha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58589/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ed2e4bf90a499ab9979907f54db9f2a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at commonUtilities.CommonUtils.waitForElementToBeVisible(CommonUtils.java:205)
+	at stepDefinitions.ManageProgramPage1_SD.admin_clicks_no_button_on_the_alert(ManageProgramPage1_SD.java:525)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_program_is_not_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected program is not deleted from the data table</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Validate multiple program deletion by selecting Single checkbox
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="399"><span class="badge log fail-bg mr-2">Fail</span>Validate multiple program deletion by selecting multiple check boxes</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_delete_button_under_header_after_selecting_multiple_checkboxes_in_the_data_table()">
+                <span>Given Admin clicks delete button under header after selecting multiple checkboxes in the data table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_yes_button_on_the_alert()">
+                <span>When Admin clicks <YES> button on the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_programs_are_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected programs are deleted from the data table</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='p-paginator-next p-paginator-element p-link p-ripple']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ed2e4bf90a499ab9979907f54db9f2a, findElement {value=//button[@class='p-paginator-next p-paginator-element p-link p-ripple'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\tusha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58589/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ed2e4bf90a499ab9979907f54db9f2a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.getAttribute(Unknown Source)
+	at pageObjects.UserSortingPage.verifyDeletedBatches(UserSortingPage.java:178)
+	at stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_programs_are_deleted_from_the_data_table(ManageProgramPage2_SD.java:302)
+	at ✽.Admin should land on Manage Program page and can see the selected programs are deleted from the data table(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/008_MultipleDeleteProgram.feature:29)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Validate multiple program deletion by selecting multiple check boxes
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="406"><span class="badge log fail-bg mr-2">Fail</span>Validate multiple program deletion by selecting multiple check boxes</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_delete_button_under_header_after_selecting_multiple_checkboxes_in_the_data_table()">
+                <span>Given Admin clicks delete button under header after selecting multiple checkboxes in the data table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage1_SD.admin_clicks_no_button_on_the_alert()">
+                <span>When Admin clicks <NO> button on the alert</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_programs_are_not_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected programs are not deleted from the data table</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class = 'p-button-icon p-button-icon-left pi pi-times']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ed2e4bf90a499ab9979907f54db9f2a, findElement {value=//span[@class = 'p-button-icon p-button-icon-left pi pi-times'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\tusha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58589/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ed2e4bf90a499ab9979907f54db9f2a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.click(Unknown Source)
+	at stepDefinitions.ManageProgramPage2_SD.admin_should_land_on_manage_program_page_and_can_see_the_selected_programs_are_not_deleted_from_the_data_table(ManageProgramPage2_SD.java:327)
+	at ✽.Admin should land on Manage Program page and can see the selected programs are not deleted from the data table(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/008_MultipleDeleteProgram.feature:35)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Validate multiple program deletion by selecting multiple check boxes
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="413"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pagination</p>
+            <p class="text-sm">
+              <span>11:35:49 PM</span> / <span>00:00:35:931</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Pagination</h5>
+<span class='badge badge-success'>05.01.2024 11:35:49 PM</span>
+<span class='badge badge-danger'>05.01.2024 11:36:25 PM</span>
+<span class='badge badge-default'>00:00:35:931</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=413</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> Verify the Pagination features</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="414"><span class="badge log pass-bg mr-2">Pass</span>Verify Next page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_next_page_link_on_the_program_table()">
+                <span>When Admin clicks Next page link on the program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_see_the_pagination_has_Next_active_link()">
+                <span>Then Admin should see the Pagination has Next active link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="420"><span class="badge log fail-bg mr-2">Fail</span>Verify Last page link</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_last_page_link()">
+                <span>When Admin clicks Last page link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled()">
+                <span>Then Admin should see the last page record on the table with Next page link are disabled</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class = 'p-paginator-next p-paginator-element p-link p-ripple p-disabled']"}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2ed2e4bf90a499ab9979907f54db9f2a, findElement {value=//button[@class = 'p-paginator-next p-paginator-element p-link p-ripple p-disabled'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\tusha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58589/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2ed2e4bf90a499ab9979907f54db9f2a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy44.isEnabled(Unknown Source)
+	at commonUtilities.Pagination.checkIsNextPageDisabled(Pagination.java:191)
+	at stepDefinitions.ManageProgramPage2_SD.admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled(ManageProgramPage2_SD.java:124)
+	at ✽.Admin should see the last page record on the table with Next page link are disabled(file:///D:/Priyanka%20Numpy%20Ninja%20docs%20and%20Projects/LMS_Team15_Apr2024/LMS-Hackathon-Team-15/src/test/resources/Features/C_ProgramModule/009_Pagination.feature:15)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>hooks.Hooks.getScreenShot(io.cucumber.java.Scenario)</span>
+      <div>Scenario Name: Verify Last page link
+      </div>
+      <div>Scenario Status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="426"><span class="badge log pass-bg mr-2">Pass</span>Verify First page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_first_page_link()">
+                <span>When Admin clicks First page link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_see_the_previous_page_record_on_the_table_with_pagination_has_previous_page_link()">
+                <span>Then Admin should see the previous page record on the table with pagination has previous page link</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="432"><span class="badge log pass-bg mr-2">Pass</span>Verify Start page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page()">
+                <span>Given Admin is logged in with valid credentials and admin is on the manage program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_clicks_start_page_link()">
+                <span>When Admin clicks Start page link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepDefinitions.ManageProgramPage2_SD.admin_should_see_the_very_first_page_record_on_the_table_with_previous_page_link_are_disabled()">
+                <span>Then Admin should see the very first page record on the table with Previous page link are disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='378' id='390'>Then Admin should land on Manage Program page and can see the selected program is deleted from the data table</a>
+<div class="">
+<span class="badge badge-default">Multiple Delete Program.Validate multiple programs deletion by selecting Single checkbox.Then Admin should land on Manage Program page and can see the selected program is deleted from the data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='378' id='396'>When Admin clicks <NO> button on the alert</a>
+<div class="">
+<span class="badge badge-default">Multiple Delete Program.Validate multiple program deletion by selecting Single checkbox.When Admin clicks <NO> button on the alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:32:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='213'>Then Admin gets a message Successful Program Created alert and able to see the new program added in the data table for "ProgramPage" and 0</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Save button on Program Details form.Then Admin gets a message Successful Program Created alert and able to see the new program added in the data table for "ProgramPage" and 0</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:35:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='378' id='404'>Then Admin should land on Manage Program page and can see the selected programs are deleted from the data table</a>
+<div class="">
+<span class="badge badge-default">Multiple Delete Program.Validate multiple program deletion by selecting multiple check boxes.Then Admin should land on Manage Program page and can see the selected programs are deleted from the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:35:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='378' id='411'>Then Admin should land on Manage Program page and can see the selected programs are not deleted from the data table</a>
+<div class="">
+<span class="badge badge-default">Multiple Delete Program.Validate multiple program deletion by selecting multiple check boxes.Then Admin should land on Manage Program page and can see the selected programs are not deleted from the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:35:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='413' id='424'>Then Admin should see the last page record on the table with Next page link are disabled</a>
+<div class="">
+<span class="badge badge-default">Pagination.Verify Last page link.Then Admin should see the last page record on the table with Next page link are disabled</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">13</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@tag6</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag6</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='42'>Validate that number of records (rows of data in the table) displayed</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate that number of records (rows of data in the table) displayed</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='190'>Validate Cancel or Close icon on Program Details form</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Cancel or Close icon on Program Details form</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag9</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag9</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='66'>Verify Sort arrow icon on the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Sort arrow icon on the data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@tag5</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag5</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='34'>Validating the default state of Delete button</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validating the default state of Delete button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='174'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='182'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='259'>Validate Cancel button on Edit popup</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Validate Cancel button on Edit popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='304'>Validate Cancel/Close(X) icon on Confirm Deletion alert</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Validate Cancel/Close(X) icon on Confirm Deletion alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@tag7</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag7</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='50'>Verify data table on the Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify data table on the Program page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='198'>Validate Cancel button on Program Details form</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Cancel button on Program Details form</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag10</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag10</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='74'>Verify Check box on the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Check box on the data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@tag1</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag1</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate landing in Program Page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate landing in Program Page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:31:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='97' id='98'>Validate Program Details Popup window</a>
+<div class="">
+<span class="badge badge-default">Add a Program.Validate Program Details Popup window</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='123'>Empty form submission</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Empty form submission</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='217'>Edit Program Name</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Edit Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='268'>Delete Program</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Delete Program</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag11</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag11</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='82'>Verify Edit and Delete buttons</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Edit and Delete buttons</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag12</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag12</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='90'>Validate the footer</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the footer</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@tag3</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag3</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='18'>Validate Add New Program</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate Add New Program</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:31:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='97' id='114'>Validate radio button for Program Status</a>
+<div class="">
+<span class="badge badge-default">Add a Program.Validate radio button for Program Status</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='157'>Enter only Program Description</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='235'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='243'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='286'>Delete a specific Program</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Delete a specific Program</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@tag2</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag2</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Validate the heading</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the heading</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:31:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='97' id='106'>Validate input fields and their text boxes in Program details form</a>
+<div class="">
+<span class="badge badge-default">Add a Program.Validate input fields and their text boxes in Program details form</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='132'>Enter only Program Name</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='140'>Enter only Program Name</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='148'>Enter only Program Name</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='226'>Edit Program description</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Edit Program description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='276'>Click Yes on deletion window</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Click Yes on deletion window</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@tag4</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag4</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='26'>Verify Search bar on the Program page</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Verify Search bar on the Program page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='165'>Select Status only</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Select Status only</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='251'>Change Program Status</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Change Program Status</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='295'>Click No button on deletion window</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Click No button on deletion window</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@tag8</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag8</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:30:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='58'>Validate the text and pagination icon below the data table</a>
+<div class="">
+<span class="badge badge-default">Manage Program Validation.Validate the text and pagination icon below the data table</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:32:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='207'>Validate Save button on Program Details form</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Save button on Program Details form</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+<span class='badge log badge-danger'>9</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">25 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+<span status="fail" class='badge log badge-danger'>9 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:31:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='97' id='98'>Validate Program Details Popup window</a>
+<div class="">
+<span class="badge badge-default">Add a Program.Validate Program Details Popup window</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:31:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='97' id='106'>Validate input fields and their text boxes in Program details form</a>
+<div class="">
+<span class="badge badge-default">Add a Program.Validate input fields and their text boxes in Program details form</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:31:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='97' id='114'>Validate radio button for Program Status</a>
+<div class="">
+<span class="badge badge-default">Add a Program.Validate radio button for Program Status</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='123'>Empty form submission</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Empty form submission</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='132'>Enter only Program Name</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='140'>Enter only Program Name</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='148'>Enter only Program Name</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='157'>Enter only Program Description</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Enter only Program Description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='165'>Select Status only</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Select Status only</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='174'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='182'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:31:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='190'>Validate Cancel or Close icon on Program Details form</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Cancel or Close icon on Program Details form</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='198'>Validate Cancel button on Program Details form</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Cancel button on Program Details form</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:32:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='122' id='207'>Validate Save button on Program Details form</a>
+<div class="">
+<span class="badge badge-default">Add New Program Form Validation.Validate Save button on Program Details form</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='217'>Edit Program Name</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Edit Program Name</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='226'>Edit Program description</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Edit Program description</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='235'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='243'>Validate invalid values on the text column</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Validate invalid values on the text column</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='251'>Change Program Status</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Change Program Status</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:32:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='215' id='259'>Validate Cancel button on Edit popup</a>
+<div class="">
+<span class="badge badge-default">Edit Program Details.Validate Cancel button on Edit popup</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='268'>Delete Program</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Delete Program</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='276'>Click Yes on deletion window</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Click Yes on deletion window</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='286'>Delete a specific Program</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Delete a specific Program</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='295'>Click No button on deletion window</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Click No button on deletion window</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:33:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='267' id='304'>Validate Cancel/Close(X) icon on Confirm Deletion alert</a>
+<div class="">
+<span class="badge badge-default">Add New Program Dummy.Validate Cancel/Close(X) icon on Confirm Deletion alert</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 1, 2024 11:30:31 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 1, 2024 11:36:25 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>4</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>5</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='44%'>
+<b>4</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='55%'><b>5</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='74%'><b>41</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='25%'><b>14</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='80%'><b>210</b> steps passed</small></div>
+<div>
+<small data-tooltip='5%'><b>14</b> steps failed,
+<b>37</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Manage Program Validation":39.223,"Add a Program":2.115,"Add New Program Form Validation":90.229,"Edit Program Details":46.943,"Add New Program Dummy":3.39,"Navigation Validation from Manage Program to other Pages":5.529,"Sorting(Data Ordering) Validation":9.054,"Multiple Delete Program":119.782,"Pagination":35.931
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@tag6</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag9</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag5</td>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>@tag7</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag1</td>
+<td>3</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>@tag11</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag12</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag3</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@tag2</td>
+<td>5</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>71.429%</td>
+</tr>
+<tr>
+<td>@tag4</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>@tag8</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@tag</td>
+<td>16</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>64%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 4,
+failParent: 5,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 41,
+failChild: 14,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 210,
+failGrandChild: 14,
+warningGrandChild: 0,
+skipGrandChild: 37,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

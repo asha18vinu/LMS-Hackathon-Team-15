@@ -3,7 +3,7 @@ Feature: Delete Multiple Batches
 Background: 
   Given Admin login with valid credentials
   Given Admin is logged on the Lms portal dashboardPage after login
-  When  Admin clicks "Batch" from navigation bar
+  When  Admin clicks Batch from navigation barr
   
   
  @deleteMultiple

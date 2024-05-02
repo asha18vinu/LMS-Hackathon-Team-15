@@ -12,10 +12,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.NoSuchElementException;
 import java.util.Set;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -322,5 +324,24 @@ public class CommonUtils {
 		flag = validateErrorMsg(errorMsg.getText(), expectedErrorMsg);
 		}
 	}
+	//Element is displayed
+		public boolean isPresent(WebElement element) 
+		{
+			boolean flag  = false;
+			try 
+			{
+				if(element.isDisplayed() || element.isEnabled()) 
+				{
+					flag = true;
+				}
+				
+			} catch (NoSuchElementException | StaleElementReferenceException e)
+			{
+				flag = false;
+				LoggerLoad.error("Element'"+element+"'is not present");
+			}
+			
+			return flag;		
+		}
 
 }

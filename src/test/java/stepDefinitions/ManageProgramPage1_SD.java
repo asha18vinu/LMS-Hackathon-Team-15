@@ -88,11 +88,11 @@ public class ManageProgramPage1_SD {
 		Assert.assertTrue(mp.SearchTextBox.isDisplayed());
 	}
     
-	@Then("Admin should see a Delete button on the top left hand side as Disabled")
-	public void admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled() {
-		Assert.assertTrue(mp.deleteBtn.isEnabled());
-	}
-	
+//	@Then("Admin should see a Delete button on the top left hand side as Disabled")
+//	public void admin_should_see_a_delete_button_on_the_top_left_hand_side_as_disabled() {
+//		Assert.assertTrue(mp.deleteBtn.isEnabled());
+//	}
+//	
 	@Then("Admin should see the number of records \\(rows of data in the table) displayed on the page.")
 	public void admin_should_see_the_number_of_records_rows_of_data_in_the_table_displayed_on_the_page() {
 	    java.util.List<WebElement> rows = mp.mpDataTable.findElements(By.tagName("tr"));

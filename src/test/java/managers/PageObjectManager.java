@@ -1,6 +1,8 @@
 package managers;
 
 import org.openqa.selenium.WebDriver;
+
+import commonUtilities.Pagination;
 import pageObjects.*;
 import stepDefinitions.ManageProgramPage2_SD;
 import tech.grasshopper.pdf.section.dashboard.Dashboard;
@@ -16,7 +18,10 @@ public class PageObjectManager {
 	private BatchPage batchPage;
 	private ManageProgramPage1 mp;
 	private ManageProgrampage manageProgramPage;
-
+	private UserSortingPage userSortingPage;
+	private UserPageAddUser addUserPage;
+	private UserPageValidation userPage;
+	private Pagination pagination;
 	
 	public BatchPage getBatchPage() {
 		return (batchPage == null) ? batchPage = new BatchPage(driver) : batchPage;
@@ -61,5 +66,26 @@ public class PageObjectManager {
              return (manageProgramPage == null) ? manageProgramPage = new ManageProgrampage(driver) : manageProgramPage;
 
      }
+	 public UserSortingPage getUserSortingPage() {
+			return (userSortingPage == null) ?
+				userSortingPage = new UserSortingPage(driver):
+				userSortingPage;	
+			}
+	 public UserPageValidation getUserpage()
+		{
+			return (userPage ==null) ? userPage = new UserPageValidation(driver) : userPage;
+		}
+		
+		public UserPageAddUser getAddUserpage()
+		{
+			return (addUserPage ==null) ? addUserPage = new UserPageAddUser(driver) : addUserPage;
+		}
+		
+
+		public Pagination getPagination() {
+			return (pagination == null) ? pagination = new Pagination(driver) :
+				pagination;
+		}
+
 
 }

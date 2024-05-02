@@ -15,9 +15,11 @@ import context.TestContext;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pageObjects.BatchPage;
 import pageObjects.LoginPage;
 import pageObjects.ManageProgrampage;
 //import pageObjects.UserSortingPage;
+import pageObjects.UserSortingPage;
 
 public class ManageProgramPage2_SD {
 	
@@ -25,7 +27,7 @@ public class ManageProgramPage2_SD {
 	TestContext testcontext;
 	private static final Logger logger = LogManager.getLogger(ManageProgramPage1_SD.class);
 	String expectedUrl = "https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/login";
-	LoginPage login;
+	BatchPage batchPage;
 	ManageProgrampage manageProgramPage;
 	Pagination pagination;
 	CommonUtils cutils;
@@ -38,7 +40,7 @@ public class ManageProgramPage2_SD {
 		System.out.println("*** this is testcontext: ****" +testContext);
 		driver = testContext.getWebDriverManager().getDriver();
 
-		login = testcontext.getPageObjectManager().getLoginPage();
+		batchPage = testcontext.getPageObjectManager().getBatchPage();
 		manageProgramPage = testcontext.getPageObjectManager().getManageProgramPage();
 		pagination = testContext.getPageObjectManager().getPagination();
 		cutils = testContext.getCommonUtils();
@@ -48,7 +50,8 @@ public class ManageProgramPage2_SD {
 	
 	@Given("Admin is logging in with valid credentials")
 	public void admin_is_logging_in_with_valid_credentials() {
-		login.login();
+		//login.login();
+		batchPage.login();
 //	   testcontext.getPageObjectManager().getLoginPage().sendUsername();
 //	   testcontext.getPageObjectManager().getLoginPage().sendPassword();
 //	   testcontext.getPageObjectManager().getLoginPage().clickSubmit();
@@ -96,7 +99,7 @@ public class ManageProgramPage2_SD {
 	}
 	@Given("Admin is logged in with valid credentials and admin is on the manage program page")
 	public void admin_is_logged_in_with_valid_credentials_and_admin_is_on_the_manage_program_page() {
-		login.login();
+		batchPage.login();
 		manageProgramPage.clickProgramButton();
 		
 	}
@@ -253,10 +256,10 @@ public class ManageProgramPage2_SD {
 		}
 	}
 
-	@When("Admin clicks <NO> button on the alert")
-	public void admin_clicks_no_button_on_the_alert() {
-		
-	}
+//	@When("Admin clicks <NO> button on the alert")
+//	public void admin_clicks_no_button_on_the_alert() {
+//		
+//	}
 
 	@Then("Admin should land on Manage Program page and can see the selected program is not deleted from the data table")
 	public void admin_should_land_on_manage_program_page_and_can_see_the_selected_program_is_not_deleted_from_the_data_table() {
