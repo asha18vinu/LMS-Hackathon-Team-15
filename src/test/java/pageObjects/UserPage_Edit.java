@@ -2,10 +2,6 @@ package pageObjects;
 
 import java.time.Duration;
 import java.util.List;
-<<<<<<< HEAD
-
-=======
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -111,10 +107,6 @@ public class UserPage_Edit {
 
 	public String searchUserByName() {
 
-<<<<<<< HEAD
-	
-=======
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 		String searchUser = "Riya";// call search by username program here
 		commonUtils.sendKeysMethod(searchBox, searchUser, 1);
 
@@ -171,10 +163,7 @@ public class UserPage_Edit {
 			}
 		}
 
-<<<<<<< HEAD
-=======
 		userRoleStatusEle.click();
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 		WebElement optionRoleStatus = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//span[normalize-space()='" + userRoleStatus + "']")));
 		System.out.println(optionRoleStatus.getText());
@@ -226,11 +215,7 @@ public class UserPage_Edit {
 				break;
 			}
 		}
-<<<<<<< HEAD
-
-=======
 		userRoleStatusEle.click();
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 		WebElement optionRoleStatus = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//span[normalize-space()='" + userRoleStatus + "']")));
 		System.out.println(optionRoleStatus.getText());

@@ -43,15 +43,10 @@ public class AddNewBatch_SD {
 	    logger.info("Admin is in the Dashboard page");
 	}
 
-<<<<<<< HEAD
 
 	@When("Admin clicks Batch from navigation barr")
 	public void admin_clicks_from_navigation_barr() {
 
-=======
-	@When("Admin clicks Batch from navigation barr")
-	public void admin_clicks_from_navigation_barr() {
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
 		batchPage.batchNavigationBar();
 	}
 
@@ -65,15 +60,9 @@ public class AddNewBatch_SD {
 		batchPage.popUpVerification();
 	}
 
-<<<<<<< HEAD
 
 	@Then("Admin Verifies the {string} existance and its {string} in BatchPage")
-	public void admin_verifies_the_existance_and_its_in_BatchPage(String FieldName, String FieldType) {		
-
-=======
-	@Then("Admin Verifies the {string} existance and its {string} in BatchPage")
-	public void admin_verifies_the_existance_and_its_in_BatchPage(String FieldName, String FieldType) {		
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
+	public void admin_verifies_the_existance_and_its_in_BatchPage(String FieldName, String FieldType) {	
 		batchPage.checkTheFieldExistanceAndType(FieldName, FieldType);
 	}
 
@@ -84,10 +73,7 @@ public class AddNewBatch_SD {
 
 	}
 
-//	@Then("admin clicks save button")
-//	public void admin_clicks_save_button() {
-//		flag=batchPage.clickSaveButton();
-//	}
+
 
 	
 	

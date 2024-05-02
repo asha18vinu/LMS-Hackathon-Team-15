@@ -440,8 +440,7 @@ public class ManageProgrampage {
 		}
 
 	}
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
+
+

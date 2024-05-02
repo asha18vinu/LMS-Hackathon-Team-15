@@ -9545,3 +9545,68 @@ Session ID: e4a6a20736edecd71a23d1567a2579ce
 [INFO ]2024-05-02 05:30:44.117 [main]Utils-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4795def: 11 ms
 =======
 >>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
+[INFO ]2024-05-02 07:44:08.558 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 07:44:08.779 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 07:44:12.891 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:44:12.891 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[ERROR]2024-05-02 07:44:43.570 [main]AllureLifecycle-Could not add attachment: no test is running
+[INFO ]2024-05-02 07:44:44.333 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:44:44.333 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 07:44:48.333 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 07:44:48.340 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 07:44:48.341 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.341 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.346 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-05-02 07:44:48.363 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+[INFO ]2024-05-02 07:44:48.364 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.365 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.366 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.367 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.368 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.369 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-05-02 07:44:48.370 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.370 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.371 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.371 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.374 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.374 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.375 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.376 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.377 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.378 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.380 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-05-02 07:44:48.381 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.383 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.384 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.386 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.386 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.387 [main]Utils-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-05-02 07:44:48.387 [main]Utils-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-05-02 07:44:48.400 [main]Utils-[TestNG] Running:
+  C:\Users\subas\AppData\Local\Temp\testng-eclipse-2013407492\testng-customsuite.xml
+
+[INFO ]2024-05-02 07:44:48.458 [main]Utils-[Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+[INFO ]2024-05-02 07:44:49.827 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 07:44:49.931 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 07:44:53.866 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:44:53.866 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[ERROR]2024-05-02 07:45:15.311 [main]AllureLifecycle-Could not add attachment: no test is running
+[INFO ]2024-05-02 07:45:17.683 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:45:17.684 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 07:45:25.556 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:45:25.556 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[ERROR]2024-05-02 07:45:48.125 [main]AllureLifecycle-Could not add attachment: no test is running
+[INFO ]2024-05-02 07:45:48.834 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:45:48.834 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 07:45:56.914 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 07:45:56.914 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[INFO ]2024-05-02 08:59:46.154 [main]WebDriverManager-Using chromedriver 124.0.6367.91 (resolved driver for Chrome 124)
+[INFO ]2024-05-02 08:59:46.293 [main]WebDriverManager-Exporting webdriver.chrome.driver as C:\Users\subas\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe
+[INFO ]2024-05-02 08:59:50.462 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 08:59:50.462 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[ERROR]2024-05-02 09:00:21.263 [main]AllureLifecycle-Could not add attachment: no test is running
+[INFO ]2024-05-02 09:00:22.134 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 09:00:22.135 [main]AddNewBatch_SD-Admin is in the Dashboard page
+[ERROR]2024-05-02 09:00:52.608 [main]AllureLifecycle-Could not add attachment: no test is running
+[INFO ]2024-05-02 09:00:53.428 [main]BatchPage-Admin Verifies the BatchUrl and it failed
+[INFO ]2024-05-02 09:00:53.428 [main]AddNewBatch_SD-Admin is in the Dashboard page

@@ -120,8 +120,6 @@ public class ResourceBundleDataReader {
 			throw new RuntimeException("implicit Wait not specified in the file.");
 	}
 
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 8f90cb4acc11f0e62d9e12bae67023f6b2fc77e8
+
