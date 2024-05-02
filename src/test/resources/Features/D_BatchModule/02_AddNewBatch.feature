@@ -7,7 +7,11 @@ As an admin
 Background:
 	Given Admin login with valid credentials
   Given Admin is logged on the Lms portal dashboardPage after login 
+<<<<<<< HEAD
   When  Admin clicks "Batch" from navigation bar
+=======
+  When  Admin clicks Batch from navigation barr
+>>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
   Then Admin clicks "+A new Batch" button
   Then A new pop up with Batch details appears  
   
@@ -15,7 +19,11 @@ Background:
 
 @tested 
   Scenario Outline: Admin verifies the fields exist in Batch details page popup        
+<<<<<<< HEAD
    Then Admin Verifies the "<Fields>" existance and its "<FieldType>"  
+=======
+   Then Admin Verifies the "<Fields>" existance and its "<FieldType>" in BatchPage 
+>>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
     
      Examples: 
       | Fields                |FieldType |
