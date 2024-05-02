@@ -1,43 +1,66 @@
 package dataFilesReader;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-
+import java.util.HashMap;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import managers.FileReaderManager;
 
 public class ExcelFileSetup {
+
+	public static FileInputStream fi;
+	public FileOutputStream fo;
+	public static XSSFWorkbook workbook;
+	public static XSSFSheet sheet;
+	public XSSFRow row;
+	public static XSSFCell cell;
+	public CellStyle style;
+
 	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {
 		Sheet sheet = getSheetByName(excelFilePath, sheetName);
 		return readSheet(sheet);
 	}
+
 	public List<Map<String, String>> getData(String excelFilePath, int sheetNumber)
 			throws InvalidFormatException, IOException {
 		Sheet sheet = getSheetByIndex(excelFilePath, sheetNumber);
 		return readSheet(sheet);
 	}
+
 	private Sheet getSheetByName(String excelFilePath, String sheetName) throws IOException, InvalidFormatException {
 		Sheet sheet = getWorkBook(excelFilePath).getSheet(sheetName);
 		return sheet;
 	}
+
 	private Sheet getSheetByIndex(String excelFilePath, int sheetNumber) throws IOException, InvalidFormatException {
 		Sheet sheet = getWorkBook(excelFilePath).getSheetAt(sheetNumber);
 		return sheet;
 	}
+
 	private Workbook getWorkBook(String excelFilePath) throws IOException, InvalidFormatException {
 		return WorkbookFactory.create(new File(excelFilePath));
 	}
+
 	private List<Map<String, String>> readSheet(Sheet sheet) {
 		Row row;
 		int totalRow = sheet.getPhysicalNumberOfRows();
@@ -61,6 +84,7 @@ public class ExcelFileSetup {
 		}
 		return excelRows;
 	}
+
 	private int getHeaderRowNumber(Sheet sheet) {
 		Row row;
 		int totalRow = sheet.getLastRowNum();
@@ -85,9 +109,11 @@ public class ExcelFileSetup {
 		}
 		return (-1);
 	}
+
 	private Row getRow(Sheet sheet, int rowNumber) {
 		return sheet.getRow(rowNumber);
 	}
+
 	private LinkedHashMap<String, String> getCellValue(Sheet sheet, Row row, int currentColumn) {
 		LinkedHashMap<String, String> columnMapdata = new LinkedHashMap<String, String>();
 		Cell cell;
@@ -144,4 +170,64 @@ public class ExcelFileSetup {
 		}
 		return columnMapdata;
 	}
+
+//	/*
+//	 * Reading excel data based on keydata value
+//	 */
+
+	
+	public static Map<String, String> getData1(String KeyOption, String sheetName) throws Exception {
+
+		Map<String, String> dataMap = new HashMap<String, String>();
+
+		fi = new FileInputStream(FileReaderManager.getInstance().getResourcebundleInstance().getExcelTestData()); // file
+		System.out.println(fi); // location
+		workbook = new XSSFWorkbook(fi); // create new workbook
+		sheet = workbook.getSheet(sheetName); // get the sheet name
+		System.out.println(fi);
+
+		int rowData = getRowData(KeyOption.trim(), 0);
+
+		if (rowData == 0) {
+			throw new Exception("NO DATA FOUND for dataKey: " + KeyOption);
+		}
+
+		int columnCount = sheet.getRow(rowData).getLastCellNum();
+
+		for (int i = 0; i < columnCount; i++) {
+			cell = sheet.getRow(rowData).getCell(i);
+			String cellData = null;
+			if (cell != null) {
+				if (cell.getCellType() == CellType.NUMERIC) {
+					cell.setCellType(CellType.STRING);
+				}
+				cellData = cell.getStringCellValue();
+			}
+			dataMap.put(sheet.getRow(0).getCell(i).getStringCellValue(), cellData);
+		}
+		return dataMap;
+	}
+	// get the row for all keyOption
+
+	private static int getRowData(String KeyOption, int dataColumn) {
+		int rowCount = sheet.getLastRowNum();
+		for (int row = 0; row <= rowCount; row++) {
+			if (ExcelFileSetup.getCellData(row, dataColumn).equalsIgnoreCase(KeyOption)) {
+				return row;
+			}
+		}
+		return 0;
+	}
+
+	// get cell data and if the cell data is numeric convert the cell data to String
+	private static String getCellData(int rowNumber, int colNumber) {
+		cell = sheet.getRow(rowNumber).getCell(colNumber);
+
+		if (cell.getCellType() == CellType.NUMERIC) {
+			cell.setCellType(CellType.STRING);
+		}
+		String cellData = cell.getStringCellValue();
+		return cellData;
+	}
+
 }

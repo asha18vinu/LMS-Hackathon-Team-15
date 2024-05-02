@@ -43,8 +43,9 @@ public class AddNewBatch_SD {
 	    logger.info("Admin is in the Dashboard page");
 	}
 
-	@When("Admin clicks {string} from navigation bar")
-	public void admin_clicks_from_navigation_bar(String string) {
+
+	@When("Admin clicks Batch from navigation barr")
+	public void admin_clicks_from_navigation_barr() {
 		batchPage.batchNavigationBar();
 	}
 
@@ -58,8 +59,10 @@ public class AddNewBatch_SD {
 		batchPage.popUpVerification();
 	}
 
-	@Then("Admin Verifies the {string} existance and its {string}")
-	public void admin_verifies_the_existance_and_its(String FieldName, String FieldType) {		
+
+	@Then("Admin Verifies the {string} existance and its {string} in BatchPage")
+	public void admin_verifies_the_existance_and_its_in_BatchPage(String FieldName, String FieldType) {		
+
 		batchPage.checkTheFieldExistanceAndType(FieldName, FieldType);
 	}
 
@@ -167,28 +170,10 @@ public class AddNewBatch_SD {
 		}
 	}
 	
-//	@When("Admin enters any of the Description with invalid values")
-//	public void admin_enters_any_of_the_description_with_invalid_values() {
-//
-//	}
-//
-//	@When("Admin enters any of the Program Name with invalid values")
-//	public void admin_enters_any_of_the_program_name_with_invalid_values() {
-//
-//	}
-//
-//	@When("Admin enters any of the Status with invalid values")
-//	public void admin_enters_any_of_the_status_with_invalid_values() {
-//
-//	}
-//
+
 	@When("Any of the mandatory fields are blank {string} and {int}")
 	public void any_of_the_mandatory_fields_are_blank_and(String sheetname, Integer rowno) throws InvalidFormatException, IOException {
 	     flag=batchPage.checkMandatoryFieldsBlank(sheetname,rowno);
 	}
-//
-//	@When("Admin fill in all the fields except description with valid values")
-//	public void admin_fill_in_all_the_fields_except_description_with_valid_values() {
-//
-//	}
+
 }

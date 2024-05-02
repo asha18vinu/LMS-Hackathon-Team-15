@@ -576,8 +576,9 @@ public class BatchPage {
 
 
 	public boolean checkForTheAddedBatch1() throws InterruptedException {	
-		driver.navigate().back();
-		driver.navigate().refresh();
+
+	
+
 		List<WebElement> tableRowData = new ArrayList<>();
 		Thread.sleep(1000);;
 		WebElement nextPageButton = driver
