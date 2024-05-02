@@ -108,7 +108,7 @@ public class UserPageAddUser
 		String Expected = FileReaderManager.getInstance().getResourcebundleInstance().getUserPopboxHeader();
 		System.out.println(userPopUpHeader.getText());
 		commonUtils.getAssertionEqualsCheck(userPopUpHeader.getText(), Expected);
-		LoggerLoad.info("Admin Opens User Dialog");
+	//	LoggerLoad.info("Admin Opens User Dialog");
 	}
 	
 	public void chkUserDialogClosed()
@@ -294,13 +294,13 @@ public class UserPageAddUser
 				if(actualMessageText.contains(SuccessMessage))
 				{
 					System.out.println("User Created Successfully");
-					LoggerLoad.info(actualMessageText);
+			//		LoggerLoad.info(actualMessageText);
 					checkForAddedUser();
 				}
 				else  
 				{
 					System.out.println("User Creation Failed");
-					LoggerLoad.info(actualMessageText);
+			//		LoggerLoad.info(actualMessageText);
 				}
 			}
 			
@@ -309,18 +309,18 @@ public class UserPageAddUser
 				if(actualMessageText.contains(FailureMessage))
 				{
 					System.out.println("User Creation Failed");									
-					LoggerLoad.info(actualMessageText);
+			//		LoggerLoad.info(actualMessageText);
 				}
 				else  
 				{
 					System.out.println("User Creation not Failed");
-					LoggerLoad.info(actualMessageText);
+			//		LoggerLoad.info(actualMessageText);
 				}
 			}
 			
 			//flag=commonUtils.getAssertionEqualsCheck(actualMessageText, ExpectedMessageText);
 		} catch (Exception e) {
-			LoggerLoad.info("Success message not found within the timeout period.");
+		//	LoggerLoad.info("Success message not found within the timeout period.");
 		}
 		}
 		
@@ -415,11 +415,11 @@ public class UserPageAddUser
 		if (flag) 
 		{
 			System.out.println("User is present in the table");
-			LoggerLoad.info("User is present in the table");
+	//		LoggerLoad.info("User is present in the table");
 		} else
 		{
 			System.out.println("User is not present in the table");
-			LoggerLoad.info("User is not present in the tablet");
+	//		LoggerLoad.info("User is not present in the tablet");
 		}
 		return flag;
 	}

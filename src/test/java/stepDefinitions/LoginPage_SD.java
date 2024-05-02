@@ -49,7 +49,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.clickLoginButton();
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -60,7 +60,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.clickLoginButton();
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -71,7 +71,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.clickLoginButton();
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -82,7 +82,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.clickLoginButton();
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -93,7 +93,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.verifyLogin(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.clickLoginButton();
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -104,7 +104,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.enterLoginDetails(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.clickLoginButton();
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -114,7 +114,7 @@ public class LoginPage_SD {
 
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		loginPage.loginThroughKeyBoard(ExcelFileData.userName, ExcelFileData.password);
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 
 	}
 
@@ -125,7 +125,7 @@ public class LoginPage_SD {
 		ExcelFileData.loginPageExcelData(option, sheetName);
 		//loginPage.enterLoginDetails(ExcelFileData.userName, ExcelFileData.password);
 		loginPage.loginThroughMouse(ExcelFileData.userName, ExcelFileData.password);
-		LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
+	//	LoggerLoad.info("UserName : " + ExcelFileData.userName + "Password is: " + ExcelFileData.password);
 	}
 
 	@Then("Admin should land on dashboard page")

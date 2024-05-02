@@ -97,11 +97,11 @@ public class UserPage_SD {
 				ExcelFileData.userVisaStatus, ExcelFileData.userEmail, ExcelFileData.userUnderGraduate,
 				ExcelFileData.userPostGraduate, ExcelFileData.userTimeZone, ExcelFileData.userComments);
 
-		LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
-				+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
-				+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
-				+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
-				+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
+	//	LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
+		//		+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
+		//		+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
+		//		+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
+		//		+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
 	}
 
 	@Then("Admin gets message {string} and see the updated values in data table")
@@ -123,11 +123,11 @@ public class UserPage_SD {
 				ExcelFileData.userVisaStatus, ExcelFileData.userEmail, ExcelFileData.userUnderGraduate,
 				ExcelFileData.userPostGraduate, ExcelFileData.userTimeZone, ExcelFileData.userComments);
 
-		LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
-				+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
-				+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
-				+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
-				+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
+	//	LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
+		//		+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
+		//		+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
+		//		+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
+		//		+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
 	}
 
 	@Then("Admin should get Error message")
@@ -145,11 +145,11 @@ public class UserPage_SD {
 				ExcelFileData.userLocation, ExcelFileData.userPhoneNo, ExcelFileData.userRole,
 				ExcelFileData.userRoleStatus, ExcelFileData.userVisaStatus);
 
-		LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
-				+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
-				+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
-				+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
-				+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
+//		LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
+			//	+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
+		//		+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
+		//		+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
+		//		+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
 
 	}
 
@@ -172,11 +172,10 @@ public class UserPage_SD {
 		userPage_Edit.updateInvalidNumericUserDetails(ExcelFileData.userMiddleName, ExcelFileData.userUnderGraduate,
 				ExcelFileData.userPostGraduate, ExcelFileData.userTimeZone, ExcelFileData.userComments);
 
-		LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName
-				+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
-				+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
-				+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
-				+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
+	//	LoggerLoad.info("UserFirstName : " + ExcelFileData.userFirstName + "LastName : " + ExcelFileData.userLastName				+ "Middle Name : " + ExcelFileData.userMiddleName + "Location : " + ExcelFileData.userLocation
+	//			+ "Phone No : " + ExcelFileData.userPhoneNo + "LinkedInUrl : " + ExcelFileData.userLinkedInUrl
+	//			+ "UserRole : " + ExcelFileData.userRole + "Visa Status : " + ExcelFileData.userVisaStatus
+	//			+ "UserRoleStatus : " + ExcelFileData.userRoleStatus + "Timezone : " + ExcelFileData.userTimeZone);
 	}
 
 	@When("Admin clicks Cancel button on edit popup")

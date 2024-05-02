@@ -140,7 +140,7 @@ public class UserSortingPage {
 			return true;
 		}
 		else {
-			LoggerLoad.info("Delete confirmation window closed");
+		//	LoggerLoad.info("Delete confirmation window closed");
 			return false;
 		}
 	}
@@ -211,7 +211,7 @@ public class UserSortingPage {
 				secondColumnElement = row.findElement(By.xpath("./td[2]"));
 				String text = secondColumnElement.getText();
 				secondColumnTexts.add(text);
-				LoggerLoad.info("BatchNames Checkbox Selected For Delete : "+text);
+		//		LoggerLoad.info("BatchNames Checkbox Selected For Delete : "+text);
 			}
 		}
 		clickManageHeaderDeleteIconForMultipleRow();
@@ -240,7 +240,7 @@ public class UserSortingPage {
 	            WebElement secondColumnElement = row.findElement(By.xpath(".//td[2]"));
 	            String text = secondColumnElement.getText();
 	            secondColumnTexts.add(text);
-	            LoggerLoad.info("BatchNames Checkbox Selected For Delete: " + text);
+	  //          LoggerLoad.info("BatchNames Checkbox Selected For Delete: " + text);
 	        }
 	    }
 	    
@@ -336,10 +336,10 @@ public void verifyTheDeletedMessage() {
 		
 		if(deleteConfirmWindow.isDisplayed()) {
 			System.out.println("Delete Confirmation window displayed");
-			LoggerLoad.info("Delete Confirmation window displayed");
+	//		LoggerLoad.info("Delete Confirmation window displayed");
 		}
 		else {
-			LoggerLoad.info("Delete confirmation alert not displayed");
+	//		LoggerLoad.info("Delete confirmation alert not displayed");
 		}
 		String headerMessage = deleteWindowMessage.getText().toString();
 		String headertitle = deleteWindowHeader.getText().toString();
@@ -348,26 +348,26 @@ public void verifyTheDeletedMessage() {
 		
 		if(yesButton.isDisplayed()) {
 			System.out.println("Alert message is displayed with delete button");
-			LoggerLoad.info("Alert message is displayed with delete button");
+		//	LoggerLoad.info("Alert message is displayed with delete button");
 		}
 		else {
-			LoggerLoad.info("No buttons displayed");
+		//	LoggerLoad.info("No buttons displayed");
 		}
 		
 		if(noButton.isDisplayed()) {
 			System.out.println("Alert message is displayed with delete button");
-			LoggerLoad.info("Alert message is displayed with delete button");
+	//		LoggerLoad.info("Alert message is displayed with delete button");
 		}
 		else {
-			LoggerLoad.info("No buttons displayed");
+	//		LoggerLoad.info("No buttons displayed");
 		}
 		
 		if(closeButton.isDisplayed()) {
 			System.out.println("Alert message is displayed with delete button");
-			LoggerLoad.info("Alert message is displayed with delete button");
+		//	LoggerLoad.info("Alert message is displayed with delete button");
 		}
 		else {
-			LoggerLoad.info("No buttons displayed");
+		//	LoggerLoad.info("No buttons displayed");
 		}
 	}
 	

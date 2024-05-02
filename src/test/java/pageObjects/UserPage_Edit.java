@@ -119,7 +119,7 @@ public class UserPage_Edit {
 		try {
 			WebElement editButton = userNameToEdit.findElement(
 					By.xpath("./following-sibling::td/div/span/button[contains(@class, 'p-button-success')]"));
-			LoggerLoad.info("User Edit button clicked successfully" + userNameToEdit);
+		//	LoggerLoad.info("User Edit button clicked successfully" + userNameToEdit);
 		} catch (Exception e) {
 			System.out.println("User edit button verification" + e);
 		}

@@ -10,10 +10,6 @@ import commonUtilities.CommonUtils;
 
 public class LoginPage {
 
-<<<<<<< HEAD
-	public LoginPage(WebDriver driver) {  
-		// TODO Auto-generated constructor stub
-=======
 	WebDriver driver;
 	private CommonUtils commonUtils;
 	private DashboardPage dashboardPage;
@@ -221,7 +217,6 @@ public class LoginPage {
 	public void loginThroughWheel() {
 
 		return;
->>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 	}
 
 }

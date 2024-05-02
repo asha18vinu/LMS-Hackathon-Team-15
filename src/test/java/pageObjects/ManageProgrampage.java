@@ -99,7 +99,7 @@ public class ManageProgrampage {
 	public void verifyDeleteIcon() {
 		if (deleteButton != null) {
 			deleteButton.isEnabled();
-			LoggerLoad.info("Delete button is enabled");
+		//	LoggerLoad.info("Delete button is enabled");
 		} else {
 			Assert.fail("Delete button is not enabled");
 		}
@@ -152,13 +152,13 @@ public class ManageProgrampage {
 		String exp = footerPage.getText().toString();
 
 		Assert.assertEquals(exp, "Showing 1 to 5 of 32 entries", "Program deleted");
-		LoggerLoad.info("Program deleted successfully");
+	//	LoggerLoad.info("Program deleted successfully");
 	}
 
 	public void clickSingleChkbox() throws InterruptedException {
 		WebElement searchBox = driver.findElement(By.id("filterGlobal"));
 		searchBox.sendKeys("SeleniumTribe");
-		LoggerLoad.info("Record deleting");
+	//	LoggerLoad.info("Record deleting");
 
 //			    wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//table//tbody//tr")));
 
@@ -167,7 +167,7 @@ public class ManageProgrampage {
 			checkbox.click();
 		}
 
-		LoggerLoad.info("checkbox selected for the rows");
+	//	LoggerLoad.info("checkbox selected for the rows");
 	}
 
 	public void deleteFunctionWithNoOption(String name, WebElement element1, WebElement element2, WebElement element3)
@@ -183,7 +183,7 @@ public class ManageProgrampage {
 		String exp = footerPage.getText().toString();
 
 		Assert.assertEquals(exp, "Showing 1 to 5 of 32 entries", "Program not deleted");
-		LoggerLoad.info("Program not deleted");
+	//	LoggerLoad.info("Program not deleted");
 	}
 
 	public void clickBatchButton() {
@@ -215,7 +215,7 @@ public class ManageProgrampage {
 			String headerText = Header.getText().toString();
 			Assert.assertEquals(headerText, "Manage Program");
 			System.out.println("Admin is in the '" + headerText + "' page");
-			LoggerLoad.info("Admin is on the Manage Program Page");
+		//	LoggerLoad.info("Admin is on the Manage Program Page");
 		} else {
 			LoggerLoad.error("Header not displayed");
 
@@ -229,7 +229,7 @@ public class ManageProgrampage {
 			String headerText = Header.getText().toString();
 			Assert.assertEquals(headerText, "Manage Batch");
 			System.out.println("Admin is in the '" + headerText + "' page");
-			LoggerLoad.info("Admin is on the Manage Batch Page");
+		//	LoggerLoad.info("Admin is on the Manage Batch Page");
 		} else {
 			LoggerLoad.error("Header not displayed");
 
@@ -243,7 +243,7 @@ public class ManageProgrampage {
 			String headerText = Header.getText().toString();
 			Assert.assertEquals(headerText, "Manage User");
 			System.out.println("Admin is in the '" + headerText + "' page");
-			LoggerLoad.info("Admin is on the Manage User Page");
+		//	LoggerLoad.info("Admin is on the Manage User Page");
 		} else {
 			LoggerLoad.error("Header not displayed");
 
@@ -276,10 +276,10 @@ public class ManageProgrampage {
 		String expected = "https://lms-frontend-api-hackathon-apr-326235f3973d.herokuapp.com/login";
 		String actual = driver.getCurrentUrl().toString();
 		if (expected.equalsIgnoreCase(actual)) {
-			LoggerLoad.info("Redirected to the login page after clicking logout");
+		//	LoggerLoad.info("Redirected to the login page after clicking logout");
 			return true;
 		} else {
-			LoggerLoad.info("Not redirected to the home page");
+		//	LoggerLoad.info("Not redirected to the home page");
 			return false;
 		}
 	}
@@ -291,7 +291,7 @@ public class ManageProgrampage {
 
 	public void pogramWebTableDisplayed() {
 		if (programWebTable.isDisplayed()) {
-			LoggerLoad.info("Web Table is dislayed");
+		//	LoggerLoad.info("Web Table is dislayed");
 		} else {
 			LoggerLoad.error("Webtable not found");
 		}
@@ -333,7 +333,7 @@ public class ManageProgrampage {
 					.map(s -> getPogramDescription(s)).collect(Collectors.toList());
 			programDesc.forEach(a -> System.out.println(a));
 
-			LoggerLoad.info("Column Sorted in ascending order");
+		//	LoggerLoad.info("Column Sorted in ascending order");
 
 			// list.stream().filter(s-> s.getText().contains("Automation
 			// ")).map(s->getPogramDescription().collect(Collectors.toList());
@@ -394,7 +394,7 @@ public class ManageProgrampage {
 //			List<String> programStatus= programDescList.stream().filter(s->s.getText().contains("A")).map(s->getPogramStatus(s)).collect(Collectors.toList());
 //			programStatus.forEach(a->System.out.println(a));
 
-			LoggerLoad.info("Column Sorted in Descending order");
+		//	LoggerLoad.info("Column Sorted in Descending order");
 
 			// programNameList.stream().filter(s->
 			// s.getText().contains("abcd")).map(s->getPogramDescription().collect(Collectors.toList()));
@@ -430,7 +430,7 @@ public class ManageProgrampage {
 					.map(s -> getPogramDescription(s)).collect(Collectors.toList());
 			programDesc.forEach(a -> System.out.println(a));
 
-			LoggerLoad.info("Column Sorted in ascending order");
+		//	LoggerLoad.info("Column Sorted in ascending order");
 
 			// list.stream().filter(s-> s.getText().contains("Automation
 			// ")).map(s->getPogramDescription().collect(Collectors.toList());
