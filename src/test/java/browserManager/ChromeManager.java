@@ -1,6 +1,7 @@
 package browserManager;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,6 +11,7 @@ public class ChromeManager implements BrowserManager {
 
 	private static volatile ChromeManager instance;
 
+	//declared constructor as private
 	private ChromeManager() {
 
 	}
@@ -32,6 +34,7 @@ public class ChromeManager implements BrowserManager {
 		// options.addArguments("--headless");
 		// options.addArguments("--incognito");
 		return WebDriverManager.chromedriver().create();
+		
 
 	}
 }

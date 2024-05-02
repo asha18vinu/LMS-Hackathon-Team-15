@@ -30,6 +30,7 @@ public class Hooks {
 	static WebDriver driver;
 
 	public Hooks(TestContext context) {
+<<<<<<< HEAD
 		testContext = context;		
 	//	driver = testContext.getWebDriverManager().getDriver();
 		}
@@ -40,10 +41,21 @@ public class Hooks {
 		driver = testContext.getWebDriverManager().getDriver();	
 		   driver.get(FileReaderManager.getInstance().getResourcebundleInstance().getUrl());
 //			
+=======
+		testContext = context;
+			}
+
+	@Before
+	public void setUp() {	
+		   driver = testContext.getWebDriverManager().getDriver();	
+		   driver.get(FileReaderManager.getInstance().getResourcebundleInstance().getUrl());	
+		   System.out.println("Driver object : "+driver);
+>>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 	}
 
 	@After
 	public void getScreenShot(Scenario scenario) throws IOException {
+<<<<<<< HEAD
 		try {
 			if (scenario.isFailed()) {
 				String scenarioName = scenario.getName();			
@@ -55,6 +67,18 @@ public class Hooks {
 				FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() +screenshotFileName));
 			    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
 			}
+=======
+		if (scenario.isFailed()) {
+			String scenarioName = scenario.getName();
+			Status scenarioStatus = scenario.getStatus();
+			scenario.log("Scenario Name: " + scenarioName);
+			scenario.log("Scenario Status: " + scenarioStatus);
+			String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+			String screenshotFileName =scenarioName+"_"+ timestamp + ".png";
+			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(screenshotFile, new File(FileReaderManager.getInstance().getResourcebundleInstance().getScreenshotPath() +screenshotFileName));
+		    Allure.attachment("FailedScreenshot", new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+>>>>>>> 827f3cef0c4a9a6baa5e6cfbc2f265fbce3f2a45
 			
 		} catch (IOException e) {
 			System.out.println("Failed to capture screenshot: " + e.getMessage());
